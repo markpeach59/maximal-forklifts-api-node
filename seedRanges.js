@@ -39,7 +39,7 @@ const data = [
     ]
   },
   {
-    range: "A Series (4 Wheel) Lead Acid Electric"",
+    range: "A Series (4 Wheel) Lead Acid Electric",
     models: [
       {
         model: "FBA15-JZ",
@@ -76,9 +76,11 @@ const data = [
         capacity: 3500,
         engType: "Electric",
         basePrice: 14800
+      }
+      ]
       },
       {
-    range: "AA Series (4 Wheel) Lithium Electric"",
+    range: "AA Series (4 Wheel) Lithium Electric",
     models: [
       {
         model: "FBA15-YJ",
@@ -119,7 +121,7 @@ const data = [
     ]
   },
   {
-    range: "AX Series (4 Wheel) Lithium Electric"",
+    range: "AX Series (4 Wheel) Lithium Electric",
     models: [
       {
         model: "FBAX25-YWL",
@@ -159,8 +161,6 @@ const data = [
       }
     ]
   }
-  
-  
 ];
 
 async function seed() {
