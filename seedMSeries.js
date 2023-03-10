@@ -9,7 +9,7 @@ const data = [
     capacity: 1500,
     engType: "Electric",
     basePrice: 11740,
-    imgName: "KBET15.jpg",
+    imgName: "M-SERIES-ELECTRIC-Rear-drive-3-wheel-1.6T.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -62,8 +62,9 @@ const data = [
     
     seat: [
     	{ seattype: "Standard", price: 192 },
-    	{ seattype: "Full Comfort Suspension", price: 298 }],
-    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }]],
+    	{ seattype: "Full Comfort Suspension", price: 298 },
+    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+    	
     batteries: [
       {
         batterytype: "48V 400 A/H",
