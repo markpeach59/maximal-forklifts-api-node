@@ -5,11 +5,11 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
-    model: "FB16S-MHJZ",
+    model: "FBA15-JZ",
     capacity: 1500,
     engType: "Electric",
-    basePrice: 11740,
-    imgName: "M-SERIES-ELECTRIC-Rear-drive-3-wheel-1.6T.jpg",
+    basePrice: 12000,
+    imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -57,9 +57,15 @@ const data = [
       { sideshifttype: "Hook On", price: 420 },
       { sideshifttype: "Integral", price: 430 }
     ],
-   
-    tyres: [{ tyretype: "Non-Marking S/E Tyres", price: 360 }],
-    
+   forkpositioner: [
+      { forkpositionertype: "", price: 1510 },
+    ],
+    tyres: [
+      { tyretype: "S/E Tyres", price: 368 },
+      { tyretype: "Non-Marking S/E Tyres", price: 388 },
+      { tyretype: "Superelastic Tyres", price: 360 }
+    ],
+     
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
@@ -67,8 +73,8 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 400 A/H",
-        price: 3100,
+        batterytype: "420 A/H",
+        price: 2800,
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 60",
@@ -79,7 +85,7 @@ const data = [
             price: 562
           },
           {
-            chargertype: "3 Phase 12 Hour 48V 60",
+            chargertype: "3 Phase 12 Hour 48V 6",
             price: 480
           },
           {
@@ -97,11 +103,12 @@ const data = [
     blinkey: [{ blinkeytype: "", price: 30}],
 
     cabin: [
-      { cabinoption: "Half Cabin", price: 1100 },
+      { cabinoption: "Half Cabin", price: 110 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
     ]
   },
+
   
 ];
 
