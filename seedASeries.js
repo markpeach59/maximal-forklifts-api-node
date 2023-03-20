@@ -9,7 +9,7 @@ const data = [
     capacity: 1500,
     engType: "Electric",
     basePrice: 12000,
-    imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
+    imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -63,7 +63,7 @@ const data = [
     tyres: [
       { tyretype: "S/E Tyres", price: 368 },
       { tyretype: "Non-Marking S/E Tyres", price: 388 },
-      { tyretype: "Superelastic Tyres", price: 360 }
+      { tyretype: "Super Elastic Tyres", price: 360 }
     ],
      
     seat: [
@@ -103,7 +103,7 @@ const data = [
     blinkey: [{ blinkeytype: "", price: 30}],
 
     cabin: [
-      { cabinoption: "Half Cabin", price: 110 },
+      { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
     ]
