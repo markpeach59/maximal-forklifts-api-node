@@ -5,12 +5,12 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
-    model: "FBA15-YJ",
-    capacity: 1500,
+    model: "FBAX25-YWL",
+    capacity: 2500,
     engType: "Lithium-ion Electric",
-    basePrice: 16950,
-    imgName: "AA-SERIES-15-35T.jpg",
-    series:[{description:"AA Series"}, {description:"4 Wheel"}],
+    basePrice: 18061,
+    imgName: "AX-SERIES.png",
+    series:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -18,31 +18,32 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, closedheight: 1975, price: 0 },
-          { mastlength: 3300, closedheight: 2125, price: 120 },
-          { mastlength: 3500, closedheight: 2245, price: 210 },
-          { mastlength: 4000, closedheight: 2525, price: 352},
-          { mastlength: 4500, closedheight: 2775, price: 510}
+          { mastlength: 3000, closedheight: 2050, price: 0 },
+          { mastlength: 3300, closedheight: 2200, price: 210 },
+          { mastlength: 3500, closedheight: 2300, price: 298 },
+          { mastlength: 4000, closedheight: 2600, price: 510},
+          { mastlength: 4500, closedheight: 2850, price: 737},
+          { mastlength: 5000, closedheight: 3100, price: 795}
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, closedheight: 1975, freeliftheight: 1450, price: 460 },
-          { mastlength: 3500, closedheight: 2215, freeliftheight: 1600, price: 576 },
-          { mastlength: 4000, closedheight: 2225, freeliftheight: 1750, price: 678 }
+          { mastlength: 3000, closedheight: 2050, freeliftheight: 1420, price: 460 },
+          { mastlength: 3300, closedheight: 2165, freeliftheight: 1570, price: 576 },
+          { mastlength: 3500, closedheight: 2265, freeliftheight: 1670, price: 701 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
-          { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
-          { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
-          { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
-          { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
-          { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2790, freeliftheight: 2200, price: 1910 }
+          { mastlength: 4350, closedheight: 2100, freeliftheight: 1390, price: 1120 },
+          { mastlength: 4500, closedheight: 2150, freeliftheight: 1440, price: 1120 },
+          { mastlength: 4700, closedheight: 2215, freeliftheight: 1540, price: 1408 },
+          { mastlength: 5000, closedheight: 2393, freeliftheight: 1640, price: 1530 },
+          { mastlength: 5500, closedheight: 2627, freeliftheight: 1765, price: 1630 },
+          { mastlength: 6000, closedheight: 2860, freeliftheight: 1990, price: 1760 },
+          { mastlength: 6500, closedheight: 3095, freeliftheight: 2205, price: 1900}
         ]
       }
     ],
@@ -62,12 +63,12 @@ const data = [
       { sideshifttype: "Integral", price: 430 }
     ],
    forkpositioner: [
-      { forkpositionertype: "", price: 1510 },
+      { forkpositionertype: "", price: 1800 },
     ],
     tyres: [
-      { tyretype: "S/E Tyres", price: 368 },
-      { tyretype: "Non-Marking S/E Tyres", price: 388 },
-      { tyretype: "Super Elastic Tyres", price: 360 }
+      { tyretype: "S/E Tyres", price: 465 },
+      { tyretype: "Non-Marking S/E Tyres", price: 486 },
+      { tyretype: "Super Elastic Tyres", price: 480 }
     ],
      
     seat: [
@@ -75,7 +76,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-	  safetybluespot: [{ safetybluespottype: "", price: 90 }], 
+	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [
       { cabinoption: "Half Cabin", price: 1100 },

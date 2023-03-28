@@ -10,6 +10,9 @@ const data = [
     engType: "Electric",
     basePrice: 13440,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
+    series:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
+    loadcenter:500,
+    defaulttyre:"Solid",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -97,7 +100,7 @@ const data = [
     blinkey: [{ blinkeytype: "", price: 30}],
 
     cabin: [
-      { cabinoption: "Half Cabin", price: 110 },
+      { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
     ]
@@ -108,6 +111,10 @@ const data = [
     engType: "Electric",
     basePrice: 13750,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
+    series:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
+    loadcenter:500,
+    defaulttyre:"Solid",
+
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -195,7 +202,7 @@ const data = [
     blinkey: [{ blinkeytype: "", price: 30}],
 
     cabin: [
-      { cabinoption: "Half Cabin", price: 110 },
+      { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
     ]
@@ -206,6 +213,10 @@ const data = [
     engType: "Electric",
     basePrice: 14150,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
+    series:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
+    loadcenter:500,
+    defaulttyre:"Solid",
+    
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -293,7 +304,7 @@ const data = [
     blinkey: [{ blinkeytype: "", price: 30}],
 
     cabin: [
-      { cabinoption: "Half Cabin", price: 110 },
+      { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
     ]

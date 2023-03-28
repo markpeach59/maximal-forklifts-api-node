@@ -7,9 +7,13 @@ const data = [
   {
     model: "FBA15-JZ",
     capacity: 1500,
-    engType: "Electric",
+    engType: "Lead Acid Electric",
     basePrice: 12000,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
+    series:[{description:"A Series"}, {description:"4 Wheel"}],
+    loadcenter:500,
+    defaulttyre:"Pneumatic",
+
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -85,7 +89,7 @@ const data = [
             price: 562
           },
           {
-            chargertype: "3 Phase 12 Hour 48V 6",
+            chargertype: "3 Phase 12 Hour 48V 60",
             price: 480
           },
           {

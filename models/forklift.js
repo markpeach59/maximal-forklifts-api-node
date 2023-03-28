@@ -14,8 +14,7 @@ const Forklift = mongoose.model(
       {
         model: String,
         capacity: Number,
-        engType: String,
-        basePrice: Number
+        engType: String
       }
     ]
   })

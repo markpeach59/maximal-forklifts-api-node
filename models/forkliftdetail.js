@@ -10,8 +10,10 @@ const Forkliftdetail = mongoose.model(
     basePrice: Number,
 
     imgName: String,
-
+    series :[{description:String}],
     engines: [{ enginetype: String, price: Number }],
+ 
+    loadcenter : Number,
 
     masts: [
       {
@@ -29,6 +31,9 @@ const Forkliftdetail = mongoose.model(
     forks: [{ forklength: Number, price: Number }],
     forks2d: [{ forklength: String, price: Number }],
     valves: [{ valvetype: String, price: Number }],
+
+    defaulttyre: String,
+
     tyres: [{ tyretype: String, price: Number }],
     sideshift: [{ sideshifttype: String, price: Number }],
     forkpositioner: [{ forkpositionertype: String, price: Number }],
