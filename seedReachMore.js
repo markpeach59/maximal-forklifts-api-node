@@ -9,7 +9,7 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 0,
-    imgName: "",
+    imgName: "A-SERIES-REACH-TRUCK.jpg",
     series:[
     {description:"Sit-on Reach"},
     {description:"INMOTION Controller for Lead Acid"},
@@ -85,7 +85,7 @@ const data = [
     capacity: 2000,
     engType: "Electric",
     basePrice: 0,
-    imgName: "",
+    imgName: "A-SERIES-REACH-TRUCK.jpg",
     series:[
     {description:"Sit-on Reach"},
     {description:"INMOTION Controller for Lead Acid"},
@@ -161,7 +161,7 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 0,
-    imgName: "",
+    imgName: "A-SERIES-REACH-TRUCK.jpg",
     series:[
     {description:"Sit-on Reach"},
 
@@ -170,9 +170,9 @@ const data = [
     
     {description:"Vulkaline Tyre Load"},
     {description:"Rubber Tyre Drive"},
-    {description:"2 X Working Spotlights"},
+
     {description:"Safety Blue Spot"},
-    {description:"2 X Working Spotlights"}
+    {description:"2 X Front Spotlights"}
 
   ],
     loadcenter:500,
