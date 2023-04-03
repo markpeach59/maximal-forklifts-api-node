@@ -10,7 +10,7 @@ const data = [
     engType: "Electric",
     basePrice: 0,
     imgName: "",
-    series:[
+    modeldescription:[
     {description:"Stand-on Reach"},
 
     {description:"INMOTION Controller for Lead Acid"},

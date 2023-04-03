@@ -9,8 +9,8 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 0,
-    imgName: "A-SERIES-REACH-TRUCK.jpg",
-    series:[
+    imgName: "A-modeldescription-REACH-TRUCK.jpg",
+    modeldescription:[
     {description:"Sit-on Reach"},
     {description:"INMOTION Controller for Lead Acid"},
     {description:"Zapi Controller for Lithium"},
@@ -85,8 +85,8 @@ const data = [
     capacity: 2000,
     engType: "Electric",
     basePrice: 0,
-    imgName: "A-SERIES-REACH-TRUCK.jpg",
-    series:[
+    imgName: "A-modeldescription-REACH-TRUCK.jpg",
+    modeldescription:[
     {description:"Sit-on Reach"},
     {description:"INMOTION Controller for Lead Acid"},
     {description:"Zapi Controller for Lithium"},
@@ -161,8 +161,8 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 0,
-    imgName: "A-SERIES-REACH-TRUCK.jpg",
-    series:[
+    imgName: "A-modeldescription-REACH-TRUCK.jpg",
+    modeldescription:[
     {description:"Sit-on Reach"},
 
     {description:"INMOTION Controller for Lead Acid"},

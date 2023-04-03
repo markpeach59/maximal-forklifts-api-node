@@ -9,8 +9,8 @@ const data = [
     capacity: 3000,
     engType: "Lithium-ion Electric",
     basePrice: 20550,
-    imgName: "AX-SERIES.png",
-    series:[{description:"AX Series"}, {description:"4 Wheel"}],
+    imgName: "AX-modeldescription.png",
+    modeldescription:[{description:"AX modeldescription"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -90,8 +90,8 @@ const data = [
     capacity: 3500,
     engType: "Lithium-ion Electric",
     basePrice: 21350,
-    imgName: "AX-SERIES.png",
-    series:[{description:"AX Series"}, {description:"4 Wheel"}],
+    imgName: "AX-modeldescription.png",
+    modeldescription:[{description:"AX modeldescription"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -170,8 +170,8 @@ const data = [
     capacity: 4500,
     engType: "Lithium-ion Electric",
     basePrice: 29240,
-    imgName: "AX-SERIES.png",
-    series:[{description:"AX Series"}, {description:"4 Wheel"}],
+    imgName: "AX-modeldescription.png",
+    modeldescription:[{description:"AX modeldescription"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -249,8 +249,8 @@ const data = [
     capacity: 5000,
     engType: "Lithium-ion Electric",
     basePrice: 33040,
-    imgName: "AX-SERIES.png",
-    series:[{description:"AX Series"}, {description:"4 Wheel"}],
+    imgName: "AX-modeldescription.png",
+    modeldescription:[{description:"AX modeldescription"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     

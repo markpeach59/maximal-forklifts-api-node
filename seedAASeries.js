@@ -9,8 +9,8 @@ const data = [
     capacity: 1500,
     engType: "Lithium-ion Electric",
     basePrice: 16950,
-    imgName: "AA-SERIES-15-35T.jpg",
-    series:[{description:"AA Series"}, {description:"4 Wheel"}],
+    imgName: "AA-modeldescription-15-35T.jpg",
+    modeldescription:[{description:"AA modeldescription"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 

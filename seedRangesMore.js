@@ -5,7 +5,7 @@ const { Forklift } = require("./models/forklift");
 
 const data = [
   {
-    range: "Diesel Range",
+    range: "Diesel",
     models: [
       {
         model: "KBD15",
@@ -60,7 +60,7 @@ const data = [
       ]
   }, 
   {
-    range: "LPG Range",
+    range: "LPG",
     models: [
       {
         model: "KBG15",
@@ -115,7 +115,7 @@ const data = [
     ]
   },
   {
-    range: "Rough Terrain Range",
+    range: "Rough Terrain",
     models: [
       {
         model: "FD18T-C2W",
@@ -156,7 +156,7 @@ const data = [
     ]
   },
   {
-    range: "Reach Reach Truck Range",
+    range: "Reach",
     models: [
       {
         model: "FBRA15-J1",
