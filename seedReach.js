@@ -7,7 +7,7 @@ const data = [
   {
     model: "FBRA15-J1",
     capacity: 1500,
-    engType: "Electric",
+    engType: "Reach",
     basePrice: 0,
     imgName: "",
     modeldescription:[

@@ -7,7 +7,7 @@ const data = [
   {
     model: "FD18T-C2W",
     capacity: 1800,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 17200,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-2WD.png",
     modeldescription:[{description:"M modeldescription 2WD"}],
@@ -81,7 +81,7 @@ const data = [
   {
     model: "FD25T-C2W",
     capacity: 2500,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 18200,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-2WD.png",
     modeldescription:[{description:"M modeldescription 2WD"}],
@@ -154,7 +154,7 @@ const data = [
   {
     model: "FD35T-C2W",
     capacity: 3500,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 19996,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-2WD.png",
     modeldescription:[{description:"M modeldescription 2WD"}],
@@ -229,7 +229,7 @@ const data = [
   {
     model: "FD50T-C2W",
     capacity: 5000,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 32900,
     imgName: "M-SERIES-ROUGH-TERRAIN-5T-2WD.png",
     modeldescription:[{description:"M modeldescription 2WD"}],
@@ -301,7 +301,7 @@ const data = [
   {
     model: "FD18T-C4W",
     capacity: 1800,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 23000,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-4WD.png",
     modeldescription:[{description:"M modeldescription 4WD"}],
@@ -374,7 +374,7 @@ const data = [
   {
     model: "FD25T-C4W",
     capacity: 2500,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 24700,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-4WD.png",
     modeldescription:[{description:"M modeldescription 4WD"}],
@@ -447,7 +447,7 @@ const data = [
   {
     model: "FD35T-C4W",
     capacity: 3500,
-    engType: "Diesel",
+    engType: "Rough Terrain",
     basePrice: 26490,
     imgName: "",
     modeldescription:[{description:"M modeldescription 4WD"}],

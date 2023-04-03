@@ -7,7 +7,7 @@ const data = [
   {
     model: "FBRGA16-J1",
     capacity: 1600,
-    engType: "Electric",
+    engType: "Reach",
     basePrice: 0,
     imgName: "A-SERIES-REACH-TRUCK.jpg",
     modeldescription:[
@@ -83,7 +83,7 @@ const data = [
 {
     model: "FBRGA20-J1",
     capacity: 2000,
-    engType: "Electric",
+    engType: "Reach",
     basePrice: 0,
     imgName: "A-SERIES-REACH-TRUCK.jpg",
     modeldescription:[
@@ -159,7 +159,7 @@ const data = [
   {
     model: "FBRGA25-J1",
     capacity: 1600,
-    engType: "Electric",
+    engType: "Reach",
     basePrice: 0,
     imgName: "A-SERIES-REACH-TRUCK.jpg",
     modeldescription:[

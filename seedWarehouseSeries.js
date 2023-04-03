@@ -7,7 +7,7 @@ const data = [
   {
     model: "PTE 12N",
     capacity: 1200,
-    engType: "Electric",
+    engType: "Warehouse",
     basePrice: 980,
     imgName: "PALLET-TRUCK-PTE12N.jpg",
     modeldescription:[
@@ -34,7 +34,7 @@ const data = [
   {
     model: "PTE 15N",
     capacity: 1500,
-    engType: "Electric",
+    engType: "Warehouse",
     basePrice: 1120,
     imgName: "PALLET-TRUCK-PTE15N.jpg",
     modeldescription:[
@@ -61,7 +61,7 @@ const data = [
   {
     model: "PTE 20N",
     capacity: 2000,
-    engType: "Electric",
+    engType: "Warehouse",
     basePrice: 1887,
     imgName: "PALLET-TRUCK-PTE20N-PTE20B-Li.jpg",
     modeldescription:[
@@ -97,7 +97,7 @@ const data = [
 {
   model: "PT 18 M1X",
   capacity: 1800,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 3393,
   imgName: "",
   modeldescription:[
@@ -132,7 +132,7 @@ optionalrollers:[
 {
   model: "PT 20 M1X",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 4100,
   imgName: "",
   modeldescription:[
@@ -167,7 +167,7 @@ optionalrollers:[
 {
   model: "PT 20 M1XL",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 5200,
   imgName: "",
   modeldescription:[
@@ -196,7 +196,7 @@ optionalrollers:[
 {
   model: "PTE 20C",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 4396,
   imgName: "PALLET-TRUCK-PTE20-C.jpg",
   modeldescription:[
@@ -230,7 +230,7 @@ optionalrollers:[
 {
   model: "PT 20H",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 5780,
   imgName: "",
   modeldescription:[
@@ -252,7 +252,7 @@ optionalrollers:[
 {
   model: "PT 25H",
   capacity: 2500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 5996,
   imgName: "",
   modeldescription:[
@@ -277,7 +277,7 @@ optionalrollers:[
 {
   model: "PT 16L",
   capacity: 1600,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 3984,
   imgName: "PALLET-TRUCK-PT16L-20L-25L.jpg",
   modeldescription:[
@@ -308,7 +308,7 @@ optionalrollers:[
 {
   model: "PT 20L",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 4079,
   imgName: "PALLET-TRUCK-PT16L-20L-25L.jpg",
   modeldescription:[
@@ -339,7 +339,7 @@ optionalrollers:[
 {
   model: "PT 25L",
   capacity: 2500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 5601,
   imgName: "PALLET-TRUCK-PT16L-20L-25L.jpg",
   modeldescription:[
@@ -372,7 +372,7 @@ optionalrollers:[
 {
   model: "OPL 20N",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 8600,
   imgName: "PALLET-TRUCK-OPL25N.jpg",
   modeldescription:[
@@ -409,7 +409,7 @@ optionalrollers:[
 {
   model: "OPL 25N",
   capacity: 2500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 8980,
   imgName: "PALLET-TRUCK-OPL25N.jpg",
   modeldescription:[
@@ -450,7 +450,7 @@ optionalrollers:[
 {
   model: "PSE 12B",
   capacity: 1200,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 8980,
   imgName: "",
   modeldescription:[
@@ -492,7 +492,7 @@ optionalrollers:[
 {
   model: "ECL 15B",
   capacity: 1500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 2999,
   imgName: "ELECTRIC-STACKER-ECL15B",
   modeldescription:[
@@ -530,7 +530,7 @@ optionalrollers:[
 {
   model: "PSE 15L",
   capacity: 1500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 2999,
   imgName: "",
   modeldescription:[
@@ -567,7 +567,7 @@ optionalrollers:[
 {
   model: "PSE 15L-C",
   capacity: 1500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 4400,
   imgName: "ELECTRIC-STACKER-PSE15-C.jpg",
   modeldescription:[
@@ -613,7 +613,7 @@ optionalrollers:[
 {
   model: "PS 16N",
   capacity: 1600,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 6100,
   imgName: "",
   modeldescription:[
@@ -655,7 +655,7 @@ optionalrollers:[
 {
   model: "PS 20N",
   capacity: 2000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 7810,
   imgName: "",
   modeldescription:[
@@ -698,7 +698,7 @@ optionalrollers:[
 {
   model: "PSE 10L-C",
   capacity: 1000,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 2780,
   imgName: "ELECTRIC-STACKER-PSE10L-C.jpg",
   modeldescription:[
@@ -731,7 +731,7 @@ optionalrollers:[
 {
   model: "PSE 15L-C",
   capacity: 1500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 2998,
   imgName: "",
   modeldescription:[
@@ -765,7 +765,7 @@ optionalrollers:[
 {
   model: "PS 16TSL",
   capacity: 1600,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 6700,
   imgName: "",
   modeldescription:[
@@ -807,7 +807,7 @@ optionalrollers:[
 {
   model: "PS 18TSL",
   capacity: 1800,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 7150,
   imgName: "",
   modeldescription:[
@@ -851,7 +851,7 @@ optionalrollers:[
 {
   model: "PS 13RM PLUS",
   capacity: 1300,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 8993,
   imgName: "ELECTRIC-STACKER-PS13-15RM-PLUS.jpg",
   modeldescription:[
@@ -905,7 +905,7 @@ optionalrollers:[
 {
   model: "PS 15RM PLUS",
   capacity: 1500,
-  engType: "Electric",
+  engType: "Warehouse",
   basePrice: 9543,   
   imgName: "ELECTRIC-STACKER-PS13-15RM-PLUS.jpg",
   modeldescription:[
