@@ -9,7 +9,7 @@ const data = [
     capacity: 1500,
     engType: "Electric",
     basePrice: 11740,
-    imgName: "M-modeldescription-ELECTRIC-Rear-drive-3-wheel-1.6T.jpg",
+    imgName: "M-SERIES-ELECTRIC-Rear-drive-3-wheel-1.6T.jpg",
     modeldescription:[{description:"M modeldescription"}, {description:"3 Wheel, Rear Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",

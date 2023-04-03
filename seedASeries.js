@@ -9,7 +9,7 @@ const data = [
     capacity: 1500,
     engType: "Lead Acid Electric",
     basePrice: 12000,
-    imgName: "A-modeldescription-4-wheel-1.5-3.5T.jpg",
+    imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
     modeldescription:[{description:"A modeldescription"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
