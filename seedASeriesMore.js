@@ -10,7 +10,7 @@ const data = [
     engType: "Lead Acid Electric",
     basePrice: 12250,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
-    modeldescription:[{description:"A modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -114,7 +114,7 @@ const data = [
     engType: "Lead Acid Electric",
     basePrice: 12500,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
-    modeldescription:[{description:"A modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -211,7 +211,7 @@ const data = [
     engType: "Lead Acid Electric",
     basePrice: 13000,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
-    modeldescription:[{description:"A modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -316,6 +316,10 @@ const data = [
     engType: "Lead Acid Electric",
     basePrice: 13950,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
+    modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
+    loadcenter:500,
+    defaulttyre:"Pneumatic",
+
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -401,6 +405,9 @@ const data = [
     engType: "Lead Acid Electric",
     basePrice: 14800,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
+    modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
+    loadcenter:500,
+    defaulttyre:"Pneumatic",
     masts: [
       {
         masttype: "2 Stage Free View Mast",
