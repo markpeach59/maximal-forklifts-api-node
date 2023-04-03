@@ -10,7 +10,7 @@ const data = [
     engType: "Lithium-ion Electric",
     basePrice: 17150,
     imgName: "AA-SERIES-15-35T.jpg",
-    modeldescription:[{description:"AA modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"AA Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -90,7 +90,7 @@ const data = [
     engType: "Lithium-ion Electric",
     basePrice: 17461,
     imgName: "AA-SERIES-15-35T.jpg",
-    modeldescription:[{description:"AA modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"AA Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -175,7 +175,7 @@ const data = [
     engType: "Lithium-ion Electric",
     basePrice: 17961,
     imgName: "AA-SERIES-15-35T.jpg",
-    modeldescription:[{description:"AA modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"AA Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -280,7 +280,7 @@ const data = [
     engType: "Lithium-ion Electric",
     basePrice: 20550,
     imgName: "AA-SERIES-15-35T.jpg",
-    modeldescription:[{description:"AA modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"AA Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -362,7 +362,7 @@ const data = [
     engType: "Lithium-ion Electric",
     basePrice: 21300,
     imgName: "AA-SERIES-15-35T.jpg",
-    modeldescription:[{description:"AA modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"AA Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     

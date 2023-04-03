@@ -10,7 +10,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 17200,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-2WD.png",
-    modeldescription:[{description:"M modeldescription 2WD"}],
+    modeldescription:[{description:"M Series 2WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -84,7 +84,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 18200,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-2WD.png",
-    modeldescription:[{description:"M modeldescription 2WD"}],
+    modeldescription:[{description:"M Series 2WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     masts: [
@@ -157,7 +157,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 19996,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-2WD.png",
-    modeldescription:[{description:"M modeldescription 2WD"}],
+    modeldescription:[{description:"M Series 2WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     masts: [
@@ -232,7 +232,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 32900,
     imgName: "M-SERIES-ROUGH-TERRAIN-5T-2WD.png",
-    modeldescription:[{description:"M modeldescription 2WD"}],
+    modeldescription:[{description:"M Series 2WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     masts: [
@@ -304,7 +304,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 23000,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-4WD.png",
-    modeldescription:[{description:"M modeldescription 4WD"}],
+    modeldescription:[{description:"M Series 4WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     masts: [
@@ -377,7 +377,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 24700,
     imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-4WD.png",
-    modeldescription:[{description:"M modeldescription 4WD"}],
+    modeldescription:[{description:"M Series 4WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     masts: [
@@ -450,7 +450,7 @@ const data = [
     engType: "Rough Terrain",
     basePrice: 26490,
     imgName: "",
-    modeldescription:[{description:"M modeldescription 4WD"}],
+    modeldescription:[{description:"M Series 4WD"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     masts: [

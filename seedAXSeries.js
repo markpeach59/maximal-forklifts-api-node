@@ -9,8 +9,8 @@ const data = [
     capacity: 2500,
     engType: "Lithium-ion Electric",
     basePrice: 18061,
-    imgName: "AX-modeldescription.png",
-    modeldescription:[{description:"AX modeldescription"}, {description:"4 Wheel"}],
+    imgName: "AX-SERIES.png",
+    modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 

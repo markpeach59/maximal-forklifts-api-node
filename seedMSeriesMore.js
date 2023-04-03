@@ -10,7 +10,7 @@ const data = [
     engType: "Electric",
     basePrice: 13440,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
-    modeldescription:[{description:"M modeldescription"}, {description:"3 Wheel, Front Wheel Drive"}],
+    modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
     masts: [
@@ -111,7 +111,7 @@ const data = [
     engType: "Electric",
     basePrice: 13750,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
-    modeldescription:[{description:"M modeldescription"}, {description:"3 Wheel, Front Wheel Drive"}],
+    modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
 
@@ -213,7 +213,7 @@ const data = [
     engType: "Electric",
     basePrice: 14150,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
-    modeldescription:[{description:"M modeldescription"}, {description:"3 Wheel, Front Wheel Drive"}],
+    modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
     
