@@ -26,7 +26,7 @@ masts:[
     masttype:"2 Stage Full Free Lift Mast",
         mastsizes:[
             {mastlength:3000,closedheight:2002,price:527},
-        {   mastlength:4000,closedheight:2552,price:940}
+        { mastlength:4000,closedheight:2552,price:940}
     ]
     },
     {
@@ -79,7 +79,7 @@ powertrain:"Doosan DM02 Euro 5 Diesel Engine"
     model:"KBD18",
     capacity:1750,
     engType:"Diesel",
-    baseprice:13211,
+    basePrice:13211,
     imgName:"KBD20.jpg",
 
     masts:[{
@@ -133,7 +133,7 @@ tyres:[
     {tyretype:"S/E Solid Tyres",price:431},
     {tyretype:"Non-Marking White Tyres",price:786}
 ],
-seat:[{"seattype":"Full Comfort",price:191}],
+seat:[{seattype:"Full Comfort",price:191}],
 
 cabin:[
     {cabinoption:"Half Cabin",price:860},
@@ -141,7 +141,7 @@ cabin:[
     {cabinoption:"Full Steel Cabin",price:1361}
 ],
 heater:[{heatertype:"Heater/Demister",price:181}],
-forkpositioner:[{"forkpositionertype":"",price:1995}],
+forkpositioner:[{forkpositionertype:"",price:1995}],
 powertrain:"Doosan DM02 Euro 5 Diesel Engine"
 },
 
@@ -149,7 +149,7 @@ powertrain:"Doosan DM02 Euro 5 Diesel Engine"
     model:"KBD20",
     capacity:2000,
     engType:"Diesel",
-    baseprice:13558,
+    basePrice:13558,
     imgName:"KBD20.jpg",
 
 masts:[{
@@ -202,9 +202,8 @@ masts:[{
         {tyretype:"S/E Solid Tyres",price:431},
         {tyretype:"Non-Marking White Tyres",price:786}
     ],
-        
-    seat:[{"seattype":"Full Comfort",price:191}],
-    
+
+    seat:[{seattype:"Full Comfort",price:191}],
     cabin:[
         {cabinoption:"Half Cabin",price:860},
         {cabinoption:"Half Cabin with Canvas Sides",price:1338},
@@ -212,9 +211,9 @@ masts:[{
     ],
     heater:[{heatertype:"Heater/Demister",price:181}],
 
-    forkpositioner:[{"forkpositionertype":"",price:1995}],
+    forkpositioner:[{forkpositionertype:"",price:1995}],
     
-    
+
     powertrain:"Doosan DM02 Euro 5 Diesel Engine"
 
 }

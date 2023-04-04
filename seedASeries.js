@@ -36,13 +36,13 @@ const data = [
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
-          { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
+          { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
+          { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
           { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
-          { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
-          { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
-          { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2665, freeliftheight: 2205, price: 1910 }
+          { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
+          { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
+          { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
+          { mastlength: 6500, closedheight: 2790, freeliftheight: 2205, price: 1910 }
         ]
       }
     ],
