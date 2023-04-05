@@ -78,6 +78,7 @@ const Forkliftdetail = mongoose.model(
     roller: [{ rollertype: String, price: Number }],
   
     displaywithcamera: [{ displaywithcameratype: String, price: Number }],
+    liftybutton: [{ liftybuttontype: String, price: Number }],
 
     safetybluespot: [{  safetybluespottype: String, price: Number }],
     bfs: [{ bfstype: String, price: Number }],
