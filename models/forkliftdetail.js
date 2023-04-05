@@ -55,6 +55,10 @@ const Forkliftdetail = mongoose.model(
     aircon: [{ aircontype: String, price: Number }],
     loadbackrest: [{ loadbackresttype: String, price: Number }],
     steering: [{ steeringype: String, price: Number }],
+
+    defaultbattery: String,
+    defaultcharger:  String,
+
     batteries: [
       {
         batterytype: String,
@@ -68,21 +72,7 @@ const Forkliftdetail = mongoose.model(
       },
     ],
     
-    defaultbattery: String,
-    defaultcharger:  String,
-
-    optionalbatteries: [
-      {
-        batterytype: String,
-        price: Number,
-        chargers: [
-          {
-            chargertype: String,
-            price: Number,
-          },
-        ],
-      },
-    ],
+    
 
     safetybluespot: [{  safetybluespottype: String, price: Number }],
     bfs: [{ bfstype: String, price: Number }],

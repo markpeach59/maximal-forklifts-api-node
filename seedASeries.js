@@ -10,7 +10,7 @@ const data = [
     engType: "Lead Acid Electric",
     basePrice: 12000,
     imgName: "A-SERIES-4-wheel-1.5-3.5T.jpg",
-    modeldescription:[{description:"A modeldescription"}, {description:"4 Wheel"}],
+    modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -70,10 +70,14 @@ const data = [
       { tyretype: "Super Elastic Tyres", price: 360 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+
+    defaultbattery: "No",
     	
     batteries: [
       {

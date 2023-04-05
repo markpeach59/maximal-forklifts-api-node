@@ -70,10 +70,15 @@ const data = [
       { tyretype: "Super Elastic Tyres", price: 360 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+
+    defaultbattery: "83.2V 230A/H Li-ion",
+    defaultcharger: "Fast",
 
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }], 
 

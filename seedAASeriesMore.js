@@ -42,7 +42,7 @@ const data = [
           { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
           { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
           { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2665, freeliftheight: 2205, price: 1910 }
+          { mastlength: 6500, closedheight: 2790, freeliftheight: 2200, price: 1910 }
         ]
       }
     ],
@@ -70,11 +70,16 @@ const data = [
       { tyretype: "Superelastic Tyres", price: 360 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     	],
+
+    defaultbattery: "83.2V 230A/H Li-ion",
+    defaultcharger: "Fast",
     	
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
@@ -146,17 +151,23 @@ const data = [
       { forkpositionertype: "", price: 1800 },
     ],
     tyres: [
-      { tyretype: "S/E Solid Tyres", price: 465 },
-      { tyretype: "Non-Marking Solid S/E Tyres", price: 456 },
-      { tyretype: "Super Elastic Tyres", price: 480 }
+      { tyretype: "S/E Solid", price: 465 },
+      { tyretype: "Non-Marking Solid S/E", price: 456 },
+      { tyretype: "Super Elastic", price: 480 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
-    	batteries: [
+
+    defaultbattery: "80V 230A/H Li-ion",
+    defaultcharger: "Fast",
+
+    batteries: [
       	{
         batterytype: "80V 304A/H",
         price: 989,
@@ -231,39 +242,26 @@ const data = [
       { forkpositionertype: "", price: 1800 },
     ],
     tyres: [
-      { tyretype: "S/E Solid Tyres", price: 465 },
-      { tyretype: "Non-Marking Solid S/E Tyres", price: 456 },
-      { tyretype: "Super Elastic Tyres", price: 480 }
+      { tyretype: "S/E Solid", price: 465 },
+      { tyretype: "Non-Marking Solid S/E", price: 456 },
+      { tyretype: "Super Elastic", price: 480 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
-    	
+
+      defaultbattery: "80V 230A/H Li-ion",
+    defaultcharger: "Fast",
+
     batteries: [
-      {
-        batterytype: "48V 600A/H",
-        price: 3300,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 120",
-            price: 661
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 100",
-            price: 490
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 120",
-            price: 517
-          }
-        ]
-      }
+      	{
+        batterytype: "80V 304A/H",
+        price: 989,
+    	}
     ],
 
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -341,13 +339,24 @@ const data = [
       { tyretype: "Super Elastic Tyres", price: 620 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-     
+    defaultbattery: "80V 346A/H Li-ion",
+    defaultcharger: "Fast",
+
+    batteries: [
+      	{
+        batterytype: "80V 460A/H",
+        price: 1791,
+    	}
+    ],
+
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
      
     cabin: [
@@ -422,12 +431,25 @@ const data = [
       { tyretype: "Super Elastic Tyres", price: 620 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
-    	
+    
+    
+    defaultbattery: "80V 346A/H Li-ion",
+    defaultcharger: "Fast",
+
+    batteries: [
+      	{
+        batterytype: "80V 460A/H",
+        price: 1791,
+    	}
+    ],
+
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [

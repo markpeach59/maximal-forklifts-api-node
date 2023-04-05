@@ -8,7 +8,7 @@ const data = [
     model: "FB16S-MJZ",
     capacity: 1500,
     engType: "Electric",
-    basePrice: 13440,
+    basePrice: 13400,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
@@ -35,13 +35,13 @@ const data = [
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
-          { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
+          { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
+          { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
           { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
-          { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
-          { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
-          { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2665, freeliftheight: 2205, price: 1910 }
+          { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
+          { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
+          { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
+          { mastlength: 6500, closedheight: 2790, freeliftheight: 2205, price: 1910 }
         ]
       }
     ],
@@ -61,12 +61,21 @@ const data = [
       { sideshifttype: "Integral", price: 430 }
     ],
    
+    forkpositioner: [
+      { forkpositionertype: "", price: 1510 },
+    ],
+
     tyres: [{ tyretype: "Non-Marking S/E Tyres", price: 360 }],
+    
+    seatrequired: 'true',
     
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
-    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
+    ],
+    
+    defaultbattery: "No",
     	
     batteries: [
       {
@@ -83,7 +92,7 @@ const data = [
           },
           {
             chargertype: "3 Phase 12 Hour 48V 80",
-            price: 562
+            price: 462
           },
           {
             chargertype: "3 Phase 8 Hour 48V 100",
@@ -114,7 +123,6 @@ const data = [
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
-
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -137,13 +145,13 @@ const data = [
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
-          { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
+          { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
+          { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
           { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
-          { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
-          { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
-          { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2665, freeliftheight: 2205, price: 1910 }
+          { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
+          { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
+          { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
+          { mastlength: 6500, closedheight: 2790, freeliftheight: 2205, price: 1910 }
         ]
       }
     ],
@@ -163,12 +171,21 @@ const data = [
       { sideshifttype: "Integral", price: 430 }
     ],
    
+    forkpositioner: [
+      { forkpositionertype: "", price: 1510 },
+    ],
+
     tyres: [{ tyretype: "Non-Marking S/E Tyres", price: 360 }],
+    
+    seatrequired: 'true',
     
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
-    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
+    ],
+    
+    defaultbattery: "No",
     	
     batteries: [
       {
@@ -185,7 +202,7 @@ const data = [
           },
           {
             chargertype: "3 Phase 12 Hour 48V 80",
-            price: 562
+            price: 462
           },
           {
             chargertype: "3 Phase 8 Hour 48V 100",
@@ -239,13 +256,13 @@ const data = [
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
-          { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
+          { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
+          { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
           { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
-          { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
-          { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
-          { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2665, freeliftheight: 2205, price: 1910 }
+          { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
+          { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
+          { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
+          { mastlength: 6500, closedheight: 2790, freeliftheight: 2205, price: 1910 }
         ]
       }
     ],
@@ -265,12 +282,21 @@ const data = [
       { sideshifttype: "Integral", price: 430 }
     ],
    
+    forkpositioner: [
+      { forkpositionertype: "", price: 1510 },
+    ],
+
     tyres: [{ tyretype: "Non-Marking S/E Tyres", price: 360 }],
+    
+    seatrequired: 'true',
     
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
-    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+    	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
+    ],
+    
+    defaultbattery: "No",
     	
     batteries: [
       {

@@ -66,15 +66,27 @@ const data = [
       { forkpositionertype: "", price: 1800 },
     ],
     tyres: [
-      { tyretype: "S/E Tyres", price: 465 },
-      { tyretype: "Non-Marking S/E Tyres", price: 486 },
-      { tyretype: "Super Elastic Tyres", price: 480 }
+      { tyretype: "S/E Solid", price: 465 },
+      { tyretype: "Non-Marking S/E Solid", price: 486 },
+      { tyretype: "Super Elastic", price: 480 }
     ],
      
+    seatrequired: 'true',
+    
     seat: [
     	{ seattype: "Standard", price: 192 },
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
+
+    defaultbattery: "115V 125A/H Lithium",
+    defaultcharger: "Fast",
+  
+    batteries: [
+          {
+          batterytype: "115V 230A/H",
+          //price: POA,
+        }
+      ],
 
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 

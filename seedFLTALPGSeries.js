@@ -73,6 +73,8 @@ const data = [
       { tyretype: "Non-Marking S/E Tyres", price: 486 },
       { tyretype: "Super Elastic Tyres", price: 480 }],
   
+  seatrequired: 'true',
+  
   seat: [
     { seattype: "Standard", price: 192 },
     { seattype: "Full Comfort Suspension", price: 298 },
@@ -157,6 +159,8 @@ const data = [
       { tyretype: "Non-Marking S/E Tyres", price: 610 },
       { tyretype: "Dual Drive Tyres", price: 980 }
   ],
+  
+  seatrequired: 'true',
   
   seat: [
     { seattype: "Standard", price: 192 },
@@ -243,6 +247,8 @@ const data = [
       { tyretype: "Dual Drive Tyres", price: 980 }
   ],
   
+  seatrequired: 'true',
+  
   seat: [
     { seattype: "Standard", price: 192 },
     { seattype: "Full Comfort Suspension", price: 298 },
@@ -328,6 +334,8 @@ const data = [
       { tyretype: "Non-Marking White Tyres", price: 1400 },
       { tyretype: "Dual Drive Tyres", price: 900 }
   ],
+  
+  seatrequired: 'true',
   
   seat: [
     { seattype: "Standard", price: 192 },
@@ -417,6 +425,8 @@ const data = [
       { tyretype: "Dual Drive Tyres", price: 900 }
   ],
   
+  seatrequired: 'true',
+  
   seat: [
     { seattype: "Standard", price: 192 },
     { seattype: "Full Comfort Suspension", price: 298 },
@@ -504,6 +514,8 @@ const data = [
       { tyretype: "Dual Drive Tyres", price: 900 }
   ],
   
+  seatrequired: 'true',
+  
   seat: [
     { seattype: "Standard", price: 192 },
     { seattype: "Full Comfort Suspension", price: 298 },
@@ -588,6 +600,8 @@ const data = [
   tyres: [
       { tyretype: "S/E Tyres", price: 1150 },
   ],
+  
+  seatrequired: 'true',
   
   seat: [
     { seattype: "Standard", price: 192 },

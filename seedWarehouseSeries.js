@@ -24,7 +24,7 @@ const data = [
     defaultbattery : "24V 15A/H Lithiium",
     defaultcharger : "5A Charger",
 
-    optionalbatteries: [
+    batteries: [
       {
         batterytype: "24V 30A/H Lithium",
         price: 49,
@@ -51,7 +51,7 @@ const data = [
     defaultbattery : "24V 15A/H Lithiium",
     defaultcharger : "5A Charger",
 
-    optionalbatteries: [
+    batteries: [
       {
         batterytype: "24V 30A/H Lithium",
         price: 89,
@@ -78,7 +78,7 @@ const data = [
     defaultbattery : "24V 20A/H Lithiium",
     defaultcharger : "9A Charger",
 
-    optionalbatteries: [
+    batteries: [
       {
         batterytype: "24V 36A/H Lithium",
         price: 100,
@@ -115,7 +115,7 @@ const data = [
   defaultbattery : "24V 1600A/H Lead Acid",
   defaultcharger : "built-in Charger",
 
-  optionalbatteries: [
+  batteries: [
     {
       batterytype: "24V 36A/H Lithium",
       price: 100,
@@ -150,7 +150,7 @@ optionalrollers:[
   defaultbattery : "24V 210A/H Lead Acid",
   defaultcharger : "built-in Charger",
 
-  optionalbatteries: [
+  batteries: [
     {
       batterytype: "24V 280A/H Lead Acid",
       price: 79,
@@ -885,7 +885,7 @@ optionalrollers:[
  
   defaultbattery : "24V 270A/H Lead Acid",
 
-  optionalbatteries: [
+  batteries: [
     {
       batterytype: "24V 400 A/H",
       price: 110,
@@ -939,7 +939,7 @@ optionalrollers:[
  
   defaultbattery : "24V 270A/H Lead Acid",
 
-  optionalbatteries: [
+  batteries: [
     {
       batterytype: "24V 400 A/H",
       price: 110,
