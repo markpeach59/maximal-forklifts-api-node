@@ -9,6 +9,7 @@ const Forkliftdetail = mongoose.model(
     capacity: Number,
     engType: String,
     basePrice: Number,
+    offer: {type:Boolean, default:'false'},
 
     imgName: String,
     modeldescription :[{description:String}],
