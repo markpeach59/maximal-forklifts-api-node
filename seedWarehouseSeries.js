@@ -112,22 +112,17 @@ const data = [
     { forklength: "685 X 1220", price: 60 },
   ],
 
-  defaultbattery : "24V 1600A/H Lead Acid",
-  defaultcharger : "built-in Charger",
-
-  batteries: [
-    {
-      batterytype: "24V 36A/H Lithium",
-      price: 100,
-    }
-  ],
+  defaultbattery : "24V 160A/H Lead Acid",
+  defaultcharger : "built-in",
 
 
 defaultroller: "single",
 
-optionalrollers:[
+roller:[
     {rollertype : "Twin Roller", price: 95}
-]
+],
+
+
 },
 {
   model: "PT 20 M1X",
@@ -160,9 +155,24 @@ optionalrollers:[
 
 defaultroller: "Single",
 
-optionalrollers:[
+roller:[
     {rollertype : "Twin Roller", price: 67}
-]
+],
+
+
+controller:[
+  {controllertype : "Curtis", price: 0},
+  {controllertype : "Zapi", price: 0}
+],
+
+liftybutton:[
+  {liftybuttontype : "", price: 210}
+],
+
+
+
+
+
 },
 {
   model: "PT 20 M1XL",
@@ -187,7 +197,7 @@ optionalrollers:[
 
   defaultroller: "Single",
 
-  optionalrollers:[
+  roller:[
     {rollertype : "Twin Roller", price: 67}
 ]
 },
@@ -224,7 +234,7 @@ optionalrollers:[
 
   loadbackrest : [{loadbackresttype:"", price: 46}],
 
-  pincode : [{pincodetype:"", price: 60}]
+  pincode : [{pincodetype:"Access", price: 60}]
 },
 
 {
@@ -243,6 +253,7 @@ optionalrollers:[
     { forklength: "560 X 1150", price: 0 },
     { forklength: "685 X 1150", price: 33 }
   ],
+
 
   steering :{steeringtype:"", price: 310},
   defaultbattery : "24V 150A/H Lithium",
@@ -268,7 +279,6 @@ optionalrollers:[
     { forklength: "685 X 1150", price: 33 }
   ],
 
-  steering :{steeringtype:"", price: 310},
 
   defaultbattery : "24V 150A/H Lithium",
   defaultcharger : "Fast Charger"
@@ -302,7 +312,7 @@ optionalrollers:[
   defaultbattery : "24V 160A/H Lead Acid",
   defaultcharger : "Built-in Charger",
 
-  pincode : [{pincodetype:"", price: 120}]
+  pincode : [{pincodetype:"Start", price: 120}]
 
 },
 {
@@ -333,7 +343,7 @@ optionalrollers:[
   defaultbattery : "24V 210A/H Lead Acid",
   defaultcharger : "Built-in Charger",
 
-  pincode : [{pincodetype:"", price: 120}]
+  pincode : [{pincodetype:"Start", price: 120}]
 
 },
 {
@@ -362,9 +372,9 @@ optionalrollers:[
 
  
   defaultbattery : "24V 350A/H Lead Acid",
-  defaultcharger : "Built-in Charger",
+  defaultcharger : "Built-in",
 
-  pincode : [{pincodetype:"", price: 120}]
+  pincode : [{pincodetype:"Start", price: 120}]
 
 },
 
@@ -396,7 +406,7 @@ optionalrollers:[
 
  
   defaultbattery : "24V 465A/H Lead Acid",
-  defaultcharger : "Standard Charger",
+  defaultcharger : "Standard",
 
   defaultroller: "Tandem",
   optionalrollers:[
@@ -486,7 +496,7 @@ optionalrollers:[
   defaultcharger : "12A Charger",
 
   bfs: [{ bfstype: "", price: 80 }],
-  blinkey: [{ blinkeytype: "", price: 30}],
+  blinkey: [{ blinkeytype: "", price: 30}]
 },
 
 {
@@ -519,11 +529,10 @@ optionalrollers:[
     }
   ],
   
-  
+  loadbackrest:[{loadbackresttype:"", price: 70}],
 
- 
-  defaultbattery : "48V 60A/H Lead Acid",
-  defaultcharger : "Built-in Charger",
+  defaultbattery : "48V 60A/H",
+  defaultcharger : "Built-in 48/8",
 
 },
 
@@ -562,6 +571,8 @@ optionalrollers:[
  
   defaultbattery : "48V 60A/H Lead Acid",
   defaultcharger : "Built-in Charger",
+
+  loadbackrest:[{loadbackresttype:"", price: 110}],
 
 },
 {
@@ -645,12 +656,13 @@ optionalrollers:[
   ],
 
  
-  defaultbattery : "",
+  loadbackrest:[{loadbackresttype:"", price: 77}],
+
+  defaultbattery : "No",
   defaultcharger : "",
 
 
-  bfs: [{ bfstype: "", price: 178 }],
-  blinkey: [{ blinkeytype: "", price: 30}],
+  bfs: [{ bfstype: "", price: 178 }]
 },
 {
   model: "PS 20N",
@@ -687,12 +699,13 @@ optionalrollers:[
   ],
 
  
-  defaultbattery : "",
+  loadbackrest:[{loadbackresttype:"", price: 77}],
+
+  defaultbattery : "No",
   defaultcharger : "",
 
 
-  bfs: [{ bfstype: "", price: 178 }],
-  blinkey: [{ blinkeytype: "", price: 30}],
+  bfs: [{ bfstype: "", price: 178 }]
 },
 
 {
