@@ -88,8 +88,8 @@ const data = [
   
   defaultroller: "single",
 
-  optionalrollers:[
-      {rollertype : "Twin Roller", price: 95}
+  rollers:[
+      {rollertype : "Twin", price: 95}
   ]
 },
 
@@ -118,7 +118,7 @@ const data = [
 
 defaultroller: "single",
 
-roller:[
+rollers:[
     {rollertype : "Twin Roller", price: 95}
 ],
 
@@ -155,12 +155,12 @@ roller:[
 
 defaultroller: "Single",
 
-roller:[
+rollers:[
     {rollertype : "Twin Roller", price: 67}
 ],
 
 
-controller:[
+controllers:[
   {controllertype : "Curtis", price: 0},
   {controllertype : "Zapi", price: 0}
 ],
@@ -197,7 +197,7 @@ liftybutton:[
 
   defaultroller: "Single",
 
-  roller:[
+  rollers:[
     {rollertype : "Twin Roller", price: 67}
 ]
 },
@@ -409,11 +409,19 @@ liftybutton:[
   defaultcharger : "Standard",
 
   defaultroller: "Tandem",
-  optionalrollers:[
+  rollers:[
     {rollertype : "Single", price: 66}
   ],
 
-  pincode : [{pincodetype:"", price: 120}]
+  platform : [{platformtype:"Man up lifting", price: 107}],
+
+  batteries: [
+    {
+      batterytype: "24V 300A/H Lithium",
+      price: 2997,
+    }
+  ]
+
 
 },
 {
@@ -446,11 +454,20 @@ liftybutton:[
   defaultcharger : "Standard Charger",
 
   defaultroller: "Tandem",
-  optionalrollers:[
+  rollers:[
     {rollertype : "Single", price: 66}
 ],
 
-  pincode : [{pincodetype:"", price: 120}]
+  
+platform : [{platformtype:"Man up lifting", price: 107}],
+
+batteries: [
+  {
+    batterytype: "24V 300A/H Lithium",
+    price: 2997,
+  }
+]
+
 
 },
 
@@ -491,9 +508,17 @@ liftybutton:[
     { forklength: "685 X 1150", price: 0 }
   ],
 
- 
+ loadbackrest:[{loadbackresttype:"", price:110}],
+
   defaultbattery : "24V 85A/H Lead Acid",
   defaultcharger : "12A Charger",
+
+  batteries: [
+    {
+      batterytype: "24V 106A/H",
+      price: 98,
+    }
+  ],
 
   bfs: [{ bfstype: "", price: 80 }],
   blinkey: [{ blinkeytype: "", price: 30}]
@@ -534,47 +559,57 @@ liftybutton:[
   defaultbattery : "48V 60A/H",
   defaultcharger : "Built-in 48/8",
 
-},
+  batteries: [
+    {
+      batterytype: "24V 50A/H Lithium with Fast Charger",
+      price: 610,
+    }
+  ],
 
+
+},
 {
-  model: "PSE 15L",
-  capacity: 1500,
+  model: "PSE 10L-C",
+  capacity: 1000,
   engType: "Warehouse",
-  basePrice: 2999,
-  imgName: "",
+  basePrice: 4400,
+  imgName: "ELECTRIC-STACKER-PSE15-C.jpg",
   modeldescription:[
-      {description:"Walk-behind Stacker"},
-      {description:"585 X 1150 Forks"}
+      {description:"Curtis Controller"}
   ],
 
   masts: [
     {
-      masttype: "Simplex Mast",
+      masttype: "Single Mast",
       mastsizes: [
         { mastlength: 1600, price: 0 },
-        { mastlength: 2000, price: 90 }
+        { mastlength: 2000, price: 120 }
       ]
     },
     {
-      masttype: "Duplex Mast",
+      masttype: "2 Stage Mast",
       mastsizes: [
        
-        { mastlength: 2900,  price: 210 },
-        { mastlength: 3200,  price: 288 },
-        { mastlength: 3600,  price: 310 }
+        { mastlength: 2900, price: 296 },
+        { mastlength: 3600,  price: 388 },
+        { mastlength: 3600,  price: 520}
       ]
     }
   ],
   
-  
+  forks2d: [
+    { forklength: "540 X 1150", price: 0 },
+    { forklength: "685 X 1220", price: 190 }
+  ],
 
  
-  defaultbattery : "48V 60A/H Lead Acid",
+  defaultbattery : "24V 85A/H Lead Acid",
   defaultcharger : "Built-in Charger",
 
-  loadbackrest:[{loadbackresttype:"", price: 110}],
 
 },
+
+
 {
   model: "PSE 15L-C",
   capacity: 1500,
@@ -582,41 +617,37 @@ liftybutton:[
   basePrice: 4400,
   imgName: "ELECTRIC-STACKER-PSE15-C.jpg",
   modeldescription:[
-      {description:"Pedestrian Stacker"}
-  ],
+    {description:"Curtis Controller"}
+],
 
-  masts: [
-    {
-      masttype: "Single Mast",
-      mastsizes: [
-        { mastlength: 1600, closedheight: 1930, freeliftheight: 1514, price: 460 },
-        { mastlength: 2000, closedheight: 2330, freeliftheight: 1914, price: 600 }
-      ]
-    },
-    {
-      masttype: "2 Stage Mast",
-      mastsizes: [
-       
-        { mastlength: 2900, closedheight: 1930,  price: 90 },
-       
-        { mastlength: 3600, closedheight: 2230,  price: 140 }
-      ]
-    }
-  ],
-  
-  forks2d: [
-    { forklength: "540 X 1150", price: 0 },
-    { forklength: "685 X 1150", price: 0 }
-  ],
+masts: [
+  {
+    masttype: "Single Mast",
+    mastsizes: [
+      { mastlength: 1600, price: 0 },
+      { mastlength: 2000, price: 120 }
+    ]
+  },
+  {
+    masttype: "2 Stage Mast",
+    mastsizes: [
+     
+      { mastlength: 2900, price: 296 },
+      { mastlength: 3600,  price: 388 },
+      { mastlength: 3600,  price: 520}
+    ]
+  }
+],
 
- 
-  defaultbattery : "24V 100A/H Lead Acid",
-  defaultcharger : "24V 15A Charger",
+forks2d: [
+  { forklength: "540 X 1150", price: 0 },
+  { forklength: "685 X 1220", price: 190 }
+],
 
-  loadcenter:600,
 
-  bfs: [{ bfstype: "", price: 80 }],
-  blinkey: [{ blinkeytype: "", price: 30}],
+defaultbattery : "24V 100A/H Lead Acid",
+defaultcharger : "Built-in Charger"
+
 },
 
 
@@ -661,6 +692,18 @@ liftybutton:[
   defaultbattery : "No",
   defaultcharger : "",
 
+  batteries: [
+    {
+      batterytype: "24V 210A/H up to 3.6M Mast",
+      price: 0,
+    },
+    {
+      batterytype: "24V 270A/H 4M and above Mast",
+      price: 0,
+    },
+
+  ],
+
 
   bfs: [{ bfstype: "", price: 178 }]
 },
@@ -703,77 +746,22 @@ liftybutton:[
 
   defaultbattery : "No",
   defaultcharger : "",
+  
+  batteries: [
+    {
+      batterytype: "24V 210A/H up to 3.6M Mast",
+      price: 0,
+    },
+    {
+      batterytype: "24V 270A/H 4M and above Mast",
+      price: 0,
+    },
 
+  ],
 
   bfs: [{ bfstype: "", price: 178 }]
 },
 
-{
-  model: "PSE 10L-C",
-  capacity: 1000,
-  engType: "Warehouse",
-  basePrice: 2780,
-  imgName: "ELECTRIC-STACKER-PSE10L-C.jpg",
-  modeldescription:[
-      {description:"Curtis Controller"},
-  ],
-
-  masts: [
-    {
-      masttype: "Single Mast",
-      mastsizes: [
-        { mastlength: 1600, price: 0 },
-        { mastlength: 2000, price: 120 },
-
-        { mastlength: 2900, price: 296 },
-        { mastlength: 3200, price: 388 },
-        { mastlength: 3500, price: 520 }
-      ]
-    }
-  ],
-  
-  forks2d: [
-    { forklength: "540 X 1150", price: 0 },
-    { forklength: "685 X 1220", price: 190 }
-  ],
-
- 
-  defaultbattery : "24V 85A/H Battery Maintenance Free",
-  defaultcharger : "Built-in",
-},
-{
-  model: "PSE 15L-C",
-  capacity: 1500,
-  engType: "Warehouse",
-  basePrice: 2998,
-  imgName: "",
-  modeldescription:[
-      {description:"Curtis Controller"},
-  ],
-
-  masts: [
-    {
-      masttype: "Single Mast",
-      mastsizes: [
-        { mastlength: 1600, price: 0 },
-        { mastlength: 2000, price: 120 },
-
-        { mastlength: 2900, price: 296 },
-        { mastlength: 3200, price: 388 },
-        { mastlength: 3500, price: 520 }
-      ]
-    }
-  ],
-  
-  forks2d: [
-    { forklength: "540 X 1150", price: 0 },
-    { forklength: "685 X 1220", price: 190 }
-  ],
-
- 
-  defaultbattery : "24V 85A/H Battery Maintenance Free",
-  defaultcharger : "Built-in",
-},
 
 {
   model: "PS 16TSL",

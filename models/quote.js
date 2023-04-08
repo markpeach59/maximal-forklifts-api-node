@@ -14,9 +14,14 @@ const Quote = mongoose.model(
       imgname: String,
       markup: Number,
       price: Number,
+      offer:Boolean,
+      offerprice: Number,
+
       masttype: String,
       mastsize: Number,
+
       closedheight: Number,
+      freeliftheight: Number,
 
       valve: String,
 
@@ -26,9 +31,20 @@ const Quote = mongoose.model(
       forkpositioner: Boolean,
 
       tyre: String,
-      coldstoreprot: Boolean,
+      
+
+      controller: String,
+      pincode: Boolean,
+      liftybutton: Boolean,
+      roller: String,
+      displaywithcamera: Boolean,
+      safetybluespot: Boolean,
+
       seat: String,
       cabin: String,
+
+      coldstoreprot: Boolean,
+
 
       aircon: Boolean,
       heater: Boolean,
@@ -36,6 +52,7 @@ const Quote = mongoose.model(
       sideleverhydraulic: Boolean,
       battery: String,
       charger: String,
+
       sideextractionbattery: Boolean,
       armguard: Boolean,
       platform: Boolean,
@@ -47,6 +64,7 @@ const Quote = mongoose.model(
       bfs: Boolean,
       manualtrolley: Boolean,
       blinkey: Boolean,
+
       order: { type: Boolean, default: false },
       specsheet: String,
     },
