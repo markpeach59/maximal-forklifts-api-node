@@ -164,17 +164,17 @@ const data = [
         engType: "Reach"
       },
       {
-        model: "FBRGA16-J1",
+        model: "FBREA16-J1",
         capacity: 1600,
         engType: "Reach"
       },
       {
-        model: "FBRGA20-J1",
+        model: "FBREA20-J1",
         capacity: 2000,
         engType: "Reach"
       },
       {
-        model: "FBRGA25-J1",
+        model: "FBREA25-J1",
         capacity: 2500,
         engType: "Reach"
       }

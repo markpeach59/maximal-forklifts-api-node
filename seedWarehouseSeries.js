@@ -99,7 +99,7 @@ const data = [
   capacity: 1800,
   engType: "Warehouse",
   basePrice: 3393,
-  imgName: "",
+  imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
       {description:"Powered Pallet Truck"}, 
       {description:"Single Roller"}
@@ -129,7 +129,7 @@ rollers:[
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 4100,
-  imgName: "",
+  imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
       {description:"Powered Pallet Truck"}, 
       {description:"Single Roller"}
@@ -179,7 +179,7 @@ liftybutton:[
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 5200,
-  imgName: "",
+  imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
       {description:"Powered Pallet Truck"}, 
       {description:"Single Roller"}
@@ -242,7 +242,7 @@ liftybutton:[
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 5780,
-  imgName: "",
+  imgName: "PT20H.png",
   modeldescription:[
       {description:"Ride-On Powered Pallet Truck"}, 
       {description:"Flat-down Platform"},
@@ -265,7 +265,7 @@ liftybutton:[
   capacity: 2500,
   engType: "Warehouse",
   basePrice: 5996,
-  imgName: "",
+  imgName: "PT20H.png",
   modeldescription:[
       {description:"Ride-On Powered Pallet Truck"}, 
       {description:"Flat-down Platform"},
@@ -479,7 +479,7 @@ batteries: [
   capacity: 1200,
   engType: "Warehouse",
   basePrice: 8980,
-  imgName: "",
+  imgName: "PSE12B.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"}
   ],
@@ -529,7 +529,7 @@ batteries: [
   capacity: 1500,
   engType: "Warehouse",
   basePrice: 2999,
-  imgName: "ELECTRIC-STACKER-ECL15B",
+  imgName: "ECL15B.jpg",
   modeldescription:[
       {description:"Walk-behind Stacker"},
       {description:"585 X 1150 Forks"}
@@ -615,7 +615,7 @@ batteries: [
   capacity: 1500,
   engType: "Warehouse",
   basePrice: 4400,
-  imgName: "ELECTRIC-STACKER-PSE15-C.jpg",
+  imgName: "PSE15L-C.jpg",
   modeldescription:[
     {description:"Curtis Controller"}
 ],
@@ -657,7 +657,7 @@ defaultcharger : "Built-in Charger"
   capacity: 1600,
   engType: "Warehouse",
   basePrice: 6100,
-  imgName: "",
+  imgName: "PS12_16 _20N.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"},
       {description:"Platform and Arms"},
@@ -712,7 +712,7 @@ defaultcharger : "Built-in Charger"
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 7810,
-  imgName: "",
+  imgName: "PS12_16 _20N.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"},
       {description:"Platform and Arms"},
@@ -768,7 +768,7 @@ defaultcharger : "Built-in Charger"
   capacity: 1600,
   engType: "Warehouse",
   basePrice: 6700,
-  imgName: "",
+  imgName: "PS16_18_TSL_Series.jpg",
   modeldescription:[
     {description:"Straddle Stacker"},
     {description:"Curtis Controller"},
@@ -810,7 +810,7 @@ defaultcharger : "Built-in Charger"
   capacity: 1800,
   engType: "Warehouse",
   basePrice: 7150,
-  imgName: "",
+  imgName: "PS16_18_TSL_Series.jpg",
   modeldescription:[
     {description:"Straddle Stacker"},
     {description:"Curtis Controller"},

@@ -5,7 +5,7 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
-    model: "FBRGA16-J1",
+    model: "FBREA16-J1",
     capacity: 1600,
     engType: "Reach",
     basePrice: 0,
@@ -81,7 +81,7 @@ const data = [
   
   },
 {
-    model: "FBRGA20-J1",
+    model: "FBREA20-J1",
     capacity: 2000,
     engType: "Reach",
     basePrice: 0,
@@ -157,7 +157,7 @@ const data = [
   
   },
   {
-    model: "FBRGA25-J1",
+    model: "FBREA25-J1",
     capacity: 1600,
     engType: "Reach",
     basePrice: 0,

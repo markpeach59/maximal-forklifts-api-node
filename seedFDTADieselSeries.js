@@ -10,7 +10,7 @@ const data = [
   engType: "Diesel",
   basePrice: 15467,
   imgName: "M-SERIES-DIESEL-25T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -99,7 +99,7 @@ const data = [
   engType: "Diesel",
   basePrice: 15878,
   imgName: "M-SERIES-DIESEL-30-compact40T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -188,7 +188,7 @@ const data = [
   engType: "Diesel",
   basePrice: 24550,
   imgName: "M-SERIES-DIESEL-45-compact50T.jpg",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -277,7 +277,7 @@ const data = [
   engType: "Diesel",
   basePrice: 25043,
   imgName: "M-SERIES-DIESEL-45-compact50T.jpg",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -368,7 +368,7 @@ const data = [
   engType: "Diesel",
   basePrice: 27700,
   imgName: "M-SERIES-DIESEL-50-70T.jpg",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -458,7 +458,7 @@ const data = [
   engType: "Diesel",
   basePrice: 29514,
   imgName: "M-SERIES-DIESEL-50-70T.jpg",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     
