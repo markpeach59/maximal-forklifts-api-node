@@ -67,7 +67,7 @@ const data = [
     tyres: [
       { tyretype: "S/E Tyres", price: 368 },
       { tyretype: "Non-Marking S/E Tyres", price: 388 },
-      { tyretype: "Superelastic Tyres", price: 360 }
+      { tyretype: "Super Elastic Tyres", price: 360 }
     ],
      
     seatrequired: 'true',

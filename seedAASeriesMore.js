@@ -67,7 +67,7 @@ const data = [
     tyres: [
       { tyretype: "S/E Tyres", price: 368 },
       { tyretype: "Non-Marking S/E Tyres", price: 388 },
-      { tyretype: "Superelastic Tyres", price: 360 }
+      { tyretype: "Super Elastic Tyres", price: 360 }
     ],
      
     seatrequired: 'true',
@@ -173,6 +173,9 @@ const data = [
         price: 989,
     	}
     ],
+
+    safetybluespot: [{ safetybluespottype: "", price: 90 }],
+    
      cabin: [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
