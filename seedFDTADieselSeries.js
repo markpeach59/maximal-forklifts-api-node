@@ -10,6 +10,7 @@ const data = [
   engType: "Diesel",
   basePrice: 15467,
   imgName: "M-SERIES-DIESEL-25T.png",
+  powertrain: " Korean LS4CRV euro5",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -99,6 +100,7 @@ const data = [
   engType: "Diesel",
   basePrice: 15878,
   imgName: "M-SERIES-DIESEL-30-compact40T.png",
+  powertrain: " Korean LS4CRV euro5",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -131,8 +133,8 @@ const data = [
       
         { mastlength: 5000, closedheight: 2428, freeliftheight: 1640, price: 1960 },
         { mastlength: 5500, closedheight: 2657, freeliftheight: 1765, price: 2580 },
-        { mastlength: 6000, closedheight: 2890, freeliftheight: 1990, price: 2846 },
-        { mastlength: 6500, closedheight: 3095, freeliftheight: 2200, price: 3099 }
+        { mastlength: 6000, closedheight: 2880, freeliftheight: 1990, price: 2846 },
+        { mastlength: 6500, closedheight: 3105, freeliftheight: 2200, price: 3099 }
       ]
     }
   ],
@@ -182,12 +184,107 @@ const data = [
   safetybluespot: [{ safetybluespottype: "", price: 90 }]
 
 },
+
+{
+  model: "FDTA35",
+  capacity: 3500,
+  engType: "Diesel",
+  basePrice: 16289,
+  imgName: "M-SERIES-DIESEL-30-compact40T.png",
+  powertrain: " Korean LS4CRV euro5",
+  modeldescription:[{description:"A Series"}],
+    loadcenter:500,
+    defaulttyre:"Pneumatic",
+
+
+  masts: [
+    {
+      masttype: "2 Stage Free View Mast",
+      mastsizes: [
+        { mastlength: 3000, closedheight: 2080, price: 0 },
+        { mastlength: 3300, closedheight: 2230, price: 210}, 
+        { mastlength: 4000, closedheight: 2630, price: 510},
+        { mastlength: 4500, closedheight: 2880, price: 737},
+        { mastlength: 5000, closedheight: 3130, price: 850}
+      ]
+    },
+    {
+      masttype: "2 Stage Full Free Lift Mast",
+      mastsizes: [
+        { mastlength: 3000, closedheight: 2080, freeliftheight: 1420, price: 576 },
+        { mastlength: 3500, closedheight: 2265, freeliftheight: 1570, price: 737 }
+      ]
+    },
+    {
+      masttype: "3 Stage Full Free Lift Mast",
+      mastsizes: [
+        { mastlength: 4350, closedheight: 2130, freeliftheight: 1390, price: 1120 },
+        { mastlength: 4500, closedheight: 2180, freeliftheight: 1440, price: 1120 },
+        { mastlength: 4700, closedheight: 2245, freeliftheight: 1540, price: 1559 },
+      
+        { mastlength: 5000, closedheight: 2428, freeliftheight: 1640, price: 1960 },
+        { mastlength: 5500, closedheight: 2657, freeliftheight: 1765, price: 2580 },
+        { mastlength: 6000, closedheight: 2880, freeliftheight: 1990, price: 2846 },
+        { mastlength: 6500, closedheight: 3105, freeliftheight: 2200, price: 3099 }
+      ]
+    }
+  ],
+  forks: [
+    { forklength: 1070, price: 40 },
+    { forklength: 1200, price: 80 },
+    { forklength: 1370, price: 120 },
+    { forklength: 1500, price: 160 },
+    { forklength: 1670, price: 200 }
+  ],
+  valves: [
+    { valvetype: "3rd", price: 90 },
+    { valvetype: "3rd + 4th", price: 220 }
+  ],
+  
+  sideshift: [
+    { sideshifttype: "Hook On", price: 420 },
+    { sideshifttype: "Integral", price: 430 }
+  ],
+ 
+  forkpositioner: [
+    { forkpositionertype: "", price: 1800 }
+  ],
+
+  tyres: [
+      { tyretype: "S/E Tyres", price: 590 },
+      { tyretype: "Non-Marking S/E Tyres", price: 610 },
+      { tyretype: "Dual Drive Tyres", price: 980 }
+  ],
+  
+  seatrequired: 'true',
+  
+  seat: [
+    { seattype: "Standard", price: 192 },
+    { seattype: "Full Comfort Suspension", price: 298 },
+    { seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
+  ],
+    
+  cabin: [
+    { cabinoption: "Half Cabin", price: 1100 },
+    { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
+    { cabinoption: "Full Steel Cabin", price: 1900 }
+  ],
+
+  heater:[ {heatertype:"Heater/Demister", price:110}],
+
+  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+
+},
+
+
+
 {
   model: "FDTA45",
   capacity: 4500,
   engType: "Diesel",
   basePrice: 24550,
   imgName: "M-SERIES-DIESEL-45-compact50T.jpg",
+  powertrain: "KKubota V3800 Euro 5  type WJ 3",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -277,6 +374,7 @@ const data = [
   engType: "Diesel",
   basePrice: 25043,
   imgName: "M-SERIES-DIESEL-45-compact50T.jpg",
+  powertrain: "KKubota V3800 Euro 5  type WJ 3",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -368,6 +466,7 @@ const data = [
   engType: "Diesel",
   basePrice: 27700,
   imgName: "M-SERIES-DIESEL-50-70T.jpg",
+  powertrain: "Kubota V3800 euro5  type W 13",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -453,11 +552,12 @@ const data = [
 
 },
 {
-  model: "FDTA570",
+  model: "FDTA70",
   capacity: 7000,
   engType: "Diesel",
   basePrice: 29514,
   imgName: "M-SERIES-DIESEL-50-70T.jpg",
+  powertrain: "Kubota V3800 euro5  type W 13",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",

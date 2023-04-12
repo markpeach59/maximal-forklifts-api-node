@@ -10,6 +10,7 @@ const data = [
     engType: "Reach",
     basePrice: 0,
     imgName: "",
+   
     modeldescription:[
     {description:"Stand-on Reach"},
 

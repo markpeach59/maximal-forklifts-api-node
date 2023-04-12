@@ -211,7 +211,15 @@ const data = [
           }
         ]
       }
+    ],
+    safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+    cabin: [
+      { cabinoption: "Half Cabin", price: 1100 },
+      { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
+      { cabinoption: "Full Steel Cabin", price: 1900 }
     ]
+  
   },
   {
     model: "FBA25-JZ",
@@ -414,7 +422,16 @@ const data = [
           }
         ]
       }
+    ],
+
+    safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+    cabin: [
+      { cabinoption: "Half Cabin", price: 1100 },
+      { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
+      { cabinoption: "Full Steel Cabin", price: 1900 }
     ]
+  
   },
   {
     model: "FBA35-JZ",

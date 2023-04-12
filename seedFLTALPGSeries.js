@@ -10,7 +10,8 @@ const data = [
   engType: "LPG",
   basePrice: 14900,
   imgName: "M-SERIES-GAS-25T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  powertrain: "GCT GK25 Euro 5",
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
   masts: [
@@ -98,7 +99,8 @@ const data = [
   engType: "LPG",
   basePrice: 15300,
   imgName: "M-SERIES-GAS-30-35T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  powertrain: "GCT GK25 Euro 5",
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
   masts: [
@@ -185,7 +187,8 @@ const data = [
   engType: "LPG",
   basePrice: 15666,
   imgName: "M-SERIES-GAS-30-35T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  powertrain: "GCT GK25 Euro 5",
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
   masts: [
@@ -272,7 +275,8 @@ const data = [
   engType: "LPG",
   basePrice: 22300,
   imgName: "M-SERIES-DIESEL-45-compact50T.jpg",
-  modeldescription:[{description:"A modeldescription"}],
+  powertrain: "Kubota WG3800 Euro 5",
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
   masts: [
@@ -360,7 +364,8 @@ const data = [
   engType: "LPG",
   basePrice: 22901,
   imgName: "M-SERIES-DIESEL-45-compact50T.jpg",
-  modeldescription:[{description:"A modeldescription"}],
+  powertrain: "Kubota WG3800 Euro 5",
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
   masts: [
@@ -450,7 +455,8 @@ const data = [
   engType: "LPG",
   basePrice: 26540,
   imgName: "M-SERIES-GAS-50-70T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  modeldescription:[{description:"A Series"}],
+  powertrain: "Kubota WG3800 Euro 5",
   loadcenter:500,
   defaulttyre:"Pneumatic",
   masts: [
@@ -534,12 +540,13 @@ const data = [
 
 },
 {
-  model: "FLTA570",
+  model: "FLTA70",
   capacity: 7000,
   engType: "LPG",
   basePrice: 27780,
   imgName: "M-SERIES-GAS-50-70T.png",
-  modeldescription:[{description:"A modeldescription"}],
+  powertrain: "Kubota WG3800 Euro 5",
+  modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
   masts: [
