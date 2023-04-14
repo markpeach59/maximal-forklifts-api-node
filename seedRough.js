@@ -455,7 +455,7 @@ const data = [
     capacity: 3500,
     engType: "Rough Terrain",
     basePrice: 26490,
-    imgName: "",
+    imgName: "M-SERIES-ROUGH-TERRAIN-18T-25T-35T-4WD.png",
     powertrain: "Kubota 2607 Euro 5",
     modeldescription:[{description:"M Series 4WD"}],
     loadcenter:500,

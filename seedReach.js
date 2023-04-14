@@ -9,7 +9,7 @@ const data = [
     capacity: 1500,
     engType: "Reach",
     basePrice: 0,
-    imgName: "",
+    imgName: "A-SERIES-REACH-TRUCK.jpg",
    
     modeldescription:[
     {description:"Stand-on Reach"},
