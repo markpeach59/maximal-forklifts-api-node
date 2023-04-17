@@ -16,14 +16,12 @@ const data = [
   {dealername:"MCH Handling"},
   {dealername:"Mid Sussex",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/forklifts-in-sussex.jpg"},
   {dealername:"Oast Handling"},
-  
   {dealername:"Bercon/Suas"},
+  {dealername:"Berkshire Forklift Services"},
+  {dealername:"Briggs Equipment"},
   {dealername:"Teather Mechanical"},
   {dealername:"Universal Lift Trucks"},
- 
-  {dealername:"Briggs Equipment"},
-  {dealername:"Berkshire Forklift Services"}
-
+  {dealername:"Hygiene Quality Forklifts"}
 
 ];
 
