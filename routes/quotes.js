@@ -82,6 +82,11 @@ router.post("/", async (req, res) => {
       "baseprice",
       "markup",
       "price",
+      
+      "offer",
+      "offerprice",
+      "saving",
+
       "imgname",
       "masttype",
       "mastsize",
@@ -136,6 +141,11 @@ router.post("/", async (req, res) => {
       "imgname",
       "markup",
       "price",
+
+      "offer",
+      "offerprice",
+      "saving",
+
       "masttype",
       "mastsize",
       "closedheight",

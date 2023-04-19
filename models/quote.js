@@ -16,6 +16,7 @@ const Quote = mongoose.model(
       price: Number,
       offer:Boolean,
       offerprice: Number,
+      saving: Number,
 
       masttype: String,
       mastsize: Number,

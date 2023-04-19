@@ -556,7 +556,7 @@ const data = [
   capacity: 7000,
   engType: "Diesel",
   basePrice: 29514,
-  imgName: "M-SERIES-DIESEL-50-70T.jpg",
+  imgName: "FTA70.png",
   powertrain: "Kubota V3800 euro5  type W 13",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
