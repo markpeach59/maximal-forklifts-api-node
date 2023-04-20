@@ -5,7 +5,11 @@ const { Dealer } = require("./models/dealer");
 
 const data = [
   {
-     dealername: "MaximGB/Neckar",
+    dealername: "MaximGB",
+    dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/Maxim_logo.jpg"
+  },
+  {
+     dealername: "Neckar",
      dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/Neckar_logo.jpg"
   }
   

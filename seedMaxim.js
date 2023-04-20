@@ -8,7 +8,6 @@ const data = [
      name: "Ian Capes",
      email:"ian@maximgb.co.uk",
      password:"$2b$10$2.OuxaWJdUYKhrEPWfCo.uyG4BC1w108CyEg/9YvY2UonisvQSjbe",
-     dealerId:ObjectId('640f05b462da2e0e2ebb1c25'),
      isMaximGB: true  
   }
 

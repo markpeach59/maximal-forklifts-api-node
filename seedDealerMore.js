@@ -6,11 +6,11 @@ const { Dealer } = require("./models/dealer");
 const data = [
   
 
-  {dealername:"DAB Handling"},
+  {dealername:"DAB Handling",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/dab_logo.png"},
   {dealername:"Macbride Lift Trucks",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/macbride_logo.jpg"},
   {dealername:"B Conway",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/BConway.png"},
   {dealername:"Jaf Engineering",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/JAF-LOGO.png"},
-  {dealername:"Baker Plant"},
+  {dealername:"Baker Plant",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/baker_logo.png"},
   {dealername:"HQ Forklifts",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/HQ_MasterLogo.jpg"},
   {dealername:"Pallet Trucks direct",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/Pallet_Trucks_Direct.png"},
   {dealername:"MCH Handling"},
