@@ -85,7 +85,7 @@ const data = [
     batteries: [
           {
           batterytype: "115V 230A/H",
-          //price: POA,
+          price: 2850
         }
       ],
 
@@ -180,7 +180,7 @@ const data = [
     batteries: [
           {
           batterytype: "115V 230A/H",
-          //price: POA,
+          price: 2850,
         }
       ],
 

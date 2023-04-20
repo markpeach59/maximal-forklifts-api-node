@@ -20,7 +20,6 @@ const data = [
   {dealername:"Berkshire Forklift Services"},
   {dealername:"Briggs Equipment"},
   {dealername:"Teather Mechanical"},
-  {dealername:"Universal Lift Trucks"},
   {dealername:"Hygiene Quality Forklifts"}
 
 ];
