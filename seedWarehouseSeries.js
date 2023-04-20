@@ -12,7 +12,7 @@ const data = [
     imgName: "PALLET-TRUCK-PTE12N.jpg",
     modeldescription:[
         {description:"Single Roller"}, 
-        {description:"Turtle speed with verticle drive function"},
+        {description:"Turtle speed with vertical drive function"},
         {description:"No PIN code option"}],
     
     forks2d: [
@@ -21,7 +21,7 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
-    defaultbattery : "24V 15A/H Lithiium",
+    defaultbattery : "24V 15A/H Lithium",
     defaultcharger : "5A Charger",
 
     batteries: [
@@ -39,7 +39,7 @@ const data = [
     imgName: "PALLET-TRUCK-PTE15N.jpg",
     modeldescription:[
         {description:"Single Roller"}, 
-        {description:"Turtle speed with verticle drive function"},
+        {description:"Turtle speed with vertical drive function"},
         {description:"with PIN code"}],
     
     forks2d: [
@@ -48,7 +48,7 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
-    defaultbattery : "24V 15A/H Lithiium",
+    defaultbattery : "24V 15A/H Lithium",
     defaultcharger : "5A Charger",
 
     batteries: [
@@ -66,7 +66,7 @@ const data = [
     imgName: "PALLET-TRUCK-PTE20N-PTE20B-Li.jpg",
     modeldescription:[
         {description:"Single Roller"}, 
-        {description:"Turtle speed with verticle drive function"},
+        {description:"Turtle speed with vertical drive function"},
         {description:"with PIN code"}],
     
     forks2d: [
@@ -75,7 +75,7 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
-    defaultbattery : "24V 20A/H Lithiium",
+    defaultbattery : "24V 20A/H Lithium",
     defaultcharger : "9A Charger",
 
     batteries: [
@@ -101,8 +101,7 @@ const data = [
   basePrice: 3393,
   imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
-      {description:"Powered Pallet Truck"}, 
-      {description:"Single Roller"}
+      {description:"Powered Pallet Truck"}
   ],
   
   forks2d: [
@@ -132,7 +131,7 @@ rollers:[
   imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
       {description:"Powered Pallet Truck"}, 
-      {description:"Single Roller"}
+  
   ],
   
   forks2d: [
@@ -156,7 +155,7 @@ rollers:[
 defaultroller: "Single",
 
 rollers:[
-    {rollertype : "Twin Roller", price: 67}
+    {rollertype : "Twin", price: 67}
 ],
 
 
@@ -181,8 +180,8 @@ liftybutton:[
   basePrice: 5200,
   imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
-      {description:"Powered Pallet Truck"}, 
-      {description:"Single Roller"}
+      {description:"Powered Pallet Truck"}
+      
   ],
   
   forks2d: [
@@ -198,7 +197,7 @@ liftybutton:[
   defaultroller: "Single",
 
   rollers:[
-    {rollertype : "Twin Roller", price: 67}
+    {rollertype : "Twin", price: 67}
 ]
 },
 
