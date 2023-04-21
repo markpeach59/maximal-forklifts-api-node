@@ -568,6 +568,55 @@ batteries: [
 
 },
 {
+  model: "PSE 15L",
+  capacity: 1500,
+  engType: "Warehouse",
+  basePrice: 440,
+  imgName: "PSE15L-C.jpg",
+  modeldescription:[
+    {description:"Pedestrian Stacker"}
+],
+
+loadcenter:600,
+masts: [
+  
+  {
+    masttype: "2 Stage Mast",
+    mastsizes: [
+     
+      { mastlength: 2900, price: 0 },
+      { mastlength: 3600,  price: 0 },
+      { mastlength: 4000,  price: 0}
+    ]
+  },
+  {
+    masttype: "2 Stage Free Lift Mast",
+    mastsizes: [
+     
+      { mastlength: 2900, price: 0 },
+      { mastlength: 3600,  price: 40 }
+    ]
+  },
+
+
+
+],
+
+forks2d: [
+  { forklength: "540 X 1150", price: 0 },
+  { forklength: "685 X 1150", price: 0 }
+],
+
+
+defaultbattery : "24V 100A/H Lead Acid",
+defaultcharger : "24V 15A",
+
+bfs: [{ bfstype: "", price: 80 }],
+blinkey: [{ blinkeytype: "", price: 30}]
+
+},
+
+{
   model: "PSE 10L-C",
   capacity: 1000,
   engType: "Warehouse",
@@ -590,7 +639,7 @@ batteries: [
       mastsizes: [
        
         { mastlength: 2900, price: 296 },
-        { mastlength: 3600,  price: 388 },
+        { mastlength: 3200,  price: 388 },
         { mastlength: 3600,  price: 520}
       ]
     }
@@ -613,7 +662,7 @@ batteries: [
   model: "PSE 15L-C",
   capacity: 1500,
   engType: "Warehouse",
-  basePrice: 4400,
+  basePrice: 2998,
   imgName: "PSE15L-C.jpg",
   modeldescription:[
     {description:"Curtis Controller"}
@@ -632,7 +681,7 @@ masts: [
     mastsizes: [
      
       { mastlength: 2900, price: 296 },
-      { mastlength: 3600,  price: 388 },
+      { mastlength: 3200,  price: 388 },
       { mastlength: 3600,  price: 520}
     ]
   }
