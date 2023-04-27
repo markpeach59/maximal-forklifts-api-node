@@ -5,31 +5,17 @@ const { User } = require("./models/user");
 
 const data = [
   {
-     name: "Ian Capes",
-     email:"ian@maximgb.co.uk",
-     password:"$2b$10$2.OuxaWJdUYKhrEPWfCo.uyG4BC1w108CyEg/9YvY2UonisvQSjbe",
-     dealerId:ObjectId('640b21e500dd5f57b56efd54'),
+    name: "Ashleigh Jackson",
+    email:"ashleigh.jackson@maximgb.co.uk",
+    password:"$2b$10$nMMa2EvaKDXDyTBcfkvkBe4w0h1yBx6mOiqhwGM/eOarDhMRiYhzi",
+    isMaximGB: true  
+ },
+  {
+     name: "James Wright",
+     email:"james.wright@maximgb.co.uk",
+     password:"$2b$10$EdO0oub40Xc06QS4TaNhj.rVp5wHkAAb6S5BXiwHIIvU9VH2VYoLq",
      isMaximGB: true  
   },
-  {
-    name:"Clive Morrison",
-    email:"clive@maximgb.co.uk",
-    password:"$2b$10$iDYjiStZa9iykAcP7IdXRO8B0hhdN7No/3Yqv1sbfg0f1173yrT..",
-    isMaximGB:true
-  },
-  {
-    name:"Bob Sharp",
-    email:"bob@maximgb.co.uk",
-    password:"$2b$10$Ge72VymlR9om8XtCFuEuxODXAXaqr.qDM2VRDAfghpjrMJZ9ppR2.",
-    isMaximGB:true
-  },
-  {
-    name:"Ashleigh Jackson",
-    email:"ashleigh.jackson@neckarforklifts.co.uk",
-    password:"$2b$10$NyVOxenyCHOaGnvHBYU4puJRMtDywlnwJX6xk/tTcAb8/zwK20CpS",
-    isMaximGB:true
-  },
-
 
 ];
 

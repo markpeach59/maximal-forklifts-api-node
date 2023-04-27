@@ -4,23 +4,21 @@ const config = require("config");
 const { Dealer } = require("./models/dealer");
 
 const data = [
-  
-
   {dealername:"DAB Handling",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/dab_logo.png"},
   {dealername:"Macbride Lift Trucks",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/macbride_logo.jpg"},
   {dealername:"B Conway",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/BConway.png"},
-  {dealername:"Jaf Engineering",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/JAF-LOGO.png"},
+  {dealername:"Jaf Engineering",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/jaf_logo.png"},
   {dealername:"Baker Plant",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/baker_logo.png"},
   {dealername:"HQ Forklifts",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/HQ_MasterLogo.jpg"},
-  {dealername:"Pallet Trucks direct",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/Pallet_Trucks_Direct.png"},
+  {dealername:"Pallet Trucks direct",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/pallettrucks_logo.png"},
   {dealername:"MCH Handling"},
   {dealername:"Mid Sussex",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/forklifts-in-sussex.jpg"},
-  {dealername:"Oast Handling"},
+  {dealername:"Oast Handling",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/oast_logo.png"},
   {dealername:"Bercon/Suas"},
-  {dealername:"Berkshire Forklift Services"},
+  {dealername:"Berkshire Forklift Services",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/berkshire_logo.png"},
   {dealername:"Briggs Equipment"},
-  {dealername:"Teather Mechanical"}
-
+  {dealername:"Teather Mechanical"},
+  {dealername:"F.I.M.S",dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/FIMS_logo.jpg"},
 ];
 
 async function seed() {

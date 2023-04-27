@@ -572,7 +572,7 @@ batteries: [
   capacity: 1500,
   engType: "Warehouse",
   basePrice: 440,
-  imgName: "PSE15L-C.jpg",
+  imgName: "PSE15L.jpg",
   modeldescription:[
     {description:"Pedestrian Stacker"}
 ],

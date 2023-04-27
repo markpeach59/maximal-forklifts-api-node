@@ -40,4 +40,43 @@ router.post("/", async (req, res) => {
     .send(_.pick(user, ["_id", "name", "email"]));
 });
 
+
+router.post("/assigndealer", async (req, res) => {
+  
+//console.log('was called - ', req.body.userid, ' to ', req.body.dealerid);
+
+  const user = await User.findByIdAndUpdate(
+    req.body.userid,
+    { $set: { dealerId: req.body.dealerid } },
+    { useFindAndModify: false, new: false }
+  ).select("-__v");
+
+
+  if (!user)
+    return res.status(404).send("The user with the given ID was not found.");
+
+  res.send(_.pick(user, ["_id", "dealerId"]));
+
+  
+});
+
+router.post("/removedealer", async (req, res) => {
+  
+  //console.log('remove dealer was called - ', req.body.userid );
+  
+    const user = await User.findByIdAndUpdate(
+      req.body.userid,
+      { $unset: {dealerId:1} },
+      { useFindAndModify: false, new: false }
+    ).select("-__v");
+  
+  
+    if (!user)
+      return res.status(404).send("The user with the given ID was not found.");
+  
+    res.send(_.pick(user, ["_id"]));
+  
+    
+  });
+
 module.exports = router;
