@@ -74,6 +74,22 @@ const Forkliftdetail = mongoose.model(
     ],
 
     controllers: [{ controllertype: String, price: Number }],
+
+    chassis: [{
+      label: String,
+      price: Number,
+      batteries :[{
+        batterytype: String,
+        price: Number,
+        chargers: [
+          {
+            chargertype: String,
+            price: Number,
+          },
+        ],
+      }],
+    }
+    ],
     
     defaultroller: String,
     rollers: [{ rollertype: String, price: Number }],

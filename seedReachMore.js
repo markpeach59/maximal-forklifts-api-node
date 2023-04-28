@@ -25,9 +25,14 @@ const data = [
     loadcenter:500,
     defaulttyre:"Rubber",
 
-    engines :[
-      {enginetype:"Lead Acid Version", price: 15302},
-      {enginetype:"Lithium Version", price: 16211}
+    chassis :[
+      {label:"Lead Acid Version", price: 15302, batteries:[
+        {batterytype:"48V 450A/H", price:2900, 
+        chargers:[
+          {chargertype:"8hr 3 Phase", price:770}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 16211,batteries:[{batterytype:"Lithium 51.2V 412A/H", price:5100}]}
     ],
 
     masts: [
@@ -101,9 +106,14 @@ const data = [
     loadcenter:500,
     defaulttyre:"Rubber",
 
-    engines :[
-      {enginetype:"Lead Acid Version", price: 16000},
-      {enginetype:"Lithium Version", price: 17293}
+    chassis :[
+      {label:"Lead Acid Version", price: 16000, batteries:[
+        {batterytype:"48V 450A/H", price:2900, 
+        chargers:[
+          {chargertype:"8hr 3 Phase", price:770}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 17293,batteries:[{batterytype:"Lithium 51.2V 412A/H", price:5100}]}
     ],
 
     masts: [
@@ -158,7 +168,7 @@ const data = [
   },
   {
     model: "FBREA25-J1",
-    capacity: 1600,
+    capacity: 2500,
     engType: "Reach",
     basePrice: 0,
     imgName: "A-SERIES-REACH-TRUCK.jpg",
@@ -178,9 +188,14 @@ const data = [
     loadcenter:500,
     defaulttyre:"Rubber",
 
-    engines :[
-      {enginetype:"Lead Acid Version", price: 16980},
-      {enginetype:"Lithium Version", price: 18210}
+    chassis :[
+      {label:"Lead Acid Version", price: 16980, batteries:[
+        {batterytype:"48V 450A/H", price:3400, 
+        chargers:[
+          {chargertype:"8hr 3 Phase", price:810}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 18210,batteries:[{batterytype:"Lithium", price:0}]}
     ],
 
     masts: [

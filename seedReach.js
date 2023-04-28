@@ -30,9 +30,14 @@ const data = [
     loadcenter:500,
     
 
-    engines :[
-      {enginetype:"Lead Acid Version", price: 14001},
-      {enginetype:"Lithium Version", price: 14987}
+    chassis :[
+      {label:"Lead Acid Version", price: 14001, batteries:[
+        {batterytype:"48V 340A/H", price:2400, 
+        chargers:[
+          {chargertype:"8hr 3 Phase", price:595}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 14987,batteries:[{batterytype:"Lithium", price:0}]}
     ],
 
     masts: [
