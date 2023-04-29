@@ -19,10 +19,11 @@ const data = [
 async function seed() {
   await mongoose.connect(config.get("db"));
 
+  /*
   await Dealer.deleteMany({}, function(err) {
     if (err) console.log("Delete Many Failed");
   });
-
+*/
   for (let item of data) {
     const dealer = new Dealer(item);
     const doc = await dealer.save();
