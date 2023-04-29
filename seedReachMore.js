@@ -195,7 +195,7 @@ const data = [
           {chargertype:"8hr 3 Phase", price:810}
         ]}
       ]},
-      {label:"Lithium Version", price: 18210,batteries:[{batterytype:"Lithium", price:0}]}
+      {label:"Lithium Version", price: 18210,batteries:[{batterytype:"Lithium POA", price:0}]}
     ],
 
     masts: [
