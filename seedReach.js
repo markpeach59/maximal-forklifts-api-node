@@ -44,20 +44,20 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3700, price: 240}, 
-          { mastlength: 4000, price: 390}  
+          { mastlength: 3700, closedheight: 2490, price: 240}, 
+          { mastlength: 4000, closedheight: 2640, price: 390}  
         ]
       },
       
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350,  price: 855 },
-          { mastlength: 4500,  price: 855 },
+          { mastlength: 4350,  closedheight: 1980, freeliftheight: 1425, price: 855 },
+          { mastlength: 4500,  closedheight: 2080, freeliftheight: 1520, price: 855 },
          
-          { mastlength: 4800,  price: 1200 },
+          { mastlength: 4800,  closedheight: 2180, freeliftheight: 1625, price: 1200 },
          
-          { mastlength: 5500,  price: 1390 }
+          { mastlength: 5500,  closedheight: 2500, freeliftheight: 1940, price: 1390 }
         ]
       }
     ],

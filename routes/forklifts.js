@@ -5,6 +5,10 @@ const mongoose = require("mongoose");
 const { Forklift } = require("../models/forklift");
 
 router.get("/", async (req, res) => {
+
+  //console.log("Req", req.route);
+  //console.log("X-Auth", req.route.accept);
+
   const forklifts = await Forklift.find().select("-__v");
 
   res.send(forklifts);
