@@ -2,12 +2,16 @@ const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
 
+const auth = require("../middleware/auth");
+
+
 const { Forklift } = require("../models/forklift");
 
-router.get("/", async (req, res) => {
+router.get("/", auth, async (req, res) => {
 
   //console.log("Req", req.route);
   //console.log("X-Auth", req.route.accept);
+  //console.log("Auth", req.user);
 
   const forklifts = await Forklift.find().select("-__v");
 

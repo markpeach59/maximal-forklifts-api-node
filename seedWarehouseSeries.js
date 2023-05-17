@@ -11,7 +11,6 @@ const data = [
     basePrice: 980,
     imgName: "PALLET-TRUCK-PTE12N.jpg",
     modeldescription:[
-        {description:"Single Roller"}, 
         {description:"Turtle speed with vertical drive function"},
         {description:"No PIN code option"}],
     
@@ -21,8 +20,9 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
+    defaultroller : "Single",
     defaultbattery : "24V 15A/H Lithium",
-    defaultcharger : "5A Charger",
+    defaultcharger : "5A",
 
     batteries: [
       {
@@ -38,7 +38,6 @@ const data = [
     basePrice: 1120,
     imgName: "PALLET-TRUCK-PTE15N.jpg",
     modeldescription:[
-        {description:"Single Roller"}, 
         {description:"Turtle speed with vertical drive function"},
         {description:"with PIN code"}],
     
@@ -48,8 +47,9 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
+    defaultroller : "Single",
     defaultbattery : "24V 15A/H Lithium",
-    defaultcharger : "5A Charger",
+    defaultcharger : "5A",
 
     batteries: [
       {
@@ -65,7 +65,6 @@ const data = [
     basePrice: 1887,
     imgName: "PALLET-TRUCK-PTE20N-PTE20B-Li.jpg",
     modeldescription:[
-        {description:"Single Roller"}, 
         {description:"Turtle speed with vertical drive function"},
         {description:"with PIN code"}],
     
@@ -75,8 +74,9 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
+
     defaultbattery : "24V 20A/H Lithium",
-    defaultcharger : "9A Charger",
+    defaultcharger : "9A",
 
     batteries: [
       {
@@ -86,7 +86,7 @@ const data = [
     ],
   
   
-  defaultroller: "single",
+  defaultroller: "Single",
 
   rollers:[
       {rollertype : "Twin", price: 95}
@@ -112,13 +112,13 @@ const data = [
   ],
 
   defaultbattery : "24V 160A/H Lead Acid",
-  defaultcharger : "built-in",
+  defaultcharger : "Built-in",
 
 
-defaultroller: "single",
+defaultroller: "Single",
 
 rollers:[
-    {rollertype : "Twin Roller", price: 95}
+    {rollertype : "Twin", price: 95}
 ],
 
 
@@ -142,7 +142,7 @@ rollers:[
   ],
 
   defaultbattery : "24V 210A/H Lead Acid",
-  defaultcharger : "built-in Charger",
+  defaultcharger : "Built-in",
 
   batteries: [
     {
@@ -192,7 +192,7 @@ liftybutton:[
   ],
 
   defaultbattery : "Lithium",
-  defaultcharger : "Fast Charger",
+  defaultcharger : "Fast",
 
   defaultroller: "Single",
 
@@ -229,7 +229,7 @@ liftybutton:[
   ],
 
   defaultbattery : "24V 180A/H Lead Acid",
-  defaultcharger : "24V 20A Charger",
+  defaultcharger : "24V 20A",
 
   loadbackrest : [{loadbackresttype:"", price: 46}],
 
@@ -256,7 +256,7 @@ liftybutton:[
 
   steering :{steeringtype:"", price: 310},
   defaultbattery : "24V 150A/H Lithium",
-  defaultcharger : "Fast Charger"
+  defaultcharger : "Fast"
 },
 
 {
@@ -280,7 +280,7 @@ liftybutton:[
 
 
   defaultbattery : "24V 150A/H Lithium",
-  defaultcharger : "Fast Charger"
+  defaultcharger : "Fast"
 },
 
 {
@@ -309,7 +309,7 @@ liftybutton:[
 
  
   defaultbattery : "24V 160A/H Lead Acid",
-  defaultcharger : "Built-in Charger",
+  defaultcharger : "Built-in",
 
   pincode : [{pincodetype:"Start", price: 120}]
 
@@ -340,7 +340,7 @@ liftybutton:[
 
  
   defaultbattery : "24V 210A/H Lead Acid",
-  defaultcharger : "Built-in Charger",
+  defaultcharger : "Built-in",
 
   pincode : [{pincodetype:"Start", price: 120}]
 
@@ -450,7 +450,7 @@ liftybutton:[
 
  
   defaultbattery : "24V 465A/H Lead Acid",
-  defaultcharger : "Standard Charger",
+  defaultcharger : "Standard",
 
   defaultroller: "Tandem",
   rollers:[
@@ -510,7 +510,7 @@ batteries: [
  loadbackrest:[{loadbackresttype:"", price:110}],
 
   defaultbattery : "24V 85A/H Lead Acid",
-  defaultcharger : "12A Charger",
+  defaultcharger : "12A",
 
   batteries: [
     {
@@ -652,7 +652,7 @@ blinkey: [{ blinkeytype: "", price: 30}]
 
  
   defaultbattery : "24V 85A/H Lead Acid",
-  defaultcharger : "Built-in Charger",
+  defaultcharger : "Built-in",
 
 
 },
@@ -694,7 +694,7 @@ forks2d: [
 
 
 defaultbattery : "24V 100A/H Lead Acid",
-defaultcharger : "Built-in Charger"
+defaultcharger : "Built-in"
 
 },
 
@@ -818,8 +818,7 @@ defaultcharger : "Built-in Charger"
   basePrice: 6700,
   imgName: "PS16_18_TSL_Series.jpg",
   modeldescription:[
-    {description:"Straddle Stacker"},
-    {description:"Curtis Controller"},
+    {description:"Straddle Stacker"}
   ],
 
   masts: [
@@ -860,8 +859,7 @@ defaultcharger : "Built-in Charger"
   basePrice: 7150,
   imgName: "PS16_18_TSL_Series.jpg",
   modeldescription:[
-    {description:"Straddle Stacker"},
-    {description:"Curtis Controller"},
+    {description:"Straddle Stacker"}
   ],
 
   masts: [
@@ -879,8 +877,7 @@ defaultcharger : "Built-in Charger"
         { mastlength: 4000, price: 560 },
         { mastlength: 4300, price: 690 },
 
-        { mastlength: 4600, price: 760 },
-        { mastlength: 5300, price: 871 }
+        { mastlength: 4600, price: 760 }
         
       ]
     }

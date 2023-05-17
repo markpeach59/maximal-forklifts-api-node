@@ -79,6 +79,10 @@ const data = [
     sideshift: [
       { sideshifttype: "Integral", price: 400 },
     ],
+
+    displaywithcamera: [
+      { displaywithcameratype: "", price: 690 },
+    ],
     
     seat: [
       { seattype: "Full Comfort Suspension", price: 410 }
@@ -159,6 +163,10 @@ const data = [
     
     sideshift: [
       { sideshifttype: "Integral", price: 400 },
+    ],
+
+    displaywithcamera: [
+      { displaywithcameratype: "", price: 690 },
     ],
     
     seat: [
@@ -241,6 +249,10 @@ const data = [
     
     sideshift: [
       { sideshifttype: "Integral", price: 400 },
+    ],
+
+    displaywithcamera: [
+      { displaywithcameratype: "", price: 690 },
     ],
     
     seat: [
