@@ -73,7 +73,131 @@ const data = [
         engType: "Electric"
       }
     ]
+  },
+  {
+    range: "Rough Terrain",
+    models: [
+      {
+        model: "FD18T-C2W",
+        capacity: 1800,
+        engType: "Rough Terrain"
+      },
+      {
+        model: "FD25T-C2W",
+        capacity: 2500,
+        engType: "Rough Terrain"
+      },
+      {
+        model: "FD35T-C2W",
+        capacity: 3500,
+        engType: "Rough Terrain"
+      },
+      {
+        model: "FD50T-C2W",
+        capacity: 5000,
+        engType: "Rough Terrain"
+      },
+      {
+        model: "FD18T-C4W",
+        capacity: 1800,
+        engType: "Rough Terrain"
+      },
+      {
+        model: "FD25T-C4W",
+        capacity: 2500,
+        engType: "Rough Terrain"
+      },
+      {
+        model: "FD35T-C4W",
+        capacity: 3500,
+        engType: "Rough Terrain"
+      }
+      
+    ]
+  },
+  {
+    range: "Warehouse",
+    models: [
+      {
+        model: "PTE 12N",
+        capacity: 1200,
+        engType: "Warehouse"
+      },
+      {
+        model: "PTE 15N",
+        capacity: 1500,
+        engType: "Warehouse"
+      },
+      {
+        model: "PTE 20N",
+        capacity: 2000,
+        engType: "Warehouse"
+      },
+      
+      {
+        model: "PT 20 M1XL",
+        capacity: 2000,
+        engType: "Warehouse"
+      },
+      {
+        model: "PTE 20C",
+        capacity: 2000,
+        engType: "Warehouse"
+      },
+       {
+        model: "PT 20H",
+        capacity: 2000,
+        engType: "Warehouse"
+      },
+      {
+        model: "PT 25H",
+        capacity: 2500,
+        engType: "Warehouse"
+      },
+      
+      
+      
+      {
+        model: "ECL 15B",
+        capacity: 1500,
+        engType: "Warehouse"
+      },
+      
+      {
+        model: "PS 16N",
+        capacity: 1600,
+        engType: "Warehouse"
+      },
+      {
+        model: "PS 20N",
+        capacity: 2000,
+        engType: "Warehouse"
+      },
+      {
+        model: "PSE 10L-C",
+        capacity: 1000,
+        engType: "Warehouse"
+      },
+      {
+        model: "PSE 15L-C",
+        capacity: 1500,
+        engType: "Warehouse"
+      },
+      
+      { 
+      	model: "PS 13RM PLUS",
+        capacity: 1300,
+        engType: "Warehouse"
+      },
+      { 
+      	model: "PS 15RM PLUS",
+        capacity: 1500,
+        engType: "Warehouse"
+      }
+
+    ]
   }
+  
 ];
 
 async function seed() {
