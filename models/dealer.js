@@ -21,7 +21,8 @@ const dealerSchema = new mongoose.Schema({
     trim: true,
     minlength: 3,
     maxlength: 255
-  }
+  },
+  isRestricted: Boolean,
 });
 
 const Dealer = mongoose.model("Dealers", dealerSchema);
