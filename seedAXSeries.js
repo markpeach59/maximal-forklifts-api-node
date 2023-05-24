@@ -10,7 +10,7 @@ const data = [
     engType: "Lithium-ion Electric",
     basePrice: 18061,
     offer:'true',
-    imgName: "AX-SERIES.png",
+    imgName: "AX-SERIES-30T.jpg",
     modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
