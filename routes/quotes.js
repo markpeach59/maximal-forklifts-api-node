@@ -71,6 +71,24 @@ router.patch("/:id", async (req, res) => {
   res.send(_.pick(quote, ["_id", "order"]));
 });
 
+router.patch("/savemarkup/:id", async (req, res) => {
+  const newmarkup = _.pick(req.body, ["markup"]);
+
+  //console.log("Markup passed", newmarkup)
+
+  const quote = await Quote.findByIdAndUpdate(
+    req.params.id,
+    { $set: { markup: req.body.markup } },
+    { useFindAndModify: false, new: true }
+  ).select("-__v");
+
+  if (!quote)
+    return res.status(404).send("The quote with the given ID was not found.");
+
+  res.send(_.pick(quote, ["_id", "userid"]));
+});
+
+
 router.post("/", async (req, res) => {
   quote = new Quote(
     _.pick(req.body, [

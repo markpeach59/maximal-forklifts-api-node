@@ -26,7 +26,7 @@ const data = [
 
     batteries: [
       {
-        batterytype: "24V 36A/H Lithium",
+        batterytype: "24V 30A/H Lithium",
         price: 49,
       }
     ]

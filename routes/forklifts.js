@@ -14,14 +14,14 @@ router.get("/", auth, async (req, res) => {
 
   //console.log("Req", req.route);
   //console.log("X-Auth", req.route.accept);
-  console.log("Auth", req.user);
+  //console.log("Auth", req.user);
 
   let restricted = false;
 
   if (req.user.dealerId ){
     const dealer = await Dealer.findById(req.user.dealerId )
 
-    console.log('Dealer', dealer)
+    //console.log('Dealer', dealer)
     if (dealer.isRestricted) restricted= true;
   }
 
@@ -33,7 +33,7 @@ router.get("/", auth, async (req, res) => {
   } 
   else
   {
-    console.log('Full List');
+    //console.log('Full List');
     const forklifts = await Forklift.find().select("-__v");
     res.send(forklifts);
 
