@@ -178,6 +178,7 @@ liftybutton:[
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 5200,
+  basePriceR: 4600,
   imgName: "PTE18M1X_PT20M1XL_02.png",
   modeldescription:[
       {description:"Powered Pallet Truck"}
@@ -241,6 +242,7 @@ liftybutton:[
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 5780,
+  basePriceR: 5250,
   imgName: "PT20H.png",
   modeldescription:[
       {description:"Ride-On Powered Pallet Truck"}, 
@@ -264,6 +266,7 @@ liftybutton:[
   capacity: 2500,
   engType: "Warehouse",
   basePrice: 5996,
+  basePriceR: 5440,
   imgName: "PT20H.png",
   modeldescription:[
       {description:"Ride-On Powered Pallet Truck"}, 
@@ -528,6 +531,7 @@ batteries: [
   capacity: 1500,
   engType: "Warehouse",
   basePrice: 2999,
+  basePriceR: 2790,
   imgName: "ECL15B.jpg",
   modeldescription:[
       {description:"Walk-behind Stacker"},
@@ -705,6 +709,7 @@ defaultcharger : "Built-in"
   capacity: 1600,
   engType: "Warehouse",
   basePrice: 6100,
+  basePriceR: 5500,
   imgName: "PS12_16 _20N.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"},
@@ -760,6 +765,7 @@ defaultcharger : "Built-in"
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 7810,
+  basePriceR: 7010,
   imgName: "PS12_16 _20N.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"},
