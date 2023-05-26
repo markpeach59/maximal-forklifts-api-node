@@ -54,6 +54,7 @@ const Quote = mongoose.model(
       sideleverhydraulic: Boolean,
       battery: String,
       charger: String,
+      spare: String,
 
       sideextractionbattery: Boolean,
       armguard: Boolean,

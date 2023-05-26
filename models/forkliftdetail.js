@@ -73,6 +73,12 @@ const Forkliftdetail = mongoose.model(
         ],
       },
     ],
+      spares:[
+        {
+        sparetype: String,
+        price: Number
+      }],
+   
 
     controllers: [{ controllertype: String, price: Number }],
 

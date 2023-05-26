@@ -27,9 +27,10 @@ const data = [
     batteries: [
       {
         batterytype: "24V 30A/H Lithium",
-        price: 49,
+        price: 49
       }
-    ]
+    ],
+    spares : [{sparetype:"24V 30A/H Lithium", price:346}]
   },
   {
     model: "PTE 15N",
@@ -54,9 +55,10 @@ const data = [
     batteries: [
       {
         batterytype: "24V 36A/H Lithium",
-        price: 89,
+        price: 89
       }
-    ]
+    ],
+    spares : [{sparetype:"24V 36A/H Lithium", price:396}],
   },
   {
     model: "PTE 20N",
@@ -81,9 +83,10 @@ const data = [
     batteries: [
       {
         batterytype: "24V 36A/H Lithium",
-        price: 100,
+        price: 100
       }
     ],
+    spares : [{sparetype:"24V 36A/H Lithium", price:396}],
   
   
   defaultroller: "Single",
