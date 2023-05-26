@@ -35,4 +35,18 @@ router.get("/:id", async (req, res) => {
   res.send(quote);
 });
 
+router.patch("/confirmorder/:id", async (req, res) => {
+  
+  const quote = await Quote.findByIdAndUpdate(
+    req.params.id,
+    { $set: { confirmedorder: true } },
+    { useFindAndModify: false, new: true }
+  ).select("-__v");
+
+  if (!quote)
+    return res.status(404).send("The quote with the given ID was not found.");
+
+  res.send(_.pick(quote, ["_id", "order"]));
+});
+
 module.exports = router;

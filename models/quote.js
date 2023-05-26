@@ -17,6 +17,7 @@ const Quote = mongoose.model(
       offer:Boolean,
       offerprice: Number,
       saving: Number,
+      confirmedorder:{ type: Boolean, default: false },
 
       masttype: String,
       mastsize: Number,
