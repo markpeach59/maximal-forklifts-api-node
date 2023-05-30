@@ -10,6 +10,15 @@ const { Forkliftrestricted } = require("../models/forkliftrestricted");
 
 const { Dealer } = require("../models/dealer");
 
+router.get("/list", auth, async (req, res) => {
+ 
+  const restrictedlist = await Forkliftrestricted.find().select("-__v");
+
+    res.send(restrictedlist);
+
+
+});
+
 router.get("/", auth, async (req, res) => {
 
   //console.log("Req", req.route);
@@ -41,7 +50,7 @@ router.get("/", auth, async (req, res) => {
   
 });
 
-router.get("/:id", async (req, res) => {
+router.get("/:id", auth, async (req, res) => {
   const forklift = await Forklift.findById(req.params.id).select("-__v");
 
   if (!forklift)
@@ -51,5 +60,8 @@ router.get("/:id", async (req, res) => {
 
   res.send(forklift);
 });
+
+
+
 
 module.exports = router;
