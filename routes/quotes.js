@@ -121,6 +121,12 @@ router.post("/", async (req, res) => {
       "liftybutton",
       "displaywithcamera",
       "safetybluespot",
+
+      "halolight",
+      "upsweptexhaust",
+      "precleaner",
+      "heavydutyairfilter",
+
       "coldstoreprot",
       "seat",
       "cabin",
@@ -181,6 +187,12 @@ router.post("/", async (req, res) => {
       "liftybutton",
       "displaywithcamera",
       "safetybluespot",
+
+      "halolight",
+      "upsweptexhaust",
+      "precleaner",
+      "heavydutyairfilter",
+      
       "coldstoreprot",
       "seat",
       "cabin",

@@ -42,6 +42,11 @@ const Quote = mongoose.model(
       displaywithcamera: Boolean,
       safetybluespot: Boolean,
 
+      halolight: Boolean,
+      precleaner: Boolean,
+      upsweptexhaust: Boolean,
+      heavydutyairfilter:Boolean,
+
       seat: String,
       cabin: String,
 
