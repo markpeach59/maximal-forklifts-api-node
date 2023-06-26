@@ -102,7 +102,7 @@ const data = [
   capacity: 1800,
   engType: "Warehouse",
   basePrice: 3393,
-  imgName: "PTE18M1X_PT20M1XL_02.png",
+  imgName: "PT18-M1X.jpg",
   modeldescription:[
       {description:"Powered Pallet Truck"}
   ],
@@ -131,7 +131,7 @@ rollers:[
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 4100,
-  imgName: "PTE18M1X_PT20M1XL_02.png",
+  imgName: "PT20-M1X.jpg",
   modeldescription:[
       {description:"Powered Pallet Truck"}, 
   
@@ -182,7 +182,7 @@ liftybutton:[
   engType: "Warehouse",
   basePrice: 5200,
   basePriceR: 4600,
-  imgName: "PTE18M1X_PT20M1XL_02.png",
+  imgName: "PT20-M1X.jpg",
   modeldescription:[
       {description:"Powered Pallet Truck"}
       
@@ -483,7 +483,7 @@ batteries: [
   model: "PSE 12B",
   capacity: 1200,
   engType: "Warehouse",
-  basePrice: 8980,
+  basePrice: 3900,
   imgName: "PSE12B.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"}
@@ -533,7 +533,7 @@ batteries: [
   model: "ECL 15B",
   capacity: 1500,
   engType: "Warehouse",
-  basePrice: 2999,
+  basePrice: 3800,
   basePriceR: 2790,
   imgName: "ECL15B.jpg",
   modeldescription:[
@@ -578,7 +578,7 @@ batteries: [
   model: "PSE 15L",
   capacity: 1500,
   engType: "Warehouse",
-  basePrice: 440,
+  basePrice: 4400,
   imgName: "PSE15L.jpg",
   modeldescription:[
     {description:"Pedestrian Stacker"}
@@ -627,8 +627,8 @@ blinkey: [{ blinkeytype: "", price: 30}]
   model: "PSE 10L-C",
   capacity: 1000,
   engType: "Warehouse",
-  basePrice: 4400,
-  imgName: "ELECTRIC-STACKER-PSE15-C.jpg",
+  basePrice: 2780,
+  imgName: "PSE15L-C.jpg",
   modeldescription:[
       {description:"Curtis Controller"}
   ],

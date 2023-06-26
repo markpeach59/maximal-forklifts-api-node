@@ -78,6 +78,16 @@ const data = [
         engType: "Warehouse"
       },
       {
+        model: "PSE 10L-C",
+        capacity: 1000,
+        engType: "Warehouse"
+      },
+      {
+        model: "PSE 15L-C",
+        capacity: 1500,
+        engType: "Warehouse"
+      },
+      {
         model: "PSE 12B",
         capacity: 1200,
         engType: "Warehouse"
@@ -102,16 +112,7 @@ const data = [
         capacity: 2000,
         engType: "Warehouse"
       },
-      {
-        model: "PSE 10L-C",
-        capacity: 1000,
-        engType: "Warehouse"
-      },
-      {
-        model: "PSE 15L-C",
-        capacity: 1500,
-        engType: "Warehouse"
-      },
+      
       { 
       	model: "PS 16TSL",
         capacity: 1600,
