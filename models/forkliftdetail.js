@@ -109,6 +109,12 @@ const Forkliftdetail = mongoose.model(
     trolley: [{ trolleytype: String, price: Number }],
     blinkey: [{ blinkeytype: String, price: Number }],
 
+    halolight: [{ halolighttype: String, price: Number }],
+
+    upsweptexhaust: [{ upsweptexhausttype: String, price: Number }],
+    precleaner: [{ precleanertype: String, price: Number }],
+    heavydutyairfilter: [{ heavydutyairfiltertype: String, price: Number }],
+
     sideextractionbattery: [
       { sideextractionbatterytype: String, price: Number },
     ],

@@ -38,7 +38,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
           { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
-          { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
+          { mastlength: 4800, closedheight: 2140, freeliftheight: 1575, price: 1120 },
           { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
           { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
           { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
@@ -104,6 +104,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [
@@ -147,7 +148,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2015, freeliftheight: 1390, price: 1120 },
           { mastlength: 4500, closedheight: 2065, freeliftheight: 1445, price: 1120 },
-          { mastlength: 4700, closedheight: 2165, freeliftheight: 1590, price: 1408 },
+          { mastlength: 4800, closedheight: 2190, freeliftheight: 1590, price: 1408 },
           { mastlength: 5000, closedheight: 2265, freeliftheight: 1640, price: 1530 },
           { mastlength: 5500, closedheight: 2390, freeliftheight: 1765, price: 1830 },
           { mastlength: 6000, closedheight: 2615, freeliftheight: 1990, price: 1780 },
@@ -212,6 +213,8 @@ const data = [
         ]
       }
     ],
+
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [
@@ -256,7 +259,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2015, freeliftheight: 1390, price: 1120 },
           { mastlength: 4500, closedheight: 2065, freeliftheight: 1445, price: 1120 },
-          { mastlength: 4700, closedheight: 2165, freeliftheight: 1590, price: 1408 },
+          { mastlength: 4800, closedheight: 2190, freeliftheight: 1590, price: 1408 },
           { mastlength: 5000, closedheight: 2265, freeliftheight: 1640, price: 1530 },
           { mastlength: 5500, closedheight: 2390, freeliftheight: 1765, price: 1830 },
           { mastlength: 6000, closedheight: 2615, freeliftheight: 1990, price: 1780 },
@@ -323,6 +326,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [
@@ -366,7 +370,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2120, freeliftheight: 1460, price: 1120 },
           { mastlength: 4500, closedheight: 2170, freeliftheight: 1510, price: 1120 },
-          { mastlength: 4700, closedheight: 2270, freeliftheight: 1610, price: 1589 },
+          { mastlength: 4800, closedheight: 2195, freeliftheight: 1610, price: 1589 },
           { mastlength: 5000, closedheight: 2370, freeliftheight: 1710, price: 1960 },
           { mastlength: 5500, closedheight: 2435, freeliftheight: 1835, price: 2580 },
           { mastlength: 6000, closedheight: 2720, freeliftheight: 2060, price: 3099 },
@@ -424,6 +428,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [
@@ -466,7 +471,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2120, freeliftheight: 1460, price: 1120 },
           { mastlength: 4500, closedheight: 2170, freeliftheight: 1510, price: 1120 },
-          { mastlength: 4700, closedheight: 2270, freeliftheight: 1610, price: 1589 },
+          { mastlength: 4800, closedheight: 2270, freeliftheight: 1610, price: 1589 },
           { mastlength: 5000, closedheight: 2370, freeliftheight: 1710, price: 1960 },
           { mastlength: 5500, closedheight: 2435, freeliftheight: 1835, price: 2580 },
           { mastlength: 6000, closedheight: 2720, freeliftheight: 2060, price: 3099 },
@@ -524,6 +529,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [

@@ -31,13 +31,18 @@ const data = [
     
 
     chassis :[
-      {label:"Lead Acid Version", price: 14001, batteries:[
-        {batterytype:"48V 340A/H", price:2400, 
+      {label:"Lead Acid Version", price: 15300, 
+      batteries:[
+        {batterytype:"48V 340A/H", price:2800, 
         chargers:[
-          {chargertype:"8hr 3 Phase", price:595}
+          {chargertype:"8hr", price:796}
         ]}
       ]},
-      {label:"Lithium Version", price: 14987,batteries:[{batterytype:"Lithium POA", price:0}]}
+      {label:"Lithium Version", price: 15300,
+      batteries:[{batterytype:"Lithium 48V 300A/H", price:3600,
+      chargers:[
+        {chargertype:"Fast", price:1100}
+      ]}]}
     ],
 
     masts: [
@@ -54,9 +59,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350,  closedheight: 1980, freeliftheight: 1425, price: 855 },
           { mastlength: 4500,  closedheight: 2080, freeliftheight: 1520, price: 855 },
-         
           { mastlength: 4800,  closedheight: 2180, freeliftheight: 1625, price: 1200 },
-         
           { mastlength: 5500,  closedheight: 2500, freeliftheight: 1940, price: 1390 }
         ]
       }

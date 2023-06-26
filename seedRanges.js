@@ -128,7 +128,12 @@ const data = [
         engType: "Electric"
       },
       {
-        model: "FBAX50-YWL",
+        model: "FBAX50-YWL COMPACT",
+        capacity: 5000,
+        engType: "Electric"
+      },
+      {
+        model: "FBAX50-YWL BIG",
         capacity: 5000,
         engType: "Electric"
       },

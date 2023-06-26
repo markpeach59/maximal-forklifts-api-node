@@ -40,8 +40,8 @@ const data = [
       mastsizes: [
         { mastlength: 4350, closedheight: 2130, freeliftheight: 1390, price: 1120 },
         { mastlength: 4500, closedheight: 2180, freeliftheight: 1440, price: 1120 },
-        { mastlength: 4700, closedheight: 2245, freeliftheight: 1540, price: 1408 },
-        { mastlength: 4800, closedheight: 2280, freeliftheight: 1580, price: 1408 },
+       
+        { mastlength: 4800, closedheight: 2180, freeliftheight: 1580, price: 1408 },
         { mastlength: 5000, closedheight: 2428, freeliftheight: 1640, price: 1530 },
         { mastlength: 5500, closedheight: 2657, freeliftheight: 1765, price: 1630 },
         { mastlength: 6000, closedheight: 2890, freeliftheight: 1990, price: 1760 },
@@ -91,7 +91,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister",price:110}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 187}],
 
 },
 {
@@ -129,7 +134,7 @@ const data = [
       mastsizes: [
         { mastlength: 4350, closedheight: 2130, freeliftheight: 1390, price: 1120 },
         { mastlength: 4500, closedheight: 2180, freeliftheight: 1440, price: 1120 },
-        { mastlength: 4700, closedheight: 2245, freeliftheight: 1540, price: 1559 },
+        { mastlength: 4800, closedheight: 2195, freeliftheight: 1540, price: 1559 },
       
         { mastlength: 5000, closedheight: 2428, freeliftheight: 1640, price: 1960 },
         { mastlength: 5500, closedheight: 2657, freeliftheight: 1765, price: 2580 },
@@ -181,7 +186,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister", price:110}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 187}],
 
 },
 
@@ -220,7 +230,7 @@ const data = [
       mastsizes: [
         { mastlength: 4350, closedheight: 2130, freeliftheight: 1390, price: 1120 },
         { mastlength: 4500, closedheight: 2180, freeliftheight: 1440, price: 1120 },
-        { mastlength: 4700, closedheight: 2245, freeliftheight: 1540, price: 1559 },
+        { mastlength: 4800, closedheight: 2270, freeliftheight: 1540, price: 1559 },
       
         { mastlength: 5000, closedheight: 2428, freeliftheight: 1640, price: 1960 },
         { mastlength: 5500, closedheight: 2657, freeliftheight: 1765, price: 2580 },
@@ -272,7 +282,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister", price:110}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 187}],
 
 },
 
@@ -312,9 +327,9 @@ const data = [
     {
       masttype: "3 Stage Full Free Lift Mast",
       mastsizes: [
-        { mastlength: 4350, closedheight: 2350, freeliftheight: 1390, price: 1730 },
-        { mastlength: 4500, closedheight: 2441, freeliftheight: 1440, price: 1790 },
-        { mastlength: 4700, closedheight: 2507, freeliftheight: 1540, price: 2160 },
+        { mastlength: 4350, closedheight: 2235, freeliftheight: 1390, price: 1730 },
+        { mastlength: 4500, closedheight: 2305, freeliftheight: 1440, price: 1790 },
+        { mastlength: 4800, closedheight: 2400, freeliftheight: 1540, price: 2160 },
         { mastlength: 5000, closedheight: 2540, freeliftheight: 1645, price: 2580 },
         { mastlength: 5500, closedheight: 2765, freeliftheight: 1770, price: 2580 },
         { mastlength: 6000, closedheight: 3005, freeliftheight: 2010, price: 3099 },
@@ -365,7 +380,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister", price:190}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 189}],
 
 },
 {
@@ -402,9 +422,9 @@ const data = [
     {
       masttype: "3 Stage Full Free Lift Mast",
       mastsizes: [
-        { mastlength: 4350, closedheight: 2350, freeliftheight: 1395, price: 1730 },
-        { mastlength: 4500, closedheight: 2441, freeliftheight: 1480, price: 1790 },
-        { mastlength: 4700, closedheight: 2507, freeliftheight: 1545, price: 2160 },
+        { mastlength: 4350, closedheight: 2235, freeliftheight: 1395, price: 1730 },
+        { mastlength: 4500, closedheight: 2305, freeliftheight: 1480, price: 1790 },
+        { mastlength: 4800, closedheight: 2400, freeliftheight: 1545, price: 2160 },
         { mastlength: 5000, closedheight: 2540, freeliftheight: 1645, price: 2300 },
         { mastlength: 5500, closedheight: 2765, freeliftheight: 1770, price: 2580 },
         { mastlength: 6000, closedheight: 3005, freeliftheight: 2010, price: 3099 },
@@ -457,7 +477,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister", price:190}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 189}],
 
 },
 {
@@ -495,7 +520,7 @@ const data = [
       mastsizes: [
         { mastlength: 4350, closedheight: 2630, freeliftheight: 1560, price: 2225 },
         { mastlength: 4500, closedheight: 2680, freeliftheight: 1685, price: 2419 },
-        { mastlength: 4700, closedheight: 2780, freeliftheight: 1735, price: 2678 },
+        { mastlength: 4800, closedheight: 2780, freeliftheight: 1735, price: 2678 },
         { mastlength: 5000, closedheight: 2880, freeliftheight: 1835, price: 2678 },
         { mastlength: 5500, closedheight: 3005, freeliftheight: 1960, price: 3194 },
         { mastlength: 6000, closedheight: 3305, freeliftheight: 2260, price: 3601 },
@@ -548,7 +573,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister", price:190}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 189}],
 
 },
 {
@@ -637,7 +667,12 @@ const data = [
 
   heater:[ {heatertype:"Heater/Demister", price:190}],
 
-  safetybluespot: [{ safetybluespottype: "", price: 90 }]
+  halolight: [{ halolighttype: "", price: 210 }],
+  safetybluespot: [{ safetybluespottype: "", price: 90 }],
+
+  upsweptexhaust:[{upsweptexhausttype:"", price: 197}],
+  precleaner:[{precleanertype:"", price: 109}],
+  heavydutyairfilter:[{heavydutyairfiltertype:"", price: 189}],
 
 },
 
