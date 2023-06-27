@@ -26,13 +26,16 @@ const data = [
     defaulttyre:"Rubber",
 
     chassis :[
-      {label:"Lead Acid Version", price: 15302, batteries:[
-        {batterytype:"48V 450A/H", price:2900, 
+      {label:"Lead Acid Version", price: 16900, batteries:[
+        {batterytype:"48V 450A/H", price:3050, 
         chargers:[
-          {chargertype:"8hr 3 Phase", price:770}
+          {chargertype:"8hr", price:810}
         ]}
       ]},
-      {label:"Lithium Version", price: 16211,batteries:[{batterytype:"Lithium 51.2V 412A/H", price:5100}]}
+      {label:"Lithium Version", price: 16900,
+      batteries:[{batterytype:"Lithium 48V 450A/H", price:5050, chargers:[
+        {chargertype:"Fast", price:1200}
+      ]}]}
     ],
 
     masts: [
@@ -111,13 +114,23 @@ const data = [
     defaulttyre:"Rubber",
 
     chassis :[
-      {label:"Lead Acid Version", price: 16000, batteries:[
-        {batterytype:"48V 450A/H", price:2900, 
+      {label:"Lead Acid Version", price: 18800, batteries:[
+        {batterytype:"48V 450A/H", price:3050, 
         chargers:[
-          {chargertype:"8hr 3 Phase", price:770}
+          {chargertype:"8hr", price:810}
         ]}
       ]},
-      {label:"Lithium Version", price: 17293,batteries:[{batterytype:"Lithium 51.2V 412A/H", price:5100}]}
+      {label:"Lithium Version", price: 18800,batteries:[{batterytype:"Lithium 48V 450A/H", price:5050,
+      chargers:[
+        {chargertype:"Fast", price:1200}
+      ]
+    
+    },{batterytype:"Lithium 48V 600A/H", price:5700,
+    chargers:[
+      {chargertype:"Fast", price:1290}
+    ]
+  
+  }]}
     ],
 
     masts: [
@@ -197,13 +210,19 @@ const data = [
     defaulttyre:"Rubber",
 
     chassis :[
-      {label:"Lead Acid Version", price: 16980, batteries:[
-        {batterytype:"48V 450A/H", price:3400, 
+      {label:"Lead Acid Version", price: 19810, batteries:[
+        {batterytype:"48V 600A/H", price:3700, 
         chargers:[
-          {chargertype:"8hr 3 Phase", price:810}
+          {chargertype:"8hr", price:916}
         ]}
       ]},
-      {label:"Lithium Version", price: 18210,batteries:[{batterytype:"Lithium POA", price:0}]}
+      {label:"Lithium Version", price: 19810,
+      batteries:[{batterytype:"Lithium 48V 600A/H", price:5700,
+      chargers:[
+        {chargertype:"Fast", price:1290}
+      ]
+    
+    }]}
     ],
 
     masts: [

@@ -37,7 +37,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
           { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
-          { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
+          { mastlength: 4800, closedheight: 2150, freeliftheight: 1575, price: 1120 },
           { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
           { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
           { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
@@ -102,6 +102,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     bfs: [{ bfstype: "", price: 216 }],
@@ -147,7 +148,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
           { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
-          { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
+          { mastlength: 4800, closedheight: 2150, freeliftheight: 1575, price: 1120 },
           { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
           { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
           { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
@@ -212,6 +213,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     bfs: [{ bfstype: "", price: 216 }],
@@ -258,7 +260,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
           { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
-          { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
+          { mastlength: 4800, closedheight: 2150, freeliftheight: 1575, price: 1120 },
           { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
           { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
           { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
@@ -323,6 +325,7 @@ const data = [
       }
     ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     bfs: [{ bfstype: "", price: 216 }],

@@ -41,7 +41,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2100, freeliftheight: 1390, price: 1120 },
           { mastlength: 4500, closedheight: 2150, freeliftheight: 1440, price: 1120 },
-          { mastlength: 4700, closedheight: 2215, freeliftheight: 1540, price: 1408 },
+          { mastlength: 4800, closedheight: 2240, freeliftheight: 1540, price: 1408 },
           { mastlength: 5000, closedheight: 2393, freeliftheight: 1640, price: 1530 },
           { mastlength: 5500, closedheight: 2627, freeliftheight: 1765, price: 1630 },
           { mastlength: 6000, closedheight: 2860, freeliftheight: 1990, price: 1760 },
@@ -90,6 +90,7 @@ const data = [
         }
       ],
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     cabin: [

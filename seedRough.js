@@ -76,6 +76,7 @@ const data = [
   
     heater:[ {heatertype:"Heater/Demister",price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },
@@ -150,6 +151,7 @@ const data = [
   
     heater:[ {heatertype:"Heater/Demister",price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },
@@ -226,6 +228,7 @@ const data = [
   
     heater:[ { heatertype:"Heater/Demister", price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },
@@ -299,6 +302,7 @@ const data = [
   
     heater:[ { heatertype:"Heater/Demister", price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },
@@ -373,6 +377,7 @@ const data = [
   
     heater:[ {heatertype:"Heater/Demister",price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },
@@ -447,6 +452,7 @@ const data = [
   
     heater:[ {heatertype:"Heater/Demister",price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },
@@ -523,6 +529,7 @@ const data = [
   
     heater:[ { heatertype:"Heater/Demister", price:110}],
   
+    halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }]
   
   },

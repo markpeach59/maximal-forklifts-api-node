@@ -39,7 +39,7 @@ const data = [
         mastsizes: [
           { mastlength: 4350, closedheight: 2065, freeliftheight: 1425, price: 851 },
           { mastlength: 4500, closedheight: 2115, freeliftheight: 1475, price: 950 },
-          { mastlength: 4700, closedheight: 2185, freeliftheight: 1575, price: 1120 },
+          { mastlength: 4800, closedheight: 2140, freeliftheight: 1575, price: 1120 },
           { mastlength: 5000, closedheight: 2315, freeliftheight: 1675, price: 1220 },
           { mastlength: 5500, closedheight: 2465, freeliftheight: 1840, price: 1472 },
           { mastlength: 6000, closedheight: 2665, freeliftheight: 2025, price: 1730 },
@@ -81,6 +81,7 @@ const data = [
     defaultbattery: "83.2V 230A/H Li-ion",
     defaultcharger: "Fast",
 
+    halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }], 
 
     cabin: [
