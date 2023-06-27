@@ -6,7 +6,7 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 const data = [
   {
     model: "FB16S-MHJZ",
-    capacity: 1500,
+    capacity: 1600,
     engType: "Electric",
     basePrice: 11740,
     imgName: "M-SERIES-ELECTRIC-Rear-drive-3-wheel-1.6T.jpg",

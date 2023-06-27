@@ -19,7 +19,7 @@ const data = [
     models: [
       {
         model: "FB16S-MJZ",
-        capacity: 1500,
+        capacity: 1600,
         engType: "Electric"
       },
       {
@@ -128,7 +128,12 @@ const data = [
         engType: "Electric"
       },
       {
-        model: "FBAX50-YWL",
+        model: "FBAX50-YWL COMPACT",
+        capacity: 5000,
+        engType: "Electric"
+      },
+      {
+        model: "FBAX50-YWL BIG",
         capacity: 5000,
         engType: "Electric"
       },
