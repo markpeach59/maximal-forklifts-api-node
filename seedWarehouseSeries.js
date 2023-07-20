@@ -722,12 +722,15 @@ defaultcharger : "Built-in"
 
   masts: [
     {
-      masttype: "Single Mast",
+      masttype: "2 Stage Mast",
       mastsizes: [
         { mastlength: 2900, price: 0 },
         { mastlength: 3200, price: 140 },
-
-        { mastlength: 3600, price: 296 },
+        { mastlength: 3600, price: 296 }
+      ]
+    }, {
+      masttype: "3 Stage Mast",
+      mastsizes: [ 
         { mastlength: 4000, price: 620 },
         { mastlength: 4300, price: 730 },
         { mastlength: 4600, price: 997 },
@@ -751,11 +754,21 @@ defaultcharger : "Built-in"
   batteries: [
     {
       batterytype: "24V 210A/H up to 3.6M Mast",
-      price: 0,
+      price: 950,
+      chargers: [
+        {
+          chargertype: " ",
+          price: 295
+        }]
     },
     {
       batterytype: "24V 270A/H 4M and above Mast",
-      price: 0,
+      price: 1020,
+      chargers: [
+        {
+          chargertype: " ",
+          price: 295
+        }]
     },
 
   ],
@@ -778,12 +791,15 @@ defaultcharger : "Built-in"
 
   masts: [
     {
-      masttype: "Single Mast",
+      masttype: "2 Stage Mast",
       mastsizes: [
         { mastlength: 2900, price: 0 },
         { mastlength: 3200, price: 140 },
-
-        { mastlength: 3600, price: 296 },
+        { mastlength: 3600, price: 296 }
+      ]
+    }, {
+      masttype: "3 Stage Mast",
+      mastsizes: [ 
         { mastlength: 4000, price: 620 },
         { mastlength: 4300, price: 730 },
         { mastlength: 4600, price: 997 },
@@ -807,11 +823,21 @@ defaultcharger : "Built-in"
   batteries: [
     {
       batterytype: "24V 210A/H up to 3.6M Mast",
-      price: 0,
+      price: 950,
+      chargers: [
+        {
+          chargertype: " ",
+          price: 295
+        }]
     },
     {
       batterytype: "24V 270A/H 4M and above Mast",
-      price: 0,
+      price: 1020,
+      chargers: [
+        {
+          chargertype: " ",
+          price: 295
+        }]
     },
 
   ],
