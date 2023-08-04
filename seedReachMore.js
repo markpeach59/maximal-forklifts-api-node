@@ -38,6 +38,19 @@ const data = [
       ]}]}
     ],
 
+    chassisR :[
+      {label:"Lead Acid Version", price: 14600, batteries:[
+        {batterytype:"48V 450A/H", price:3050, 
+        chargers:[
+          {chargertype:"8hr", price:810}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 14980,
+      batteries:[{batterytype:"Lithium 48V 450A/H", price:5050, chargers:[
+        {chargertype:"Fast", price:1200}
+      ]}]}
+    ],
+
     masts: [
       {
         masttype: "2 Stage Free View Mast",
@@ -121,6 +134,26 @@ const data = [
         ]}
       ]},
       {label:"Lithium Version", price: 18800,batteries:[{batterytype:"Lithium 48V 450A/H", price:5050,
+      chargers:[
+        {chargertype:"Fast", price:1200}
+      ]
+    
+    },{batterytype:"Lithium 48V 600A/H", price:5700,
+    chargers:[
+      {chargertype:"Fast", price:1290}
+    ]
+  
+  }]}
+    ],
+
+    chassisR :[
+      {label:"Lead Acid Version", price: 16700, batteries:[
+        {batterytype:"48V 450A/H", price:3050, 
+        chargers:[
+          {chargertype:"8hr", price:810}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 17600,batteries:[{batterytype:"Lithium 48V 450A/H", price:5050,
       chargers:[
         {chargertype:"Fast", price:1200}
       ]
@@ -217,6 +250,22 @@ const data = [
         ]}
       ]},
       {label:"Lithium Version", price: 19810,
+      batteries:[{batterytype:"Lithium 48V 600A/H", price:5700,
+      chargers:[
+        {chargertype:"Fast", price:1290}
+      ]
+    
+    }]}
+    ],
+
+    chassisR :[
+      {label:"Lead Acid Version", price: 17980, batteries:[
+        {batterytype:"48V 600A/H", price:3700, 
+        chargers:[
+          {chargertype:"8hr", price:916}
+        ]}
+      ]},
+      {label:"Lithium Version", price: 18600,
       batteries:[{batterytype:"Lithium 48V 600A/H", price:5700,
       chargers:[
         {chargertype:"Fast", price:1290}

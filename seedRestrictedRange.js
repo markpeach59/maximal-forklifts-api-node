@@ -121,6 +121,32 @@ const data = [
     ]
   },
   {
+    range: "Reach",
+    models: [
+      {
+        model: "FBRA15-J1",
+        capacity: 1500,
+        engType: "Reach"
+      },
+      {
+        model: "FBREA16-J1",
+        capacity: 1600,
+        engType: "Reach"
+      },
+      {
+        model: "FBREA20-J1",
+        capacity: 2000,
+        engType: "Reach"
+      },
+      {
+        model: "FBREA25-J1",
+        capacity: 2500,
+        engType: "Reach"
+      }
+      
+    ]
+  },
+  {
     range: "Warehouse",
     models: [
       {
@@ -159,12 +185,15 @@ const data = [
         capacity: 2500,
         engType: "Warehouse"
       },
-      
-      
-      
+    
       {
         model: "ECL 15B",
         capacity: 1500,
+        engType: "Warehouse"
+      },
+      {
+        model: "PS 12N",
+        capacity: 1200,
         engType: "Warehouse"
       },
       

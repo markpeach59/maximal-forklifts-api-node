@@ -80,7 +80,7 @@ const data = [
     defaultbattery : "24V 20A/H Lithium",
     defaultcharger : "9A",
 
-    spares : [{sparetype:"24V 36A/H Lithium", price:396}],
+    spares : [{sparetype:"24V 20A/H Lithium", price:396}],
   
   
   defaultroller: "Single",
@@ -604,7 +604,7 @@ masts: [
 ],
 
 forks2d: [
-  { forklength: "540 X 1150", price: 0 },
+  { forklength: "570 X 1150", price: 0 },
   { forklength: "685 X 1150", price: 0 }
 ],
 
@@ -647,7 +647,7 @@ blinkey: [{ blinkeytype: "", price: 30}]
   ],
   
   forks2d: [
-    { forklength: "540 X 1150", price: 0 },
+    { forklength: "570 X 1150", price: 0 },
     { forklength: "685 X 1220", price: 190 }
   ],
 
@@ -689,7 +689,7 @@ masts: [
 ],
 
 forks2d: [
-  { forklength: "540 X 1150", price: 0 },
+  { forklength: "570 X 1150", price: 0 },
   { forklength: "685 X 1220", price: 190 }
 ],
 
@@ -704,7 +704,7 @@ defaultcharger : "Built-in"
   capacity: 1200,
   engType: "Warehouse",
   basePrice: 5180,
-  basePriceR: 5500,
+  basePriceR: 4680,
   imgName: "PS12_16 _20N.jpg",
   modeldescription:[
       {description:"Pedestrian Stacker"},
@@ -767,7 +767,7 @@ defaultcharger : "Built-in"
 
 
   bfs: [{ bfstype: "", price: 178 }]
-}
+},
 
 {
   model: "PS 16N",

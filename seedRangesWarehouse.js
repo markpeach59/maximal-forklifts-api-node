@@ -103,6 +103,11 @@ const data = [
         engType: "Warehouse"
       },
       {
+        model: "PS 12N",
+        capacity: 1200,
+        engType: "Warehouse"
+      },
+      {
         model: "PS 16N",
         capacity: 1600,
         engType: "Warehouse"
