@@ -7,21 +7,7 @@ const data = [
   {
     range: "Diesel",
     models: [
-      {
-        model: "KBD15",
-        capacity: 1500,
-        engType: "Diesel"
-      },
-      {
-        model: "KBD18",
-        capacity: 1800,
-        engType: "Diesel"
-      },
-      {
-        model: "KBD20",
-        capacity: 2000,
-        engType: "Diesel"
-      },
+     
       {
         model: "FDTA25",
         capacity: 2500,
@@ -62,21 +48,7 @@ const data = [
   {
     range: "LPG",
     models: [
-      {
-        model: "KBG15",
-        capacity: 1500,
-        engType: "LPG"
-      },
-      {
-        model: "KBG18",
-        capacity: 1750,
-        engType: "LPG"
-      },
-      {
-        model: "KBG20",
-        capacity: 2000,
-        engType: "LPG"
-      },
+      
       {
         model: "FLTA25",
         capacity: 2500,
@@ -132,16 +104,7 @@ const data = [
         capacity: 3500,
         engType: "Rough Terrain"
       },
-      {
-        model: "FD50T-C2W",
-        capacity: 5000,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD18T-C4W",
-        capacity: 1800,
-        engType: "Rough Terrain"
-      },
+     
       {
         model: "FD25T-C4W",
         capacity: 2500,
@@ -151,32 +114,6 @@ const data = [
         model: "FD35T-C4W",
         capacity: 3500,
         engType: "Rough Terrain"
-      }
-      
-    ]
-  },
-  {
-    range: "Reach",
-    models: [
-      {
-        model: "FBRA15-J1",
-        capacity: 1500,
-        engType: "Reach"
-      },
-      {
-        model: "FBREA16-J1",
-        capacity: 1600,
-        engType: "Reach"
-      },
-      {
-        model: "FBREA20-J1",
-        capacity: 2000,
-        engType: "Reach"
-      },
-      {
-        model: "FBREA25-J1",
-        capacity: 2500,
-        engType: "Reach"
       }
       
     ]

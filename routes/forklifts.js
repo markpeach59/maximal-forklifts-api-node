@@ -10,14 +10,6 @@ const { Forkliftrestricted } = require("../models/forkliftrestricted");
 
 const { Dealer } = require("../models/dealer");
 
-router.get("/list", auth, async (req, res) => {
- 
-  const restrictedlist = await Forkliftrestricted.find().select("-__v");
-
-    res.send(restrictedlist);
-
-
-});
 
 router.get("/", auth, async (req, res) => {
 
@@ -25,28 +17,13 @@ router.get("/", auth, async (req, res) => {
   //console.log("X-Auth", req.route.accept);
   //console.log("Auth", req.user);
 
-  let restricted = false;
-
   if (req.user.dealerId ){
     const dealer = await Dealer.findById(req.user.dealerId )
-
-    //console.log('Dealer', dealer)
-    if (dealer.isRestricted) restricted= true;
   }
 
-  if (restricted === true){
-    const restrictedlist = await Forkliftrestricted.find().select("-__v");
-
-    res.send(restrictedlist);
-
-  } 
-  else
-  {
     //console.log('Full List');
     const forklifts = await Forklift.find().select("-__v");
     res.send(forklifts);
-
-  }
   
 });
 

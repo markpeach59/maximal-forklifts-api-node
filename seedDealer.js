@@ -9,8 +9,8 @@ const data = [
     dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/Maxim_logo.jpg"
   },
   {
-     dealername: "Neckar",
-     dealerlogo:"https://dealerlogos.s3-eu-west-1.amazonaws.com/Neckar_logo.jpg"
+     dealername: "Forklift Company",
+     dealerlogo:""
   }
   
   

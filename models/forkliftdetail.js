@@ -9,7 +9,7 @@ const Forkliftdetail = mongoose.model(
     capacity: Number,
     engType: String,
     basePrice: Number,
-    basePriceR: Number,
+    
     offer: {type:Boolean, default:'false'},
 
     imgName: String,
@@ -98,22 +98,6 @@ const Forkliftdetail = mongoose.model(
     }
     ],
 
-    chassisR: [{
-      label: String,
-      price: Number,
-      batteries :[{
-        batterytype: String,
-        price: Number,
-        chargers: [
-          {
-            chargertype: String,
-            price: Number,
-          },
-        ],
-      }],
-    }
-    ],
-    
     defaultroller: String,
     rollers: [{ rollertype: String, price: Number }],
   
