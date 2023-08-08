@@ -131,6 +131,8 @@ const Forkliftdetail = mongoose.model(
     precleaner: [{ precleanertype: String, price: Number }],
     heavydutyairfilter: [{ heavydutyairfiltertype: String, price: Number }],
 
+    stabiliser: [{stabilisertype:String, price:Number}],
+
     sideextractionbattery: [
       { sideextractionbatterytype: String, price: Number },
     ],

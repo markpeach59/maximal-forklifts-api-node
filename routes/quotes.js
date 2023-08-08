@@ -145,6 +145,7 @@ router.post("/", async (req, res) => {
       "bfs",
       "manualtrolley",
       "blinkey",
+      "stabiliser",
       "sideextractionbattery",
 
 
@@ -211,6 +212,7 @@ router.post("/", async (req, res) => {
       "bfs",
       "manualtrolley",
       "blinkey",
+      "stabiliser",
       "sideextractionbattery",
       "order",
       "specsheet",

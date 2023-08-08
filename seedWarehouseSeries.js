@@ -30,7 +30,9 @@ const data = [
         price: 49
       }
     ],
-    spares : [{sparetype:"24V 30A/H Lithium", price:346}]
+    spares : [{sparetype:"24V 30A/H Lithium", price:346}],
+
+    stabiliser: [{stabilisertype:"", price:52}]
   },
   {
     model: "PTE 15N",
@@ -59,6 +61,7 @@ const data = [
       }
     ],
     spares : [{sparetype:"24V 36A/H Lithium", price:396}],
+    stabiliser: [{stabilisertype:"", price:52}]
   },
   {
     model: "PTE 20N",
@@ -68,7 +71,8 @@ const data = [
     imgName: "PALLET-TRUCK-PTE20N-PTE20B-Li.jpg",
     modeldescription:[
         {description:"Turtle speed with vertical drive function"},
-        {description:"with PIN code"}],
+        {description:"with PIN code"},
+        {description:"Stabiliser Caster Wheel"}],
     
     forks2d: [
       { forklength: "540 X 1150", price: 0 },

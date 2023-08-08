@@ -72,6 +72,7 @@ const Quote = mongoose.model(
       bfs: Boolean,
       manualtrolley: Boolean,
       blinkey: Boolean,
+      stabiliser: Boolean,
 
       order: { type: Boolean, default: false },
       specsheet: String,
