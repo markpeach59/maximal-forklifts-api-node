@@ -15,6 +15,7 @@ const data = [
         {description:"No PIN code option"}],
     
     forks2d: [
+      { forklength: "540 X 1000", price: 30 },
       { forklength: "540 X 1150", price: 0 },
       { forklength: "685 X 1150", price: 0 },
       { forklength: "685 X 1220", price: 100 },
@@ -45,6 +46,7 @@ const data = [
         {description:"with PIN code"}],
     
     forks2d: [
+      { forklength: "540 X 1000", price: 30 },
       { forklength: "540 X 1150", price: 0 },
       { forklength: "685 X 1150", price: 0 },
       { forklength: "685 X 1220", price: 100 },
@@ -75,6 +77,7 @@ const data = [
         {description:"Stabiliser Caster Wheel"}],
     
     forks2d: [
+      { forklength: "540 X 1000", price: 30 },
       { forklength: "540 X 1150", price: 0 },
       { forklength: "685 X 1150", price: 0 },
       { forklength: "685 X 1220", price: 100 },
