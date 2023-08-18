@@ -79,6 +79,12 @@ const Forkliftdetail = mongoose.model(
         price: Number
       }],
    
+    chargers: [
+      {
+          chargertype: String,
+          price: Number,
+        },
+      ],
 
     controllers: [{ controllertype: String, price: Number }],
 

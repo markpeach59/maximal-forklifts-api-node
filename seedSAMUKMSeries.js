@@ -9,7 +9,7 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 8229,
-    imgName: "",
+    imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Rear Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
@@ -76,35 +76,37 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "No",
+    defaultbattery: "48V 400A/H Chinese",
+    defaultcharger: "No",
 
     batteries: [
       {
-        batterytype: "48V 400 A/H",
-        price: 3100,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 60",
-            price: 538
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 80",
-            price: 562
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 60",
-            price: 480
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 80",
-            price: 488
-          }
-        ]
+        batterytype: "48V 400 A/H UK Supply 5yr Warranty",
+        price: 2400
       }
     ],
 
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 60",
+        price: 538
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 80",
+        price: 562
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 60",
+        price: 480
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 80",
+        price: 488
+      }
+    ],
+  
     halolight: [{ halolighttype: "", price: 210 }],
-	safetybluespot: [{ safetybluespottype: "", price: 90 }],
+	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     bfs: [{ bfstype: "", price: 216 }],
     trolley: [{ trolleytype: "", price: 95 }],
@@ -121,7 +123,7 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 10209,
-    imgName: "",
+    imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
@@ -187,35 +189,37 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "No",
+    defaultbattery: "48V 500A/H Chinese",
+    defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "500 A/H",
-        price: 3000,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 80",
-            price: 488
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 80",
-            price: 462
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 100",
-            price: 490
-          }
-        ]
+        batterytype: "48V 500 A/H UK Supply 5yr Warranty",
+        price: 1480
+      }
+    ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 80",
+        price: 488
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 80",
+        price: 462
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 100",
+        price: 490
       }
     ],
 
     halolight: [{ halolighttype: "", price: 210 }],
-	safetybluespot: [{ safetybluespottype: "", price: 90 }],
+	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 
     bfs: [{ bfstype: "", price: 216 }],
     trolley: [{ trolleytype: "", price: 95 }],
@@ -232,7 +236,7 @@ const data = [
     capacity: 1750,
     engType: "Electric",
     basePrice: 10209,
-    imgName: "",
+    imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
@@ -298,30 +302,32 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "No",
+    defaultbattery: "48V 500A/H Chinese",
+    defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "500 A/H",
-        price: 3000,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 80",
-            price: 488
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 80",
-            price: 462
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 100",
-            price: 490
-          }
-        ]
+        batterytype: "48V 500 A/H UK Supply 5yr Warranty",
+        price: 1480
+      }
+    ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 80",
+        price: 488
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 80",
+        price: 462
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 100",
+        price: 490
       }
     ],
 
@@ -343,7 +349,7 @@ const data = [
     capacity: 2000,
     engType: "Electric",
     basePrice: 10710,
-    imgName: "",
+    imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
     defaulttyre:"Solid",
@@ -410,30 +416,31 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "No",
+    defaultbattery: "48V 600A/H Chinese",
+    defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "600 A/H",
-        price: 3300,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 45V 100",
-            price: 595
-          },
-          {
-            chargertype: "1 Phase 8 Hour 45V 120",
-            price: 661
-          },
-          {
-            chargertype: "3 Phase 12 Hour 45V 100",
-            price: 490
-          },
-          {
-            chargertype: "3 Phase 8 Hour 45V 120",
-            price: 517
-          }
-        ]
+        batterytype: "48V 600 A/H UK Supply 5yr Warranty",
+        price: 1720
+      }
+    ],
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 45V 100",
+        price: 595
+      },
+      {
+        chargertype: "1 Phase 8 Hour 45V 120",
+        price: 661
+      },
+      {
+        chargertype: "3 Phase 12 Hour 45V 100",
+        price: 490
+      },
+      {
+        chargertype: "3 Phase 8 Hour 45V 120",
+        price: 517
       }
     ],
 

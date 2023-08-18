@@ -9,7 +9,7 @@ const data = [
     capacity: 1500,
     engType: "Lead Acid Electric",
     basePrice: 10190,
-    imgName: "",
+    imgName: "ASeries.jpg",
     modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -77,30 +77,32 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-    defaultbattery: "No",
+      defaultbattery: "48V 420A/H Chinese",
+      defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "420 A/H",
-        price: 2800,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 60",
-            price: 538
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 80",
-            price: 562
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 60",
-            price: 480
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 80",
-            price: 488
-          }
-        ]
+        batterytype: "48V 420 A/H UK Supply 5Yr Warranty",
+        price: 1396
+      }
+    ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 60",
+        price: 538
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 80",
+        price: 562
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 60",
+        price: 480
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 80",
+        price: 488
       }
     ],
 
@@ -122,7 +124,7 @@ const data = [
     capacity: 1750,
     engType: "Lead Acid Electric",
     basePrice: 10461,
-    imgName: "",
+    imgName: "ASeries.jpg",
     modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -190,30 +192,32 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-    defaultbattery: "No",
+      defaultbattery: "48V 420A/H Chinese",
+      defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "420 A/H",
-        price: 2800,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 60",
-            price: 538
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 80",
-            price: 562
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 6",
-            price: 480
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 80",
-            price: 488
-          }
-        ]
+        batterytype: "48V 420 A/H UK Supply 5Yr Warranty",
+        price: 1396
+      }
+    ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 60",
+        price: 538
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 80",
+        price: 562
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 6",
+        price: 480
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 80",
+        price: 488
       }
     ],
 
@@ -231,7 +235,7 @@ const data = [
     capacity: 2000,
     engType: "Lead Acid Electric",
     basePrice: 11670,
-    imgName: "",
+    imgName: "ASeries.jpg",
     modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -300,32 +304,35 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-    defaultbattery: "No",
+      defaultbattery: "48V 600A/H Chinese",
+      defaultcharger: "No",
     	
     batteries: [
       {
         batterytype: "45V 600A/H",
-        price: 3300,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 120",
-            price: 661
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 100",
-            price: 490
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 120",
-            price: 515
-          }
-        ]
+        price: 1655
       }
     ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 120",
+        price: 661
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 100",
+        price: 490
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 120",
+        price: 515
+      }
+    ],
+
 
     halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -342,7 +349,7 @@ const data = [
     capacity: 2500,
     engType: "Lead Acid Electric",
     basePrice: 11858,
-    imgName: "",
+    imgName: "ASeries.jpg",
     modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -412,32 +419,34 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
 
-    defaultbattery: "No",
+      defaultbattery: "48V 600A/H Chinese",
+      defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "48V 600A/H",
-        price: 3300,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 120",
-            price: 661
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 100",
-            price: 490
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 120",
-            price: 517
-          }
-        ]
+        batterytype: "48V 600A/H UK Supply 5Yr Warranty",
+        price: 1655
       }
     ],
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 120",
+        price: 661
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 100",
+        price: 490
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 120",
+        price: 517
+      }
+    ],
+
 
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -453,7 +462,7 @@ const data = [
     capacity: 3000,
     engType: "Lead Acid Electric",
     basePrice: 13360,
-    imgName: "",
+    imgName: "ASeries.jpg",
     modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -522,24 +531,27 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-    defaultbattery: "No",
+      defaultbattery: "80V 500A/H Chinese",
+      defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "80V 560A/H",
-        price: 4600,
-        chargers: [
-          {
-            chargertype: "3 Phase 12 Hour 80V 80",
-            price: 537
-          },
-          {
-            chargertype: "3 Phase 8 Hour 80V 100",
-            price: 520
-          }
-        ]
+        batterytype: "80V 560A/H UK Supply 5Yr Warranty",
+        price: 1820
       }
     ],
+
+    chargers: [
+      {
+        chargertype: "3 Phase 12 Hour 80V 80",
+        price: 537
+      },
+      {
+        chargertype: "3 Phase 8 Hour 80V 100",
+        price: 520
+      }
+    ],
+  
 
     halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -556,7 +568,7 @@ const data = [
     capacity: 3500,
     engType: "Lead Acid Electric",
     basePrice: 14183,
-    imgName: "",
+    imgName: "ASeries.jpg",
     modeldescription:[{description:"A Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -623,22 +635,23 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-    defaultbattery: "No",
+      defaultbattery: "80V 500A/H Chinese",
+      defaultcharger: "No",
     	
     batteries: [
       {
-        batterytype: "80V 560A/H",
-        price: 4600,
-        chargers: [
-          {
-            chargertype: "3 Phase 12 Hour 80V 80",
-            price: 537
-          },
-          {
-            chargertype: "3 Phase 8 Hour 80V 100",
-            price: 520
-          }
-        ]
+        batterytype: "80V 560A/H UK Supply 5 year Warranty",
+        price: 1820
+      }
+    ],
+    chargers: [
+      {
+        chargertype: "3 Phase 12 Hour 80V 80",
+        price: 537
+      },
+      {
+        chargertype: "3 Phase 8 Hour 80V 100",
+        price: 520
       }
     ],
 
