@@ -12,8 +12,10 @@ const data = [
   imgName: "",
   powertrain: "Xinchai 3G22Y Euro5",
   modeldescription:[{description:"A Series"}],
-    loadcenter:500,
-    defaulttyre:"Pneumatic",
+  loadcenter:500,
+  defaulttyre:"Pneumatic",
+
+  engines :[{enginetype:"Korean LS4CRV Euro 5", price:1096}],
 
   masts: [
     {
@@ -110,6 +112,7 @@ const data = [
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
+    engines :[{enginetype:"Korean LS4CRV Euro 5", price:1096}],
 
   masts: [
     {
@@ -206,6 +209,8 @@ const data = [
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
+    engines :[{enginetype:"Korean LS4CRV Euro 5", price:1096}],
+    
 
   masts: [
     {
