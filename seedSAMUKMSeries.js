@@ -8,7 +8,7 @@ const data = [
     model: "FB16S-MHJZ",
     capacity: 1600,
     engType: "Electric",
-    basePrice: 8229,
+    basePrice: 9364,
     imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Rear Wheel Drive"}],
     loadcenter:500,
@@ -76,10 +76,14 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "48V 400A/H Chinese",
+    defaultbattery: "No",
     defaultcharger: "No",
 
     batteries: [
+      {
+        batterytype: "48V 400A/H Chinese",
+        price: 1344
+      },
       {
         batterytype: "48V 400 A/H UK Supply 5yr Warranty",
         price: 2400
@@ -122,7 +126,7 @@ const data = [
     model: "FB16S-MJZ",
     capacity: 1600,
     engType: "Electric",
-    basePrice: 10209,
+    basePrice: 10410,
     imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
@@ -189,10 +193,14 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "48V 500A/H Chinese",
+    defaultbattery: "No",
     defaultcharger: "No",
     	
     batteries: [
+      {
+        batterytype: "48V 400A/H Chinese",
+        price: 1344
+      },
       {
         batterytype: "48V 500 A/H UK Supply 5yr Warranty",
         price: 1480
@@ -235,7 +243,7 @@ const data = [
     model: "FB18S-MJZ",
     capacity: 1750,
     engType: "Electric",
-    basePrice: 10209,
+    basePrice: 10700,
     imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
@@ -302,10 +310,14 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "48V 500A/H Chinese",
+    defaultbattery: "No",
     defaultcharger: "No",
     	
     batteries: [
+      {
+        batterytype: "48V 400A/H Chinese",
+        price: 1344
+      },
       {
         batterytype: "48V 500 A/H UK Supply 5yr Warranty",
         price: 1480
@@ -348,7 +360,7 @@ const data = [
     model: "FB20S-MJZ",
     capacity: 2000,
     engType: "Electric",
-    basePrice: 10710,
+    basePrice: 10900,
     imgName: "FB16S.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
@@ -416,10 +428,14 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "48V 600A/H Chinese",
+    defaultbattery: "No",
     defaultcharger: "No",
     	
     batteries: [
+      {
+        batterytype: "48V 600A/H Chinese",
+        price: 1839
+      },
       {
         batterytype: "48V 600 A/H UK Supply 5yr Warranty",
         price: 1720
