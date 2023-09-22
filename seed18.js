@@ -24,7 +24,7 @@ const data = [
     ],
   
     defaultbattery : "25V 150 A/H Lithium",
-    defaultcharger : "Built-in",
+    defaultcharger : "Fast",
   
   
   defaultroller: "Single",

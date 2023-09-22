@@ -164,7 +164,11 @@ const data = [
         capacity: 2000,
         engType: "Warehouse"
       },
-      
+      {
+        model: "PT 18 M",
+        capacity: 1800,
+        engType: "Warehouse"
+      },
       {
         model: "PT 20 M1XL",
         capacity: 2000,
