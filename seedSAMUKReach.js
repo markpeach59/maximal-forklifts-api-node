@@ -10,7 +10,7 @@ const data = [
         engType: "Reach",
         basePrice: 0,
         percentOffBase: 7,
-        imgName: "FBRA15.jpg",
+        imgName: "FBRA.jpg",
        
         modeldescription:[
         {description:"Stand-on Reach"},
@@ -111,7 +111,7 @@ const data = [
     engType: "Reach",
     basePrice: 0,
     percentOffBase: 7,
-    imgName: "A-SERIES-REACH-TRUCK.jpg",
+    imgName: "FBREA-Sit.jpg",
     modeldescription:[
     {description:"Sit-on Reach"},
     {description:"INMOTION Controller for Lead Acid"},
@@ -213,7 +213,7 @@ const data = [
     engType: "Reach",
     basePrice: 0,
     percentOffBase: 7,
-    imgName: "A-SERIES-REACH-TRUCK.jpg",
+    imgName: "FBREA-Sit.jpg",
     modeldescription:[
     {description:"Sit-on Reach"},
     {description:"INMOTION Controller for Lead Acid"},
@@ -329,7 +329,7 @@ const data = [
     engType: "Reach",
     basePrice: 0,
     percentOffBase: 7,
-    imgName: "A-SERIES-REACH-TRUCK.jpg",
+    imgName: "FBREA-Sit.jpg",
     modeldescription:[
     {description:"Sit-on Reach"},
 

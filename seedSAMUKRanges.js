@@ -73,32 +73,32 @@ const data = [
         range: "AA Series (4 Wheel) Lithium Electric",
         models: [
           {
-            model: "FB15-AA",
+            model: "FB15-A",
             capacity: 1500,
             engType: "Electric"
           },
           {
-            model: "FB18-AA",
+            model: "FB18-A",
             capacity: 1750,
             engType: "Electric"
           },
           {
-            model: "FB20-AA",
+            model: "FB20-A",
             capacity: 2000,
             engType: "Electric"
           },
           {
-            model: "FB25-AA",
+            model: "FB25-A",
             capacity: 2500,
             engType: "Electric"
           },
           {
-            model: "FB30-AA",
+            model: "FB30-A",
             capacity: 3000,
             engType: "Electric"
           },
           {
-            model: "FB35-AA",
+            model: "FB35-A",
             capacity: 3500,
             engType: "Electric"
           }

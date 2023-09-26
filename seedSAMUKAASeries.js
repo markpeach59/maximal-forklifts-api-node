@@ -5,7 +5,7 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
     {
-        model: "FB15-YJ",
+        model: "FB15-A",
         capacity: 1500,
         engType: "Lithium-ion Electric",
         basePrice: 16950,
@@ -91,7 +91,7 @@ const data = [
         ]
       },
   {
-    model: "FB18-YJ",
+    model: "FB18-A",
     capacity: 1750,
     engType: "Lithium-ion Electric",
     basePrice: 17150,
@@ -178,7 +178,7 @@ const data = [
     ]
   },
   {
-    model: "FB20-YJ",
+    model: "FB20-A",
     capacity: 2000,
     engType: "Lithium-ion Electric",
     basePrice: 17461,
@@ -274,7 +274,7 @@ const data = [
   
   },
    {
-    model: "FB25-YJ",
+    model: "FB25-A",
     capacity: 2500,
     engType: "Lithium-ion Electric",
     basePrice: 17961,
@@ -368,7 +368,7 @@ const data = [
     ]
   },
 {
-    model: "FB30-YJ",
+    model: "FB30-A",
     capacity: 3000,
     engType: "Lithium-ion Electric",
     basePrice: 20550,
@@ -463,7 +463,7 @@ const data = [
     ]
   },
   {
-    model: "FB35-AA",
+    model: "FB35-A",
     capacity: 3500,
     engType: "Lithium-ion Electric",
     basePrice: 21300,
