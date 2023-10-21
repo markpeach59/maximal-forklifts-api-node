@@ -79,7 +79,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "500 A/H",
+        batterytype: "48V 500 A/H",
         price: 3000,
         chargers: [
           {
@@ -190,7 +190,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "500 A/H",
+        batterytype: "48V 500 A/H",
         price: 3000,
         chargers: [
           {
@@ -302,23 +302,23 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "600 A/H",
+        batterytype: "48V 620 A/H",
         price: 3300,
         chargers: [
           {
-            chargertype: "1 Phase 12 Hour 45V 100",
+            chargertype: "1 Phase 12 Hour 48V 100",
             price: 595
           },
           {
-            chargertype: "1 Phase 8 Hour 45V 120",
+            chargertype: "1 Phase 8 Hour 48V 120",
             price: 661
           },
           {
-            chargertype: "3 Phase 12 Hour 45V 100",
+            chargertype: "3 Phase 12 Hour 48V 100",
             price: 490
           },
           {
-            chargertype: "3 Phase 8 Hour 45V 120",
+            chargertype: "3 Phase 8 Hour 48V 120",
             price: 517
           }
         ]

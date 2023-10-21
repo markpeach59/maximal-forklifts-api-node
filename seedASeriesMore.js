@@ -81,7 +81,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "420 A/H",
+        batterytype: "48V 420 A/H",
         price: 2800,
         chargers: [
           {
@@ -191,7 +191,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "45V 600A/H",
+        batterytype: "48V 600A/H",
         price: 3300,
         chargers: [
           {
@@ -413,7 +413,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "80V 560A/H",
+        batterytype: "80V 500A/H",
         price: 4600,
         chargers: [
           {
@@ -514,7 +514,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "80V 560A/H",
+        batterytype: "80V 500A/H",
         price: 4600,
         chargers: [
           {
