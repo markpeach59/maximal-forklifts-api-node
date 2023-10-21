@@ -309,7 +309,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "45V 600A/H",
+        batterytype: "48V 600A/H",
         price: 1655
       }
     ],
@@ -536,7 +536,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "80V 560A/H UK Supply 5Yr Warranty",
+        batterytype: "80V 500A/H UK Supply 5Yr Warranty",
         price: 1820
       }
     ],
@@ -640,7 +640,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "80V 560A/H UK Supply 5 year Warranty",
+        batterytype: "80V 500A/H UK Supply 5 year Warranty",
         price: 1820
       }
     ],

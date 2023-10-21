@@ -198,7 +198,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 400A/H Chinese",
+        batterytype: "48V 500A/H Chinese",
         price: 1344
       },
       {
@@ -315,7 +315,7 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 400A/H Chinese",
+        batterytype: "48V 500A/H Chinese",
         price: 1344
       },
       {
@@ -433,29 +433,29 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 600A/H Chinese",
+        batterytype: "48V 620A/H Chinese",
         price: 1839
       },
       {
-        batterytype: "48V 600 A/H UK Supply 5yr Warranty",
+        batterytype: "48V 620 A/H UK Supply 5yr Warranty",
         price: 1720
       }
     ],
     chargers: [
       {
-        chargertype: "1 Phase 12 Hour 45V 100",
+        chargertype: "1 Phase 12 Hour 48V 100",
         price: 595
       },
       {
-        chargertype: "1 Phase 8 Hour 45V 120",
+        chargertype: "1 Phase 8 Hour 48V 120",
         price: 661
       },
       {
-        chargertype: "3 Phase 12 Hour 45V 100",
+        chargertype: "3 Phase 12 Hour 48V 100",
         price: 490
       },
       {
-        chargertype: "3 Phase 8 Hour 45V 120",
+        chargertype: "3 Phase 8 Hour 48V 120",
         price: 517
       }
     ],
