@@ -11,7 +11,7 @@ const data = [
   basePrice: 10724,
   imgName: "FDTA25-A.jpg",
   powertrain: "Xinchai 3G22Y Euro5",
-  modeldescription:[{description:"A Series"}],
+  
   loadcenter:500,
   defaulttyre:"Pneumatic",
 
@@ -107,8 +107,8 @@ const data = [
   engType: "Diesel",
   basePrice: 11142,
   imgName: "FDTA25-A.jpg",
-  powertrain: "Xinchai 3E22Y Euro5 Korean LS4CRV euro5",
-  modeldescription:[{description:"A Series"}],
+  powertrain: "Xinchai 3E22Y Euro5",
+  
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -204,8 +204,8 @@ const data = [
   engType: "Diesel",
   basePrice: 11579,
   imgName: "FDTA25-A.jpg",
-  powertrain: "Xinchai 3G22Y Euro5 Korean LS4CRV euro5",
-  modeldescription:[{description:"A Series"}],
+  powertrain: "Xinchai 3G22Y Euro5",
+  
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
@@ -304,7 +304,7 @@ const data = [
   engType: "Diesel",
   basePrice: 23376,
   imgName: "FDTA45-A.jpg",
-  powertrain: "Kubota V3800 Euro 5  type WJ 3",
+  powertrain: "Kubota V3800 Euro 5 type WJ 3",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -399,7 +399,7 @@ const data = [
   engType: "Diesel",
   basePrice: 23898,
   imgName: "FDTA45-A.jpg",
-  powertrain: "Kubota V3800 Euro 5  type WJ 3",
+  powertrain: "Kubota V3800 Euro 5 type WJ 3",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -496,7 +496,7 @@ const data = [
   engType: "Diesel",
   basePrice: 27700,
   imgName: "FDTA50.jpg",
-  powertrain: "Kubota V3800 euro5  type W 13",
+  powertrain: "Kubota V3800 euro5 type W 13",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -592,7 +592,7 @@ const data = [
   engType: "Diesel",
   basePrice: 29514,
   imgName: "FDTA50.jpg",
-  powertrain: "Kubota V3800 euro5  type W 13",
+  powertrain: "Kubota V3800 euro5 type W 13",
   modeldescription:[{description:"A Series"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
