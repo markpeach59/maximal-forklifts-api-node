@@ -82,7 +82,7 @@ router.patch("/:id", async (req, res) => {
   
 
   const msg = {
-    to: 'mark.peach@fastfixyourpc.com', 
+    to: 'ashleigh.jackson@maximgb.co.uk', 
     from: 'configurator@maximgb.co.uk', // Change to your verified sender
     subject: 'New Order of ' + quote.model,
     text: username.name +' has ordered a ' + quote.model,
