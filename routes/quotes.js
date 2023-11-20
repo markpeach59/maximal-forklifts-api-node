@@ -93,10 +93,10 @@ router.patch("/:id", async (req, res) => {
   sgMail
   .send(msg)
   .then((response) => {
-    console.log('Msg Sent')
+    //console.log('Msg Sent')
   })
   .catch((error) => {
-    console.error(error)
+    //console.error(error)
   })
 });
 
