@@ -6,15 +6,12 @@ const router = express.Router();
 
 const { Quote } = require("../models/quote");
 
-/*
-router.get("/", async (req, res) => {
-  const quotes = await Quote.find()
-    .select("-__v")
-    .sort("-updatedAt");
+const { User } = require("../models/user");
+const { Dealer } = require("../models/dealer");
 
-  res.send(quotes);
-});
-*/
+const sgMail = require('@sendgrid/mail')
+sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+
 
 router.get("/", auth, async (req, res) => {
   const quotes = await Quote.find({ userid: req.user._id, order: false })
@@ -69,6 +66,38 @@ router.patch("/:id", async (req, res) => {
     return res.status(404).send("The quote with the given ID was not found.");
 
   res.send(_.pick(quote, ["_id", "order"]));
+
+  // now notify MaximGB of order
+
+  const username = await User.findById(quote.userid).select("-password");
+
+  const dealerid = username.dealerId;
+
+  let MsgAdendum = '';
+
+  if (dealerid){
+    const dealername = await Dealer.findById(dealerid).select("-__v");
+    MsgAdendum = ' of ' + dealername.dealername + ' ';
+  }
+  
+
+  const msg = {
+    to: 'mark.peach@fastfixyourpc.com', 
+    from: 'configurator@maximgb.co.uk', // Change to your verified sender
+    subject: 'New Order of ' + quote.model,
+    text: username.name +' has ordered a ' + quote.model,
+    html: '<p>' + username.name + MsgAdendum + ' has ordered a ' + quote.model + '</p>',
+  }
+
+
+  sgMail
+  .send(msg)
+  .then((response) => {
+    console.log('Msg Sent')
+  })
+  .catch((error) => {
+    console.error(error)
+  })
 });
 
 router.patch("/savemarkup/:id", async (req, res) => {
