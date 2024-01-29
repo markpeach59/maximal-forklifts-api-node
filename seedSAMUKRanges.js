@@ -254,6 +254,21 @@ const data = [
             model: "FD35T-C4W",
             capacity: 3500,
             engType: "Rough Terrain"
+          },
+          {
+            model: "FBCX18T-YT2",
+            capacity: 1800,
+            engType: "Rough Terrain"
+          },
+          {
+            model: "FBCX25T-YT2",
+            capacity: 2500,
+            engType: "Rough Terrain"
+          },
+          {
+            model: "FBCX35T-YT2",
+            capacity: 3500,
+            engType: "Rough Terrain"
           }
           
         ]
