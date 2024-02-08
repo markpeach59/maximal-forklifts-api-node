@@ -79,7 +79,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     	],
 
-    defaultbattery: "83.2V 230A/H Li-ion",
+    defaultbattery: "76.8V 230A/H Li-ion",
     defaultcharger: "Fast",
     
     halolight: [{ halolighttype: "", price: 210 }],
@@ -167,13 +167,17 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
 
-    defaultbattery: "80V 230A/H Li-ion",
+    defaultbattery: "76.8 230A/H Li-ion",
     defaultcharger: "Fast",
 
     batteries: [
       	{
-        batterytype: "80V 304A/H",
-        price: 989,
+        batterytype: "76.8V 300A/H",
+        price: 810,
+    	},
+      {
+        batterytype: "76.8V 350A/H",
+        price: 1650,
     	}
     ],
 
@@ -262,13 +266,17 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-      defaultbattery: "80V 230A/H Li-ion",
+      defaultbattery: "76.8V 230A/H Li-ion",
     defaultcharger: "Fast",
 
     batteries: [
       	{
-        batterytype: "80V 304A/H",
-        price: 989,
+        batterytype: "76.8V 300A/H",
+        price: 810,
+    	},
+      {
+        batterytype: "76.8V 350A/H",
+        price: 1650,
     	}
     ],
 
@@ -357,13 +365,13 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "80V 346A/H Li-ion",
+    defaultbattery: "76.8V 350A/H Li-ion",
     defaultcharger: "Fast",
 
     batteries: [
       	{
-        batterytype: "80V 460A/H",
-        price: 1791,
+        batterytype: "76.8V 460A/H",
+        price: 1200,
     	}
     ],
 
@@ -452,15 +460,16 @@ const data = [
     ],
     
     
-    defaultbattery: "80V 346A/H Li-ion",
+    defaultbattery: "76.8V 350A/H Li-ion",
     defaultcharger: "Fast",
 
     batteries: [
       	{
-        batterytype: "80V 460A/H",
-        price: 1791,
+        batterytype: "76.8V 460A/H",
+        price: 1200,
     	}
     ],
+    
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
 

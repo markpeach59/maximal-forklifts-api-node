@@ -78,7 +78,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension", price: 298 },
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
 
-    defaultbattery: "83.2V 230A/H Li-ion",
+    defaultbattery: "76.8V 230A/H Li-ion",
     defaultcharger: "Fast",
 
     halolight: [{ halolighttype: "", price: 210 }],
