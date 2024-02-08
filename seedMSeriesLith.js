@@ -9,6 +9,7 @@ const data = [
     capacity: 1600,
     engType: "Electric",
     basePrice: 17310,
+    basePriceR: 15580,
     imgName: "M-SERIES-LITHIUM-Rear-drive-3-wheel-1.6T.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Rear Wheel Drive"},{description:"Lithium Powered"}],
     loadcenter:500,
