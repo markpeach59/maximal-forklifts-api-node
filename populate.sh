@@ -2,7 +2,9 @@
 echo "Populating"
 
 node seedMSeries.js
+node seedMSeriesLith.js
 node seedMSeriesMore.js
+node seedMSeriesLithMore.js
 node seedASeries.js
 node seedASeriesMore.js
 node seedAASeries.js

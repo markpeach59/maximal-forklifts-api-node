@@ -5,6 +5,37 @@ const { Forkliftrestricted } = require("./models/forkliftrestricted");
 
 const data = [
   {
+    range: "M Series (3 Wheel) Lithium Electric Rear Wheel Drive",
+    models: [
+      {
+        model: "FB16S-LR",
+        capacity: 1600,
+        engType: "Electric"
+      }
+    ]
+  },
+  {
+    range: "M Series (3 Wheel) Lithium Electric Front Wheel Drive",
+    models: [
+      {
+        model: "FB16S-LF",
+        capacity: 1600,
+        engType: "Electric"
+      },
+      {
+        model: "FB18S-LF",
+        capacity: 1800,
+        engType: "Electric"
+      },
+      {
+        model: "FB20S-LF",
+        capacity: 2000,
+        engType: "Electric"
+      }
+    ]
+  },
+
+  {
     range: "AA Series (4 Wheel) Lithium Electric",
     models: [
       {
