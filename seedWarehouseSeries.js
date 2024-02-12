@@ -22,7 +22,7 @@ const data = [
     ],
 
     defaultroller : "Single",
-    defaultbattery : "24V 15A/H Lithium",
+    defaultbattery : "24V 20A/H Lithium",
     defaultcharger : "5A",
 
     batteries: [
@@ -33,7 +33,11 @@ const data = [
     ],
     spares : [{sparetype:"24V 30A/H Lithium", price:346}],
 
-    stabiliser: [{stabilisertype:"", price:52}]
+    stabiliser: [{stabilisertype:"", price:52}],
+
+    rollers:[
+      {rollertype : "Twin", price: 95}
+  ]
   },
   {
     model: "PTE 15N",
@@ -54,7 +58,7 @@ const data = [
 
     defaultroller : "Single",
     defaultbattery : "24V 15A/H Lithium",
-    defaultcharger : "5A",
+    defaultcharger : "12A",
 
     batteries: [
       {
