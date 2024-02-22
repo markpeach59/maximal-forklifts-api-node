@@ -230,7 +230,7 @@ const data = [
     model: "FB20S-MJZ",
     capacity: 2000,
     engType: "Electric",
-    basePrice: 14150,
+    basePrice: 13950,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
     loadcenter:500,
