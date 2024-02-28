@@ -431,8 +431,7 @@ const data = [
         chargertype: "3 Phase 8 Hour 80V 100",
         price: 520
       }
-    ]
-  },
+    ],
 
     halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -538,8 +537,7 @@ const data = [
         chargertype: "3 Phase 8 Hour 80V 100",
         price: 520
       }
-    ]
-  },
+    ],
 
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
