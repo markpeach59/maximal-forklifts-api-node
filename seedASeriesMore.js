@@ -415,18 +415,24 @@ const data = [
       {
         batterytype: "80V 500A/H",
         price: 4600,
-        chargers: [
-          {
-            chargertype: "3 Phase 12 Hour 80V 80",
-            price: 537
-          },
-          {
-            chargertype: "3 Phase 8 Hour 80V 100",
-            price: 520
-          }
-        ]
-      }
+      },
+      {
+        batterytype: "80V 600A/H",
+        price: 5150,
+      },
+
     ],
+    chargers: [
+      {
+        chargertype: "3 Phase 12 Hour 80V 80",
+        price: 537
+      },
+      {
+        chargertype: "3 Phase 8 Hour 80V 100",
+        price: 520
+      }
+    ]
+  },
 
     halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -516,18 +522,24 @@ const data = [
       {
         batterytype: "80V 500A/H",
         price: 4600,
-        chargers: [
-          {
-            chargertype: "3 Phase 12 Hour 80V 80",
-            price: 537
-          },
-          {
-            chargertype: "3 Phase 8 Hour 80V 100",
-            price: 520
-          }
-        ]
-      }
+      },
+      {
+        batterytype: "80V 600A/H",
+        price: 5150,
+      },
+
     ],
+    chargers: [
+      {
+        chargertype: "3 Phase 12 Hour 80V 80",
+        price: 537
+      },
+      {
+        chargertype: "3 Phase 8 Hour 80V 100",
+        price: 520
+      }
+    ]
+  },
 
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
