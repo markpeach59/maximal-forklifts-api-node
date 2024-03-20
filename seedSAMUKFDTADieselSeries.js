@@ -11,6 +11,8 @@ const data = [
   basePrice: 10724,
   imgName: "FDTA25-A.jpg",
   powertrain: "Xinchai 3G22Y Euro5",
+
+  modeldescription:[{description:""}],
   
   loadcenter:500,
   defaulttyre:"Pneumatic",
@@ -108,6 +110,7 @@ const data = [
   basePrice: 11142,
   imgName: "FDTA25-A.jpg",
   powertrain: "Xinchai 3E22Y Euro5",
+  modeldescription:[{description:""}],
   
     loadcenter:500,
     defaulttyre:"Pneumatic",
@@ -205,7 +208,7 @@ const data = [
   basePrice: 11579,
   imgName: "FDTA25-A.jpg",
   powertrain: "Xinchai 3G22Y Euro5",
-  
+  modeldescription:[{description:""}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
