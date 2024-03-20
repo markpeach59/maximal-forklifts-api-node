@@ -10,6 +10,7 @@ const data = [
     engType:"Diesel",
     basePrice:12910,
     imgName:"KBD20.jpg",
+    modeldescription:[{description:""}],
 
 masts:[
     {
@@ -82,6 +83,8 @@ powertrain:"Doosan DM02 Euro 5 Diesel Engine"
     basePrice:13211,
     imgName:"KBD20.jpg",
 
+    modeldescription:[{description:""}],
+
     masts:[{
    
     masttype:"2 Stage Free View Mast",
@@ -152,6 +155,8 @@ powertrain:"Doosan DM02 Euro 5 Diesel Engine"
     basePrice:13558,
     imgName:"KBD20.jpg",
 
+    modeldescription:[{description:""}],
+    
 masts:[{
     masttype:"2 Stage Free View Mast",
         mastsizes:[
