@@ -178,6 +178,9 @@ const data = [
       { tyretype: "Non-Marking S/E Tyres", price: 610 },
       { tyretype: "Dual Drive Tyres", price: 980 }
   ],
+
+  dualdrive:[{dualdrivetype:"", price: 1049}],
+
   
   seatrequired: 'true',
   
@@ -271,6 +274,9 @@ const data = [
       { tyretype: "Non-Marking S/E Tyres", price: 610 },
       { tyretype: "Dual Drive Tyres", price: 980 }
   ],
+
+  dualdrive:[{dualdrivetype:"", price: 1049}],
+
   
   seatrequired: 'true',
   
@@ -365,6 +371,8 @@ const data = [
       { tyretype: "Non-Marking White Tyres", price: 1400 },
       { tyretype: "Dual Drive Tyres", price: 900 }
   ],
+
+  dualdrive:[{dualdrivetype:"", price: 1198}],
   
   seatrequired: 'true',
   
@@ -461,6 +469,9 @@ const data = [
       { tyretype: "Non-Marking White Tyres", price: 1400 },
       { tyretype: "Dual Drive Tyres", price: 900 }
   ],
+
+  dualdrive:[{dualdrivetype:"", price: 1198}],
+
   
   seatrequired: 'true',
   

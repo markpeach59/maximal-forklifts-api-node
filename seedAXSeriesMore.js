@@ -71,6 +71,8 @@ const data = [
       { tyretype: "Non-Marking Solid S/E Tyres", price: 610 },
       { tyretype: "Super Elastic Tyres", price: 620 }
     ],
+
+    dualdrive:[{dualdrivetype:"", price: 1049}],
      
     seatrequired: 'true',
 
@@ -167,7 +169,9 @@ const data = [
       { tyretype: "Non-Marking Solid S/E", price: 610 },
       { tyretype: "Super Elastic", price: 620 }
     ],
-     
+    
+    dualdrive:[{dualdrivetype:"", price: 1049}],
+
     seatrequired: 'true',
     
     seat: [
@@ -261,6 +265,8 @@ const data = [
       { tyretype: "S/E Solid", price: 788 },
       { tyretype: "Non-Marking Solid S/E", price: 1039 }
     ],
+
+    dualdrive:[{dualdrivetype:"", price: 1198}],
      
     seatrequired: 'true',
     
@@ -347,6 +353,8 @@ const data = [
     tyres: [
       { tyretype: "S/E Solid", price: 1150 }
     ],
+
+    dualdrive:[{dualdrivetype:"", price: 1198}],
      
     seatrequired: 'true',
     

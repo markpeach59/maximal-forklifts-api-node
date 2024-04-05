@@ -144,6 +144,8 @@ router.post("/", async (req, res) => {
       "sideshift",
       "forkpositioner",
       "tyre",
+      "dualdrive",
+
       "pincode",
       "controller",
       "roller",
@@ -211,6 +213,7 @@ router.post("/", async (req, res) => {
       "sideshift",
       "forkpositioner",
       "tyre",
+      "dualdrive",
       "pincode",
       "controller",
       "roller",
