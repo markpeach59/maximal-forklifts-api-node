@@ -8,17 +8,12 @@ const data = [
     range: "Diesel",
     models: [
       {
-        model: "KBD15",
-        capacity: 1500,
-        engType: "Diesel"
-      },
-      {
-        model: "KBD18",
+        model: "FDTA18",
         capacity: 1800,
         engType: "Diesel"
       },
       {
-        model: "KBD20",
+        model: "FDTA20",
         capacity: 2000,
         engType: "Diesel"
       },
@@ -63,17 +58,12 @@ const data = [
     range: "LPG",
     models: [
       {
-        model: "KBG15",
-        capacity: 1500,
-        engType: "LPG"
-      },
-      {
-        model: "KBG18",
+        model: "FLTA18",
         capacity: 1750,
         engType: "LPG"
       },
       {
-        model: "KBG20",
+        model: "FLTA20",
         capacity: 2000,
         engType: "LPG"
       },

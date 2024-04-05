@@ -5,6 +5,18 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
+    model: "FDTA18",
+  capacity: 1800,
+  engType: "Diesel",
+  modeldescription:[{description:"Coming Soon"}]
+  },
+  {
+    model: "FDTA20",
+  capacity: 2000,
+  engType: "Diesel",
+  modeldescription:[{description:"Coming Soon"}]
+  },
+  {
   model: "FDTA25",
   capacity: 2500,
   engType: "Diesel",

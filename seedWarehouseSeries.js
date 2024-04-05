@@ -56,7 +56,6 @@ const data = [
       { forklength: "685 X 1220", price: 100 },
     ],
 
-    defaultroller : "Single",
     defaultbattery : "24V 15A/H Lithium",
     defaultcharger : "12A",
 
@@ -67,7 +66,13 @@ const data = [
       }
     ],
     spares : [{sparetype:"24V 36A/H Lithium", price:396}],
-    stabiliser: [{stabilisertype:"", price:52}]
+    stabiliser: [{stabilisertype:"", price:52}],
+
+    defaultroller : "Single",
+    rollers:[
+      {rollertype : "Twin", price: 95}
+  ]
+
   },
   {
     model: "PTE 20N",
@@ -1121,6 +1126,9 @@ defaultcharger : "Built-in"
     { forklength: 1150, price: 42 },
   ],
 
+  sideshift: [
+    { sideshifttype: "", price: 592 }
+  ],
  
   defaultbattery : "24V 270A/H Lead Acid",
 

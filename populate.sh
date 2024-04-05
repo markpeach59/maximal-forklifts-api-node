@@ -11,9 +11,7 @@ node seedAASeries.js
 node seedAASeriesMore.js
 node seedAXSeries.js
 node seedAXSeriesMore.js
-node seedKDBSeries.js
 node seedFDTADieselSeries.js
-node seedKGBSeries.js
 node seedFLTALPGSeries.js
 node seedRough.js
 node seedReach.js
