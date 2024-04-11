@@ -20,32 +20,32 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, closedheight: 2050, price: 0 },
-          { mastlength: 3300, closedheight: 2200, price: 210 },
-          { mastlength: 3500, closedheight: 2300, price: 298 },
-          { mastlength: 4000, closedheight: 2600, price: 510},
-          { mastlength: 4500, closedheight: 2850, price: 737},
-          { mastlength: 5000, closedheight: 3100, price: 795}
+          { mastlength: 3000, closedheight: 2050, mastrange:"2LFL", mastabvtype:"M300", stdcapacity: 2500, isscapacity: 2500, price: 0 },
+          { mastlength: 3300, closedheight: 2200, mastrange:"2LFL", mastabvtype:"M330", stdcapacity: 2500, isscapacity: 2500,price: 210 },
+          { mastlength: 3500, closedheight: 2300, mastrange:"2LFL", mastabvtype:"M350", stdcapacity: 2500, isscapacity: 2500,price: 298 },
+          { mastlength: 4000, closedheight: 2600, mastrange:"2LFL", mastabvtype:"M400", stdcapacity: 2500, isscapacity: 2500,price: 510},
+          { mastlength: 4500, closedheight: 2850, mastrange:"2LFL", mastabvtype:"M450", stdcapacity: 2390, isscapacity: 2390,price: 737},
+          { mastlength: 5000, closedheight: 3100, mastrange:"2LFL", mastabvtype:"M500", stdcapacity: 2270, isscapacity: 2270,price: 795}
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, closedheight: 2050, freeliftheight: 1420, price: 460 },
-          { mastlength: 3300, closedheight: 2165, freeliftheight: 1570, price: 576 },
-          { mastlength: 3500, closedheight: 2265, freeliftheight: 1670, price: 701 }
+          { mastlength: 3000, closedheight: 2050, freeliftheight: 1420, mastrange:"2FFL", mastabvtype:"FM300", stdcapacity: 2500, isscapacity: 2500,price: 460 },
+          { mastlength: 3300, closedheight: 2165, freeliftheight: 1570, mastrange:"2FFL", mastabvtype:"FM330", stdcapacity: 2500, isscapacity: 2500,price: 576 },
+          { mastlength: 3500, closedheight: 2265, freeliftheight: 1670, mastrange:"2FFL", mastabvtype:"FM350", stdcapacity: 2500, isscapacity: 2500,price: 701 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 2100, freeliftheight: 1390, price: 1120 },
-          { mastlength: 4500, closedheight: 2150, freeliftheight: 1440, price: 1120 },
-          { mastlength: 4800, closedheight: 2240, freeliftheight: 1540, price: 1408 },
-          { mastlength: 5000, closedheight: 2393, freeliftheight: 1640, price: 1530 },
-          { mastlength: 5500, closedheight: 2627, freeliftheight: 1765, price: 1630 },
-          { mastlength: 6000, closedheight: 2860, freeliftheight: 1990, price: 1760 },
-          { mastlength: 6500, closedheight: 3095, freeliftheight: 2205, price: 1900}
+          { mastlength: 4350, closedheight: 2100, freeliftheight: 1390, mastrange:"3FFL", mastabvtype:"FM435", stdcapacity: 2380, isscapacity: 2300, price: 1120 },
+          { mastlength: 4500, closedheight: 2150, freeliftheight: 1440, mastrange:"3FFL", mastabvtype:"FM450", stdcapacity: 2340, isscapacity: 2260, price: 1120 },
+          { mastlength: 4800, closedheight: 2240, freeliftheight: 1540, mastrange:"3FFL", mastabvtype:"FM480", stdcapacity: 2270, isscapacity: 2190, price: 1408 },
+          { mastlength: 5000, closedheight: 2393, freeliftheight: 1640, mastrange:"3FFL", mastabvtype:"FM500", stdcapacity: 2160, isscapacity: 2100, price: 1530 },
+          { mastlength: 5500, closedheight: 2627, freeliftheight: 1765, mastrange:"3FFL", mastabvtype:"FM550", stdcapacity: 1710, isscapacity: 1650, price: 1630 },
+          { mastlength: 6000, closedheight: 2860, freeliftheight: 1990, mastrange:"3FFL", mastabvtype:"FM600", stdcapacity: 1410, isscapacity: 1350, price: 1760 },
+          { mastlength: 6500, closedheight: 3095, freeliftheight: 2205, mastrange:"3FFL", mastabvtype:"FM650", stdcapacity: 1120, isscapacity: 1050, price: 1900}
         ]
       }
     ],
