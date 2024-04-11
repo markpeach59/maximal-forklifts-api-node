@@ -42,8 +42,6 @@ const Forkliftdetail = mongoose.model(
     defaulttyre: String,
     tyres: [{ tyretype: String, price: Number }],
 
-    dualdrive: [{ dualdrivetype: String, price: Number }],
-
     sideshift: [{ sideshifttype: String, price: Number }],
     forkpositioner: [{ forkpositionertype: String, price: Number }],
     coldstoreprot: [{ coldstoreprottype: String, price: Number }],

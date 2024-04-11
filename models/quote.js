@@ -33,7 +33,6 @@ const Quote = mongoose.model(
       forkpositioner: Boolean,
 
       tyre: String,
-      dualdrive: Boolean,
 
       controller: String,
       pincode: Boolean,

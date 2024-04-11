@@ -97,7 +97,9 @@ const data = [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
-    ]
+    ],
+
+    heater:[ {heatertype:"Heater/Demister", price:110}],
   },
 
   

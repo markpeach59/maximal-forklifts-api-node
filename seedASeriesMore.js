@@ -111,7 +111,8 @@ const data = [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
-    ]
+    ],
+    heater:[ {heatertype:"Heater/Demister", price:110}]
   },
   {
     model: "FBA20-JZ",
@@ -221,7 +222,8 @@ const data = [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
-    ]
+    ],
+    heater:[ {heatertype:"Heater/Demister", price:110}]
   
   },
   {
@@ -333,7 +335,8 @@ const data = [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
-    ]
+    ],
+    heater:[ {heatertype:"Heater/Demister", price:110}]
   },
 {
     model: "FBA30-JZ",
@@ -450,7 +453,9 @@ const data = [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
-    ]
+    ],
+    heater:[ {heatertype:"Heater/Demister", price:110}]
+
   
   },
   {
@@ -567,7 +572,8 @@ const data = [
       { cabinoption: "Half Cabin", price: 1100 },
       { cabinoption: "Half Cabin with Canvas Sides", price: 1460 },
       { cabinoption: "Full Steel Cabin", price: 1900 }
-    ]
+    ],
+    heater:[ {heatertype:"Heater/Demister", price:110}]
   }
   
 ];

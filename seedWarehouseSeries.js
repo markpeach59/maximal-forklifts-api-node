@@ -1072,6 +1072,9 @@ defaultcharger : "Built-in"
     { forklength: 1150, price: 42 },
   ],
 
+  sideshift: [
+    { sideshifttype: "", price: 592 }
+  ],
  
   defaultbattery : "24V 270A/H Lead Acid",
 
