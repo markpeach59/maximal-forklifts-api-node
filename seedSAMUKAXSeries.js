@@ -8,8 +8,8 @@ const data = [
         model: "FB25-AX",
         capacity: 2500,
         engType: "Lithium-ion Electric",
-        basePrice: 18061,
-        percentOffBase: 7,
+        basePrice: 17495,
+  
         offer:'true',
         imgName: "AX-SERIES-30T.jpg",
         modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
