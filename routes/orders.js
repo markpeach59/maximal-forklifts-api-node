@@ -37,7 +37,7 @@ router.get("/:id", async (req, res) => {
 
 router.patch("/confirmorder/:id", async (req, res) => {
   
-  console.log ('stocknumber', req.body.stocknumber);
+  //console.log ('stocknumber', req.body.stocknumber);
   const quote = await Quote.findByIdAndUpdate(
     req.params.id,
     { $set: { confirmedorder: true, stocknumber: req.body.stocknumber }},
