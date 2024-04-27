@@ -29,7 +29,8 @@ const data = [
   ],
     loadcenter:500,
     
-
+    chassisrequired: true,
+    
     chassis :[
       {label:"Lead Acid Version", price: 15300, 
       batteries:[

@@ -25,6 +25,8 @@ const data = [
     loadcenter:500,
     defaulttyre:"Rubber",
 
+    chassisrequired: true,
+
     chassis :[
       {label:"Lead Acid Version", price: 16900, batteries:[
         {batterytype:"48V 450A/H", price:3050, 
@@ -125,6 +127,8 @@ const data = [
   ],
     loadcenter:500,
     defaulttyre:"Rubber",
+
+    chassisrequired: true,
 
     chassis :[
       {label:"Lead Acid Version", price: 18800, batteries:[
@@ -242,6 +246,8 @@ const data = [
     loadcenter:500,
     defaulttyre:"Rubber",
 
+    chassisrequired: true,
+    
     chassis :[
       {label:"Lead Acid Version", price: 19810, batteries:[
         {batterytype:"48V 600A/H", price:3700, 
