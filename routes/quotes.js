@@ -56,9 +56,10 @@ router.patch("/reassign/:id", async (req, res) => {
 router.patch("/:id", async (req, res) => {
   //const orderstatus = _.pick(req.body, ["order"]);
 
+  //console.log ('poumber', req.body.ponumber);
   const quote = await Quote.findByIdAndUpdate(
     req.params.id,
-    { $set: { order: true } },
+    { $set: { order: true, ponumber: req.body.ponumber} },
     { useFindAndModify: false, new: true }
   ).select("-__v");
 
@@ -136,7 +137,7 @@ router.post("/", async (req, res) => {
       "confirmedorder",
       "stocknumber",
       "ponumber",
-      
+
       "imgname",
       "masttype",
       "mastsize",
