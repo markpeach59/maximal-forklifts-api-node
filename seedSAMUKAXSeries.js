@@ -164,7 +164,8 @@ const data = [
     tyres: [
       { tyretype: "S/E Solid Tyres", price: 590 },
       { tyretype: "Non-Marking Solid S/E Tyres", price: 610 },
-      { tyretype: "Super Elastic Tyres", price: 620 }
+      { tyretype: "Super Elastic Tyres", price: 620 },
+      { tyretype: "Dual Drive", price: 1198 }
     ],
      
     seatrequired: 'true',
@@ -260,7 +261,8 @@ const data = [
     tyres: [
       { tyretype: "S/E Solid", price: 590 },
       { tyretype: "Non-Marking Solid S/E", price: 610 },
-      { tyretype: "Super Elastic", price: 620 }
+      { tyretype: "Super Elastic", price: 620 },
+      { tyretype: "Dual Drive", price: 1198 }
     ],
      
     seatrequired: 'true',
@@ -354,7 +356,8 @@ const data = [
     ],
     tyres: [
       { tyretype: "S/E Solid", price: 788 },
-      { tyretype: "Non-Marking Solid S/E", price: 1039 }
+      { tyretype: "Non-Marking Solid S/E", price: 1039 },
+      { tyretype: "Dual Drive", price: 1198 }
     ],
      
     seatrequired: 'true',
@@ -440,7 +443,8 @@ const data = [
       { forkpositionertype: "", price: 3900 },
     ],
     tyres: [
-      { tyretype: "S/E Solid", price: 1150 }
+      { tyretype: "S/E Solid", price: 1150 },
+      { tyretype: "Dual Drive", price: 1198 }
     ],
      
     seatrequired: 'true',
