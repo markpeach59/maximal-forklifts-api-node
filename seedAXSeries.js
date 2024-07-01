@@ -16,6 +16,33 @@ const data = [
     loadcenter:500,
     defaulttyre:"Pneumatic",
 
+
+    voltagerequired : true,    
+    voltage :[
+      {
+        label:"Light Duty", 
+        price: 14000, 
+        priceR: 13800,
+        defaultbattery: "76.8V 350A/H Lithium"
+      },
+      {
+        label:"Standard", 
+        price: 18061,
+        priceR: 16500,
+        defaultbattery: "115V 125A/H Lithium",
+        batteries:[{
+          batterytype: "115V 230A/H",
+          price: 2850
+        }]
+      },
+      {
+        label:"Heavy Duty", 
+        price: 19966, 
+        priceR: 18900,
+        defaultbattery: "153.6 Lithium"
+      },
+    ],
+
     masts: [
       {
         masttype: "2 Stage Free View Mast",
