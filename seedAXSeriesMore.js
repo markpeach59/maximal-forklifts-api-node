@@ -8,13 +8,39 @@ const data = [
     model: "FBAX30-YWL",
     capacity: 3000,
     engType: "Lithium-ion Electric",
-    basePrice: 20550,
-    basePriceR: 18400,
+    basePrice: 0,
+    basePriceR: 0,
     offer:'true',
     imgName: "AX-SERIES-30T.jpg",
     modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
+
+    voltagerequired : true,    
+    voltage :[
+      {
+        label:"Light Duty", 
+        price: 16100, 
+        priceR: 1500,
+        defaultbattery: "76.8V 350A/H Lithium"
+      },
+      {
+        label:"Standard", 
+        price: 20550,
+        priceR: 18400,
+        defaultbattery: "115V 125A/H Lithium",
+        batteries:[{
+          batterytype: "115V 230A/H",
+          price: 2850
+        }]
+      },
+      {
+        label:"Heavy Duty", 
+        price: 20454, 
+        priceR: 19400,
+        defaultbattery: "153.6 Lithium"
+      },
+    ],
 
     masts: [
       {
@@ -106,13 +132,39 @@ const data = [
     model: "FBAX35-YWL",
     capacity: 3500,
     engType: "Lithium-ion Electric",
-    basePrice: 21350,
-    basePriceR: 19215,
+    basePrice: 0,
+    basePriceR: 0,
     offer:'true',
     imgName: "AX-SERIES-30T.jpg",
     modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
+
+    voltagerequired : true,    
+    voltage :[
+      {
+        label:"Light Duty", 
+        price: 16700, 
+        priceR: 16000,
+        defaultbattery: "76.8V 350A/H Lithium"
+      },
+      {
+        label:"Standard", 
+        price: 21350,
+        priceR: 19215,
+        defaultbattery: "115V 125A/H Lithium",
+        batteries:[{
+          batterytype: "115V 230A/H",
+          price: 2850
+        }]
+      },
+      {
+        label:"Heavy Duty", 
+        price: 21682, 
+        priceR: 19600,
+        defaultbattery: "153.6 Lithium"
+      },
+    ],
 
     masts: [
       {
