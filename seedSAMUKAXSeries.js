@@ -8,14 +8,40 @@ const data = [
         model: "FB25-AX",
         capacity: 2500,
         engType: "Lithium-ion Electric",
-        basePrice: 17495,
+        basePrice: 0,
   
-        offer:'true',
         imgName: "AX-SERIES-30T.jpg",
         modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
         loadcenter:500,
         defaulttyre:"Pneumatic",
     
+
+    voltagerequired : true,    
+    voltage :[
+      {
+        label:"Light Duty", 
+        price: 13800, 
+       
+        defaultbattery: "76.8V 350A/H Lithium"
+      },
+      {
+        label:"Standard", 
+        price: 17495,
+        
+        defaultbattery: "115V 125A/H Lithium",
+        batteries:[{
+          batterytype: "115V 230A/H",
+          price: 2850
+        }]
+      },
+      {
+        label:"Heavy Duty", 
+        price: 19500, 
+        
+        defaultbattery: "153.6 Lithium"
+      },
+    ],
+
         masts: [
           {
             masttype: "2 Stage Free View Mast",
@@ -103,13 +129,35 @@ const data = [
     model: "FB30-AX",
     capacity: 3000,
     engType: "Lithium-ion Electric",
-    basePrice: 20550,
-    percentOffBase: 7,
-    offer:'true',
+    basePrice: 0,
     imgName: "AX-SERIES-30T.jpg",
     modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
+
+
+    voltagerequired : true,    
+    voltage :[
+      {
+        label:"Light Duty", 
+        price: 15600, 
+        defaultbattery: "76.8V 350A/H Lithium"
+      },
+      {
+        label:"Standard", 
+        price: 19112,
+        defaultbattery: "115V 125A/H Lithium",
+        batteries:[{
+          batterytype: "115V 230A/H",
+          price: 2850
+        }]
+      },
+      {
+        label:"Heavy Duty", 
+        price: 20000,
+        defaultbattery: "153.6 Lithium"
+      },
+    ],
 
     masts: [
       {
@@ -200,13 +248,37 @@ const data = [
     model: "FB35-AX",
     capacity: 3500,
     engType: "Lithium-ion Electric",
-    basePrice: 21350,
-    percentOffBase: 7,
-    offer:'true',
+    basePrice: 0,
+    
     imgName: "AX-SERIES-30T.jpg",
     modeldescription:[{description:"AX Series"}, {description:"4 Wheel"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
+
+
+    voltagerequired : true,    
+    voltage :[
+      {
+        label:"Light Duty", 
+        price: 16200, 
+        defaultbattery: "76.8V 350A/H Lithium"
+      },
+      {
+        label:"Standard", 
+        price: 19856,
+        defaultbattery: "115V 125A/H Lithium",
+        batteries:[{
+          batterytype: "115V 230A/H",
+          price: 2850
+        }]
+      },
+      {
+        label:"Heavy Duty", 
+        price: 21000, 
+        defaultbattery: "153.6 Lithium"
+      },
+    ],
+
 
     masts: [
       {
