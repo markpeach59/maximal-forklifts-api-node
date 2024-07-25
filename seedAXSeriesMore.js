@@ -18,13 +18,13 @@ const data = [
     voltagerequired : true,    
     voltage :[
       {
-        label:"Light Duty", 
+        label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 16100, 
         priceR: 1500,
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
-        label:"Standard", 
+        label:"Standard (4.5 - 5 hrs runtime)", 
         price: 20550,
         priceR: 18400,
         defaultbattery: "115V 125A/H Lithium",
@@ -34,10 +34,10 @@ const data = [
         }]
       },
       {
-        label:"Heavy Duty", 
+        label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 20454, 
         priceR: 19400,
-        defaultbattery: "153.6 Lithium"
+        defaultbattery: "153.6V 228A/H Lithium"
       },
     ],
 
@@ -141,13 +141,13 @@ const data = [
     voltagerequired : true,    
     voltage :[
       {
-        label:"Light Duty", 
+        label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 16700, 
         priceR: 16000,
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
-        label:"Standard", 
+        label:"Standard (4.5 - 5 hrs runtime)", 
         price: 21350,
         priceR: 19215,
         defaultbattery: "115V 125A/H Lithium",
@@ -157,10 +157,10 @@ const data = [
         }]
       },
       {
-        label:"Heavy Duty", 
+        label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 21682, 
         priceR: 19600,
-        defaultbattery: "153.6 Lithium"
+        defaultbattery: "153.6V 228A/H Lithium"
       },
     ],
 
