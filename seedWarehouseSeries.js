@@ -282,12 +282,12 @@ liftybutton:[
 },
 
 {
-  model: "PT 20H",
+  model: "PT 20N",
   capacity: 2000,
   engType: "Warehouse",
   basePrice: 5780,
   basePriceR: 5250,
-  imgName: "PT20H.png",
+  imgName: "PT20N.png",
   modeldescription:[
       {description:"Ride-On Powered Pallet Truck"}, 
       {description:"Flat-down Platform"},
@@ -306,12 +306,12 @@ liftybutton:[
 },
 
 {
-  model: "PT 25H",
+  model: "PT 25N",
   capacity: 2500,
   engType: "Warehouse",
   basePrice: 5996,
   basePriceR: 5440,
-  imgName: "PT20H.png",
+  imgName: "PT20N.png",
   modeldescription:[
       {description:"Ride-On Powered Pallet Truck"}, 
       {description:"Flat-down Platform"},

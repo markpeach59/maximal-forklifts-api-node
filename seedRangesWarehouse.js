@@ -22,38 +22,21 @@ const data = [
         capacity: 2000,
         engType: "Warehouse"
       },
-      {
-        model: "PT 18 M1X",
-        capacity: 1800,
-        engType: "Warehouse"
-      },
+      
       {
         model: "PT 18 M",
         capacity: 1800,
         engType: "Warehouse"
       },
-      {
-        model: "PT 20 M1X",
-        capacity: 2000,
-        engType: "Warehouse"
-      },
-      {
-        model: "PT 20 M1XL",
-        capacity: 2000,
-        engType: "Warehouse"
-      },
-      {
-        model: "PTE 20C",
-        capacity: 2000,
-        engType: "Warehouse"
-      },
+     
+     
        {
-        model: "PT 20H",
+        model: "PT 20N",
         capacity: 2000,
         engType: "Warehouse"
       },
       {
-        model: "PT 25H",
+        model: "PT 25N",
         capacity: 2500,
         engType: "Warehouse"
       },
@@ -88,7 +71,12 @@ const data = [
         engType: "Warehouse"
       },
       {
-        model: "PSE 15L-C",
+        model: "PSE 15L",
+        capacity: 1500,
+        engType: "Warehouse"
+      },
+      {
+        model: "PSE 15LC",
         capacity: 1500,
         engType: "Warehouse"
       },
@@ -102,11 +90,7 @@ const data = [
         capacity: 1500,
         engType: "Warehouse"
       },
-      {
-        model: "PSE 15L",
-        capacity: 1500,
-        engType: "Warehouse"
-      },
+     
       {
         model: "PS 12N",
         capacity: 1200,
