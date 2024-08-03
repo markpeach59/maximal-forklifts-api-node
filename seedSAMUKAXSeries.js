@@ -26,13 +26,9 @@ const data = [
       },
       {
         label:"Standard", 
-        price: 17495,
+        price: 20345,
         
-        defaultbattery: "115V 125A/H Lithium",
-        batteries:[{
-          batterytype: "115V 230A/H",
-          price: 2850
-        }]
+        defaultbattery: "115V 230A/H Lithium"
       },
       {
         label:"Heavy Duty", 
@@ -145,12 +141,8 @@ const data = [
       },
       {
         label:"Standard", 
-        price: 19112,
-        defaultbattery: "115V 125A/H Lithium",
-        batteries:[{
-          batterytype: "115V 230A/H",
-          price: 2850
-        }]
+        price: 21962,
+        defaultbattery: "115V 230A/H Lithium"
       },
       {
         label:"Heavy Duty", 
@@ -265,12 +257,8 @@ const data = [
       },
       {
         label:"Standard", 
-        price: 19856,
-        defaultbattery: "115V 125A/H Lithium",
-        batteries:[{
-          batterytype: "115V 230A/H",
-          price: 2850
-        }]
+        price: 22706,
+        defaultbattery: "115V 230A/H Lithium"
       },
       {
         label:"Heavy Duty", 
