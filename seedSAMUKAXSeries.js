@@ -19,19 +19,19 @@ const data = [
     voltagerequired : true,    
     voltage :[
       {
-        label:"Light Duty", 
+        label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 13800, 
        
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
-        label:"Standard", 
+        label:"Standard (4.5 - 5 hrs runtime)", 
         price: 20345,
         
         defaultbattery: "115V 230A/H Lithium"
       },
       {
-        label:"Heavy Duty", 
+        label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 19500, 
         
         defaultbattery: "153.6 Lithium"
@@ -102,15 +102,9 @@ const data = [
             { seattype: "Full Comfort Suspension", price: 298 },
             { seattype: "Full Comfort Suspension with Arm Rest", price: 336 }],
     
-        defaultbattery: "115V 125A/H Lithium",
+       
         defaultcharger: "Fast",
       
-        batteries: [
-              {
-              batterytype: "115V 230A/H",
-              price: 2850
-            }
-          ],
     
         halolight: [{ halolighttype: "", price: 210 }],
           safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -135,17 +129,17 @@ const data = [
     voltagerequired : true,    
     voltage :[
       {
-        label:"Light Duty", 
+        label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 15600, 
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
-        label:"Standard", 
+        label:"Standard (4.5 - 5 hrs runtime)", 
         price: 21962,
         defaultbattery: "115V 230A/H Lithium"
       },
       {
-        label:"Heavy Duty", 
+        label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 20000,
         defaultbattery: "153.6 Lithium"
       },
@@ -216,15 +210,8 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "115V 125A/H Lithium",
+    
     defaultcharger: "Fast",
-  
-    batteries: [
-          {
-          batterytype: "115V 230A/H",
-          price: 2850
-        }
-      ],
 
     halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -251,17 +238,17 @@ const data = [
     voltagerequired : true,    
     voltage :[
       {
-        label:"Light Duty", 
+        label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 16200, 
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
-        label:"Standard", 
+        label:"Standard (4.5 - 5 hrs runtime)", 
         price: 22706,
         defaultbattery: "115V 230A/H Lithium"
       },
       {
-        label:"Heavy Duty", 
+        label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 21000, 
         defaultbattery: "153.6 Lithium"
       },
@@ -333,15 +320,10 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "115V 125A/H Lithium",
+   
     defaultcharger: "Fast",
   
-    batteries: [
-          {
-          batterytype: "115V 230A/H",
-          price: 2850,
-        }
-      ],
+  
 
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
