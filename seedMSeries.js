@@ -80,8 +80,14 @@ const data = [
 
     batteries: [
       {
-        batterytype: "48V 400 A/H",
-        price: 3100,
+        batterytype: "48V 400A/H Chinese",
+        price: 1344
+      },
+      {
+        batterytype: "48V 400 A/H UK Supply 5yr Warranty",
+        price: 2400
+      }
+    ],
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 60",
@@ -100,8 +106,7 @@ const data = [
             price: 488
           }
         ]
-      }
-    ],
+    ,
 
     halolight: [{ halolighttype: "", price: 210 }],
 	safetybluespot: [{ safetybluespottype: "", price: 90 }],

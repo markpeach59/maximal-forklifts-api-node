@@ -76,7 +76,7 @@ const data = [
         engType: "Warehouse"
       },
       {
-        model: "PSE 15LC",
+        model: "PSE 15C",
         capacity: 1500,
         engType: "Warehouse"
       },

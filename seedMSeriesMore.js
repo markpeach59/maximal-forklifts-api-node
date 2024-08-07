@@ -77,28 +77,34 @@ const data = [
     
     defaultbattery: "No",
     	
+    	
     batteries: [
       {
-        batterytype: "48V 500 A/H",
-        price: 3000,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 80",
-            price: 488
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 80",
-            price: 462
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 100",
-            price: 490
-          }
-        ]
+        batterytype: "48V 500A/H Chinese",
+        price: 1344
+      },
+      {
+        batterytype: "48V 500 A/H UK Supply 5yr Warranty",
+        price: 1480
+      }
+    ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 80",
+        price: 488
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 80",
+        price: 462
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 100",
+        price: 490
       }
     ],
 
@@ -188,28 +194,34 @@ const data = [
     
     defaultbattery: "No",
     	
+    	
     batteries: [
       {
-        batterytype: "48V 500 A/H",
-        price: 3000,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 80",
-            price: 488
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 80",
-            price: 462
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 100",
-            price: 490
-          }
-        ]
+        batterytype: "48V 500A/H Chinese",
+        price: 1344
+      },
+      {
+        batterytype: "48V 500 A/H UK Supply 5yr Warranty",
+        price: 1480
+      }
+    ],
+
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 80",
+        price: 488
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 80",
+        price: 462
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 100",
+        price: 490
       }
     ],
 
@@ -302,26 +314,30 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 620 A/H",
-        price: 3300,
-        chargers: [
-          {
-            chargertype: "1 Phase 12 Hour 48V 100",
-            price: 595
-          },
-          {
-            chargertype: "1 Phase 8 Hour 48V 120",
-            price: 661
-          },
-          {
-            chargertype: "3 Phase 12 Hour 48V 100",
-            price: 490
-          },
-          {
-            chargertype: "3 Phase 8 Hour 48V 120",
-            price: 517
-          }
-        ]
+        batterytype: "48V 620A/H Chinese",
+        price: 1839
+      },
+      {
+        batterytype: "48V 620 A/H UK Supply 5yr Warranty",
+        price: 1720
+      }
+    ],
+    chargers: [
+      {
+        chargertype: "1 Phase 12 Hour 48V 100",
+        price: 595
+      },
+      {
+        chargertype: "1 Phase 8 Hour 48V 120",
+        price: 661
+      },
+      {
+        chargertype: "3 Phase 12 Hour 48V 100",
+        price: 490
+      },
+      {
+        chargertype: "3 Phase 8 Hour 48V 120",
+        price: 517
       }
     ],
 
