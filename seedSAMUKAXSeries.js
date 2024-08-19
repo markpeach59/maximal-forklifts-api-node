@@ -34,7 +34,7 @@ const data = [
         label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 19500, 
         
-        defaultbattery: "53.6V 228A/H Lithium"
+        defaultbattery: "153.6V 228A/H Lithium"
       },
     ],
 
@@ -141,7 +141,7 @@ const data = [
       {
         label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 20000,
-        defaultbattery: "53.6V 228A/H Lithium"
+        defaultbattery: "153.6V 228A/H Lithium"
       },
     ],
 
@@ -250,7 +250,7 @@ const data = [
       {
         label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 21000, 
-        defaultbattery: "53.6V 228A/H Lithium"
+        defaultbattery: "153.6V 228A/H Lithium"
       },
     ],
 
