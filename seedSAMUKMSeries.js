@@ -86,7 +86,7 @@ const data = [
       },
       {
         batterytype: "48V 400 A/H UK Supply 5yr Warranty",
-        price: 2400
+        price: 2744
       }
     ],
 
@@ -203,7 +203,7 @@ const data = [
       },
       {
         batterytype: "48V 500 A/H UK Supply 5yr Warranty",
-        price: 1480
+        price: 2824
       }
     ],
 
@@ -320,7 +320,7 @@ const data = [
       },
       {
         batterytype: "48V 500 A/H UK Supply 5yr Warranty",
-        price: 1480
+        price: 2824
       }
     ],
 
@@ -438,7 +438,7 @@ const data = [
       },
       {
         batterytype: "48V 620 A/H UK Supply 5yr Warranty",
-        price: 1720
+        price: 3559
       }
     ],
     chargers: [
