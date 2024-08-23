@@ -81,8 +81,13 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 420 A/H",
-        price: 3010,
+        batterytype: "48V 420 A/H Chinese",
+        price: 1404 },
+      {
+        batterytype: "48V 420 A/H UK Supply",
+        price: 3010 }
+      ],
+      
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 60",
@@ -100,9 +105,7 @@ const data = [
             chargertype: "3 Phase 8 Hour 48V 80",
             price: 488
           }
-        ]
-      }
-    ],
+        ],
 
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -192,8 +195,15 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 600A/H",
+        batterytype: "48V 600A/H Chinese",
+        price: 1645,
+      },
+      {
+        batterytype: "48V 600A/H UK Supply",
         price: 3548,
+      }
+    ],
+
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 100",
@@ -211,9 +221,7 @@ const data = [
             chargertype: "3 Phase 8 Hour 48V 120",
             price: 515
           }
-        ]
-      }
-    ],
+        ],
 
     halolight: [{ halolighttype: "", price: 210 }],
     safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -302,11 +310,18 @@ const data = [
 
 
     defaultbattery: "No",
-    	
+    
     batteries: [
       {
-        batterytype: "48V 600A/H",
+        batterytype: "48V 600A/H Chinese",
+        price: 1645,
+      },
+      {
+        batterytype: "48V 600A/H UK Supply",
         price: 3548,
+      }
+    ],
+
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 100",
@@ -322,11 +337,11 @@ const data = [
           },
           {
             chargertype: "3 Phase 8 Hour 48V 120",
-            price: 517
+            price: 515
           }
-        ]
-      }
-    ],
+        ],
+
+    
 
     halolight: [{ halolighttype: "", price: 210 }],
 	  safetybluespot: [{ safetybluespottype: "", price: 90 }],
@@ -416,22 +431,18 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "80V 500A/H",
-        price: 4945,
-        chargers: [
-          {
-            chargertype: "3 Phase 12 Hour 80V 80",
-            price: 537
-          },
-          {
-            chargertype: "3 Phase 8 Hour 80V 100",
-            price: 520
-          }
-        ]
+        batterytype: "80V 500A/H Chinese",
+        price: 2780,
       },
       {
-        batterytype: "80V 600A/H",
-        price: 5150,
+        batterytype: "80V 500A/H UK Supply",
+        price: 4945,
+      },
+      {
+        batterytype: "80V 600A/H UK Supply",
+        price: 5536}
+      ],
+
         chargers: [
           {
             chargertype: "3 Phase 12 Hour 80V 80",
@@ -441,9 +452,7 @@ const data = [
             chargertype: "3 Phase 8 Hour 80V 100",
             price: 520
           }
-        ]
-      },  
-    ],
+        ],
     
 
     halolight: [{ halolighttype: "", price: 210 }],
@@ -534,22 +543,18 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "80V 500A/H",
-        price: 4945,
-        chargers: [
-          {
-            chargertype: "3 Phase 12 Hour 80V 80",
-            price: 537
-          },
-          {
-            chargertype: "3 Phase 8 Hour 80V 100",
-            price: 520
-          }
-        ]
+        batterytype: "80V 500A/H Chinese",
+        price: 2780,
       },
       {
-        batterytype: "80V 600A/H",
-        price: 5150,
+        batterytype: "80V 500A/H UK Supply",
+        price: 4945,
+      },
+      {
+        batterytype: "80V 600A/H UK Supply",
+        price: 5536}
+      ],
+
         chargers: [
           {
             chargertype: "3 Phase 12 Hour 80V 80",
@@ -559,10 +564,7 @@ const data = [
             chargertype: "3 Phase 8 Hour 80V 100",
             price: 520
           }
-        ]
-      },
-
-    ],
+        ],
     
 
     halolight: [{ halolighttype: "", price: 210 }],

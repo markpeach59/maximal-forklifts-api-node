@@ -81,8 +81,13 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "48V 420 A/H",
-        price: 3010,
+        batterytype: "48V 420 A/H Chinese",
+        price: 1404 },
+      {
+        batterytype: "48V 420 A/H UK Supply",
+        price: 3010 }
+      ],
+
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 60",
@@ -101,8 +106,7 @@ const data = [
             price: 488
           }
         ]
-      }
-    ],
+      ,
 
     halolight: [{ halolighttype: "", price: 210 }],
 	safetybluespot: [{ safetybluespottype: "", price: 90 }],
