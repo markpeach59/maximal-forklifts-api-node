@@ -85,7 +85,7 @@ const data = [
       },
       {
         batterytype: "48V 400 A/H UK Supply 5yr Warranty",
-        price: 2744
+        price: 2950
       }
     ],
         chargers: [

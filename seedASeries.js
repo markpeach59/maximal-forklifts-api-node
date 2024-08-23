@@ -81,8 +81,8 @@ const data = [
     	
     batteries: [
       {
-        batterytype: "420 A/H",
-        price: 2800,
+        batterytype: "48V 420 A/H",
+        price: 3010,
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 60",

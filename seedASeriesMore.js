@@ -82,7 +82,7 @@ const data = [
     batteries: [
       {
         batterytype: "48V 420 A/H",
-        price: 2800,
+        price: 3010,
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 60",
@@ -193,7 +193,7 @@ const data = [
     batteries: [
       {
         batterytype: "48V 600A/H",
-        price: 3300,
+        price: 3548,
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 100",
@@ -306,7 +306,7 @@ const data = [
     batteries: [
       {
         batterytype: "48V 600A/H",
-        price: 3300,
+        price: 3548,
         chargers: [
           {
             chargertype: "1 Phase 12 Hour 48V 100",
@@ -417,7 +417,7 @@ const data = [
     batteries: [
       {
         batterytype: "80V 500A/H",
-        price: 4600,
+        price: 4945,
         chargers: [
           {
             chargertype: "3 Phase 12 Hour 80V 80",
@@ -535,7 +535,7 @@ const data = [
     batteries: [
       {
         batterytype: "80V 500A/H",
-        price: 4600,
+        price: 4945,
         chargers: [
           {
             chargertype: "3 Phase 12 Hour 80V 80",
