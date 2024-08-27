@@ -7,7 +7,7 @@ const data = [
   {
     model: "FB16S-MHJZ",
     capacity: 1600,
-    engType: "Electric",
+    engType: "Lead Acid Electric"
     basePrice: 11740,
     imgName: "M-SERIES-ELECTRIC-Rear-drive-3-wheel-1.6T.jpg",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Rear Wheel Drive"}],

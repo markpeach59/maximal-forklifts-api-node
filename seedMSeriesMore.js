@@ -7,7 +7,7 @@ const data = [
   {
     model: "FB16S-MJZ",
     capacity: 1600,
-    engType: "Electric",
+    engType: "Lead Acid Electric",
     basePrice: 13400,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
@@ -124,7 +124,7 @@ const data = [
    {
     model: "FB18S-MJZ",
     capacity: 1750,
-    engType: "Electric",
+    engType: "Lead Acid Electric",
     basePrice: 13750,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
@@ -241,7 +241,7 @@ const data = [
    {
     model: "FB20S-MJZ",
     capacity: 2000,
-    engType: "Electric",
+    engType: "Lead Acid Electric",
     basePrice: 13950,
     imgName: "M-SERIES-ELECTRIC-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
