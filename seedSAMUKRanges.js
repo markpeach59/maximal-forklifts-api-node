@@ -5,7 +5,7 @@ const { Forklift } = require("./models/forklift");
 
 const data = [
   {
-    range: "M Series (3 Wheel) Electric Rear Wheel Drive",
+    range: "M Series (3 Wheel) Lead Acid Electric Rear Wheel Drive",
     models: [
       {
         model: "FB16S-MHJZ",
@@ -25,7 +25,7 @@ const data = [
     ]
   },
   {
-    range: "M Series (3 Wheel) Electric Front Wheel Drive",
+    range: "M Series (3 Wheel) Lead Acid Electric Front Wheel Drive",
     models: [
       {
         model: "FB16S-MJZ",
