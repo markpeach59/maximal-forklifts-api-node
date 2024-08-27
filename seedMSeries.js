@@ -3,6 +3,7 @@ const config = require("config");
 
 const { Forkliftdetail } = require("./models/forkliftdetail");
 
+
 const data = [
   {
     model: "FB16S-MHJZ",
