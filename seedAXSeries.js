@@ -26,14 +26,15 @@ const data = [
       },
       {
         label:"Standard (4.5 - 5 hrs runtime)", 
-        price: 20911,
-        priceR: 19350,
+        price: 19966, 
+        priceR: 18900,
+        
         defaultbattery: "115V 230A/H Lithium"
       },
       {
         label:"Heavy Duty (6 - 6.5 hrs runtime)", 
-        price: 19966, 
-        priceR: 18900,
+        price: 20911,
+        priceR: 19350,
         defaultbattery: "153.6V 228A/H Lithium"
       },
     ],
