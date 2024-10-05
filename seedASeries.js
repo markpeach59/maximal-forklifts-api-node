@@ -18,31 +18,31 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3000, closedheight: 1975, price: 0 },
-          { mastlength: 3300, closedheight: 2125, price: 120 },
-          { mastlength: 3500, closedheight: 2245, price: 210 },
-          { mastlength: 4000, closedheight: 2525, price: 352},
-          { mastlength: 4500, closedheight: 2775, price: 510}
+          { mastlength: 3000, closedheight: 1990, price: 0 },
+          { mastlength: 3300, closedheight: 2140, price: 120 },
+          { mastlength: 3500, closedheight: 2240, price: 210 },
+          { mastlength: 4000, closedheight: 2540, price: 352},
+          { mastlength: 4500, closedheight: 2790, price: 510}
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000, closedheight: 1975, freeliftheight: 1450, price: 460 },
-          { mastlength: 3500, closedheight: 2215, freeliftheight: 1600, price: 576 },
-          { mastlength: 4000, closedheight: 2225, freeliftheight: 1750, price: 678 }
+          { mastlength: 3000, closedheight: 1990, freeliftheight: 1486, price: 460 },
+          { mastlength: 3500, closedheight: 2240, freeliftheight: 1736, price: 576 },
+          { mastlength: 4000, closedheight: 2340, freeliftheight: 1836, price: 678 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350, closedheight: 1975, freeliftheight: 1425, price: 851 },
-          { mastlength: 4500, closedheight: 2025, freeliftheight: 1475, price: 950 },
-          { mastlength: 4800, closedheight: 2140, freeliftheight: 1575, price: 1120 },
-          { mastlength: 5000, closedheight: 2225, freeliftheight: 1675, price: 1220 },
-          { mastlength: 5500, closedheight: 2390, freeliftheight: 1840, price: 1472 },
-          { mastlength: 6000, closedheight: 2575, freeliftheight: 2025, price: 1730 },
-          { mastlength: 6500, closedheight: 2790, freeliftheight: 2205, price: 1910 }
+          { mastlength: 4350, closedheight: 1990, freeliftheight: 1466, price: 851 },
+          { mastlength: 4500, closedheight: 2040, freeliftheight: 1516, price: 950 },
+          { mastlength: 4800, closedheight: 2140, freeliftheight: 1616, price: 1120 },
+          { mastlength: 5000, closedheight: 2240, freeliftheight: 1716, price: 1220 },
+          { mastlength: 5500, closedheight: 2405, freeliftheight: 1866, price: 1472 },
+          { mastlength: 6000, closedheight: 2590, freeliftheight: 2066, price: 1730 },
+          { mastlength: 6500, closedheight: 2805, freeliftheight: 2281, price: 1910 }
         ]
       }
     ],
