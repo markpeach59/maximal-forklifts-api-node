@@ -98,10 +98,6 @@ const data = [
         
         displaywithcamera: [
           { displaywithcameratype: "", price: 690 },
-        ],
-        
-        seat: [
-          { seattype: "Full Comfort Suspension", price: 410 }
         ]
       
       },
