@@ -306,7 +306,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
 
-    defaultbattery: "153V 304A/H Lithium",
+    defaultbattery: "153V 302A/H Lithium",
     defaultcharger: "Fast",
     
     halolight: [{ halolighttype: "", price: 210 }],
@@ -394,7 +394,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "153V 304A/H Lithium",
+    defaultbattery: "153V 302A/H Lithium",
     defaultcharger: "Fast",
   
     
@@ -483,7 +483,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
     
-    defaultbattery: "352V 230A/H Lithium",
+    defaultbattery: "352V 228A/H Lithium",
     defaultcharger: "Fast",
 
     halolight: [{ halolighttype: "", price: 210 }],
@@ -570,7 +570,7 @@ const data = [
     	{ seattype: "Full Comfort Suspension with Arm Rest", price: 336 }
     ],
 
-    defaultbattery: "352V 230A/H Lithium",
+    defaultbattery: "352V 228A/H Lithium",
     defaultcharger: "Fast",
 
     halolight: [{ halolighttype: "", price: 210 }],
