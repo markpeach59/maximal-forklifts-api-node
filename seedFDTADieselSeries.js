@@ -5,18 +5,6 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
-    model: "FDTA18",
-  capacity: 1800,
-  engType: "Diesel",
-  modeldescription:[{description:"Coming Soon"}]
-  },
-  {
-    model: "FDTA20",
-  capacity: 2000,
-  engType: "Diesel",
-  modeldescription:[{description:"Coming Soon"}]
-  },
-  {
   model: "FDTA25",
   capacity: 2500,
   engType: "Diesel",
@@ -689,6 +677,18 @@ const data = [
   precleaner:[{precleanertype:"", price: 109}],
   heavydutyairfilter:[{heavydutyairfiltertype:"", price: 189}],
 
+},
+{
+  model: "FDTA80",
+capacity: 8000,
+engType: "Diesel",
+modeldescription:[{description:"Available - POA"}]
+},
+{
+  model: "FDTA100",
+capacity: 10000,
+engType: "Diesel",
+modeldescription:[{description:"Available - POA"}]
 },
 
 ];
