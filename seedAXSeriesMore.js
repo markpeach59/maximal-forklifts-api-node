@@ -512,30 +512,30 @@ const data = [
       {
         masttype: "2 Stage Free View Mast",
         mastsizes: [
-          { mastlength: 3500, closedheight: 2500, price: 352 },
-          { mastlength: 4000, closedheight: 2800, price: 669},
-          { mastlength: 4500, closedheight: 3050, price: 988},
-          { mastlength: 5000, closedheight: 3300, price: 1408}
+          { mastlength: 3500, closedheight: 2875, price: 352 },
+          { mastlength: 4000, closedheight: 3175, price: 669},
+          { mastlength: 4500, closedheight: 3425, price: 988},
+          { mastlength: 5000, closedheight: 3675, price: 1408}
         ]
       },
       {
         masttype: "2 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 3000,  price: 1290},
-          { mastlength: 3300, price: 1589 },
-          { mastlength: 3500,  price: 1620 }
+          { mastlength: 3000,  closedheight: 2625, freeliftheight: 1555, price: 1290},
+          { mastlength: 3300,  closedheight: 2775, freeliftheight: 1705, price: 1589 },
+          { mastlength: 3500,  closedheight: 2875, freeliftheight: 1805, price: 1620 }
         ]
       },
       {
         masttype: "3 Stage Full Free Lift Mast",
         mastsizes: [
-          { mastlength: 4350,  price: 2225 },
-          { mastlength: 4500,  price: 2419 },
-          { mastlength: 4800,  price: 2678 },
-          { mastlength: 5000,  price: 2678 },
-          { mastlength: 5500,  price: 3193 },
-          { mastlength: 6000,  price: 3601 },
-          { mastlength: 6500,  price: 4226 }
+          { mastlength: 4350,  closedheight: 2630, freeliftheight: 1585, price: 2225 },
+          { mastlength: 4500,  closedheight: 2680, freeliftheight: 1635, price: 2419 },
+          { mastlength: 4800,  closedheight: 2780, freeliftheight: 1735, price: 2678 },
+          { mastlength: 5000,  closedheight: 2880, freeliftheight: 1835, price: 2678 },
+          { mastlength: 5400,  closedheight: 3005, freeliftheight: 1960, price: 3193 },
+          { mastlength: 6000,  closedheight: 3305, freeliftheight: 2260, price: 3601 },
+          { mastlength: 6500,  closedheight: 3530, freeliftheight: 2485, price: 4226 }
         ]
       }
     ],
