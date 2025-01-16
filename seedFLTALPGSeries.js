@@ -5,18 +5,6 @@ const { Forkliftdetail } = require("./models/forkliftdetail");
 
 const data = [
   {
-    model: "FLTA18",
-    capacity: 1800,
-    engType: "LPG",
-    modeldescription:[{description:"Coming Soon"}]
-  },
-  {
-    model: "FLTA20",
-    capacity: 2000,
-    engType: "LPG",
-    modeldescription:[{description:"Coming Soon"}]
-  },
-  {
   model: "FLTA25",
   capacity: 2500,
   engType: "LPG",
