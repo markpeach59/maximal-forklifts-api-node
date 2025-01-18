@@ -96,6 +96,7 @@ const Forkliftdetail = mongoose.model(
     voltagerequired: {type:Boolean, default:'false'},
 
     voltage: [{
+      model: String,
       label: String,
       price: Number,
       priceR: Number,

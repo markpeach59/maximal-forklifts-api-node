@@ -19,12 +19,14 @@ const data = [
     voltagerequired : true,    
     voltage :[
       {
+        model: "FBAX25-YJ",
         label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 14000, 
         priceR: 13600,
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
+        model: "FBAX25-YWL",
         label:"Standard (4.5 - 5 hrs runtime)", 
         price: 19966, 
         priceR: 18900,
@@ -32,6 +34,7 @@ const data = [
         defaultbattery: "115V 230A/H Lithium"
       },
       {
+        model: "FBAX25-YTH",
         label:"Heavy Duty (6 - 6.5 hrs runtime)", 
         price: 20911,
         priceR: 19350,
