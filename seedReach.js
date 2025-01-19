@@ -32,34 +32,24 @@ const data = [
     chassisrequired: true,
     
     chassis :[
-      {label:"Lead Acid Version", price: 15300, 
+      {label:"Lead Acid Version", 
+        price: 15300, 
+        priceR: 14000, 
       batteries:[
         {batterytype:"48V 340A/H", price:2800, 
         chargers:[
           {chargertype:"8hr", price:796}
         ]}
       ]},
-      {label:"Lithium Version", price: 15300,
+      {label:"Lithium Version", 
+        price: 15300,
+        priceR: 14300,
       batteries:[{batterytype:"Lithium 48V 300A/H", price:3600,
       chargers:[
         {chargertype:"Fast", price:1100}
       ]}]}
     ],
 
-    chassisR :[
-      {label:"Lead Acid Version", price: 14000, 
-      batteries:[
-        {batterytype:"48V 340A/H", price:2800, 
-        chargers:[
-          {chargertype:"8hr", price:796}
-        ]}
-      ]},
-      {label:"Lithium Version", price: 14300,
-      batteries:[{batterytype:"Lithium 48V 300A/H", price:3600,
-      chargers:[
-        {chargertype:"Fast", price:1100}
-      ]}]}
-    ],
 
     masts: [
       {
