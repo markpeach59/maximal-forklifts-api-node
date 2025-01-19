@@ -7,16 +7,7 @@ const data = [
   {
     range: "Diesel",
     models: [
-      {
-        model: "FDTA18",
-        capacity: 1800,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA20",
-        capacity: 2000,
-        engType: "Diesel"
-      },
+      
       {
         model: "FDTA25",
         capacity: 2500,
@@ -51,22 +42,23 @@ const data = [
         model: "FDTA70",
         capacity: 7000,
         engType: "Diesel"
-      }
+      },
+      {
+        model: "FDTA80",
+        capacity: 8000,
+        engType: "Diesel"
+      },
+      {
+        model: "FDTA100",
+        capacity: 10000,
+        engType: "Diesel"
+      },
       ]
   }, 
   {
     range: "LPG",
     models: [
-      {
-        model: "FLTA18",
-        capacity: 1750,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA20",
-        capacity: 2000,
-        engType: "LPG"
-      },
+      
       {
         model: "FLTA25",
         capacity: 2500,
