@@ -21,7 +21,7 @@ const data = [
         model: "FBAX30-YJ",
         label:"Light Duty (2.5 - 3 hrs runtime)", 
         price: 16100, 
-        priceR: 1500,
+        priceR: 15000,
         defaultbattery: "76.8V 350A/H Lithium"
       },
       {
