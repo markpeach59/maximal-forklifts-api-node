@@ -1,49 +1,54 @@
-# Maximal Forklifts API Node
+# Maximal Forklifts API
 
 This is the backend API for the Maximal Forklifts application.
 
 ## Setup
 
-1. Install dependencies:
+### MongoDB Connection
+
+The application can connect to either a local MongoDB instance or a remote MongoDB instance:
+
+#### Local MongoDB (Development)
+
+By default, the application connects to a local MongoDB instance at `mongodb://localhost/maximal`. This is configured in the `config/default.json` file.
+
+#### Remote MongoDB (Production)
+
+To connect to a remote MongoDB instance (such as MongoDB Atlas), you have two options:
+
+1. **Using Environment Variables (Recommended)**:
+   - Set the `MONGODB_URI` environment variable to your MongoDB connection string:
    ```
-   npm install
+   export MONGODB_URI="mongodb+srv://<username>:<password>@<cluster-url>/<database-name>?retryWrites=true&w=majority"
    ```
 
-2. Set environment variables:
-   - `jwtMaximGB`: JWT private key for authentication
-   - `MONGODB_URI`: MongoDB connection string (for remote MongoDB)
-
-3. Start the server:
+2. **Using Production Config**:
+   - Edit the `config/production.json` file and replace the `db` value with your MongoDB connection string.
+   - Run the application with `NODE_ENV=production`:
    ```
-   node index.js
+   NODE_ENV=production node index.js
    ```
 
-## MongoDB Configuration
+### JWT Private Key
 
-The application can connect to either a local or remote MongoDB instance:
-
-- **Local MongoDB**: By default, the application connects to a local MongoDB instance at `mongodb://localhost/maximal`.
-- **Remote MongoDB**: To use a remote MongoDB instance, set the `MONGODB_URI` environment variable with your MongoDB connection string.
-
-Example:
-```
-export MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/maximal
-```
-
-## Seed Data
-
-The application includes several seed scripts to populate the database with initial data. To run the seed scripts:
+Set the JWT private key for authentication:
 
 ```
-./populate.sh
+export jwtMaximGB="your_private_key"
 ```
 
-This will run all the seed scripts and populate the database with the initial data.
+## Running the Application
 
-## API Endpoints
+```
+node index.js
+```
 
-The API provides endpoints for managing forklifts, quotes, orders, and users. The API is accessible at `http://localhost:3900/api`.
+## Seeding the Database
 
-## Authentication
+Various seed scripts are available to populate the database with initial data:
 
-The API uses JWT for authentication. To authenticate, send a POST request to `/api/auth` with your email and password.
+```
+node seedAdmin.js
+node seedDealer.js
+# ... and other seed scripts
+```
