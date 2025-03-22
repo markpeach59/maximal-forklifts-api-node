@@ -1,5 +1,5 @@
 {
-  "db": "mongodb://localhost/forkliftsapp",
+  "db": "mongodb://localhost/maximal",
   "port": "3900",
   "jwtPrivateKey": ""
 }

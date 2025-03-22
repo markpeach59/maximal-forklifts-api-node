@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "jwtMaximGB"
+  "jwtPrivateKey": "jwtMaximGB",
+  "db": "MONGODB_URI"
 }
