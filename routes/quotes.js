@@ -63,17 +63,64 @@ router.patch("/reassign/:id", async (req, res) => {
 });
 
 router.patch("/:id", async (req, res) => {
-  //const orderstatus = _.pick(req.body, ["order"]);
-
-  //console.log ('poumber', req.body.ponumber);
+  // First get the current quote to ensure we have all fields
+  const currentQuote = await Quote.findById(req.params.id).select("-__v");
+  
+  if (!currentQuote)
+    return res.status(404).send("The quote with the given ID was not found.");
+  
+  // Update the quote to an order, preserving all existing fields
   const quote = await Quote.findByIdAndUpdate(
     req.params.id,
-    { $set: { order: true, ponumber: req.body.ponumber} },
+    { 
+      $set: { 
+        order: true, 
+        ponumber: req.body.ponumber,
+        // Explicitly preserve all the fields that might be needed in the order
+        imgname: currentQuote.imgname,
+        masttype: currentQuote.masttype,
+        mastsize: currentQuote.mastsize,
+        closedheight: currentQuote.closedheight,
+        freeliftheight: currentQuote.freeliftheight,
+        valve: currentQuote.valve,
+        forks: currentQuote.forks,
+        fork2d: currentQuote.fork2d,
+        sideshift: currentQuote.sideshift,
+        forkpositioner: currentQuote.forkpositioner,
+        controller: currentQuote.controller,
+        tyre: currentQuote.tyre,
+        pincode: currentQuote.pincode,
+        liftybutton: currentQuote.liftybutton,
+        roller: currentQuote.roller,
+        displaywithcamera: currentQuote.displaywithcamera,
+        safetybluespot: currentQuote.safetybluespot,
+        halolight: currentQuote.halolight,
+        upsweptexhaust: currentQuote.upsweptexhaust,
+        precleaner: currentQuote.precleaner,
+        heavydutyairfilter: currentQuote.heavydutyairfilter,
+        coldstoreprot: currentQuote.coldstoreprot,
+        seat: currentQuote.seat,
+        cabin: currentQuote.cabin,
+        aircon: currentQuote.aircon,
+        heater: currentQuote.heater,
+        reargrab: currentQuote.reargrab,
+        sideleverhydraulic: currentQuote.sideleverhydraulic,
+        battery: currentQuote.battery,
+        charger: currentQuote.charger,
+        spare: currentQuote.spare,
+        armguard: currentQuote.armguard,
+        platform: currentQuote.platform,
+        loadbackrest: currentQuote.loadbackrest,
+        steering: currentQuote.steering,
+        bfs: currentQuote.bfs,
+        manualtrolley: currentQuote.manualtrolley,
+        blinkey: currentQuote.blinkey,
+        stabiliser: currentQuote.stabiliser,
+        sideextractionbattery: currentQuote.sideextractionbattery
+      }
+    },
     { useFindAndModify: false, new: true }
   ).select("-__v");
-
-  if (!quote)
-    return res.status(404).send("The quote with the given ID was not found.");
 
   res.send(_.pick(quote, ["_id", "order"]));
 
