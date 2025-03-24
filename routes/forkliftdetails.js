@@ -27,6 +27,19 @@ router.get("/:model", auth, async (req, res) => {
         .send("The forklift for the given modelname was not found.");
     }
 
+    // Ensure sideshift is properly defined for FB16S-MHJZ model
+    if (forklift.model === "FB16S-MHJZ" && (!forklift.sideshift || forklift.sideshift.length === 0)) {
+      // Add default side shift option for this model
+      forklift.sideshift = [
+        {
+          _id: mongoose.Types.ObjectId(),
+          sideshifttype: "Integral",
+          price: 0
+        }
+      ];
+      console.log("Added missing side shift option for FB16S-MHJZ model");
+    }
+
     console.log("Forklift found:", forklift.model);
     res.send(forklift);
   } catch (error) {
