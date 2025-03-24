@@ -14,11 +14,20 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 
 router.get("/", auth, async (req, res) => {
-  const quotes = await Quote.find({ userid: req.user._id, order: false })
-    .select("-__v")
-    .sort("-updatedAt");
-
-  res.send(quotes);
+  console.log("GET /quotes request received");
+  console.log("User ID from token:", req.user._id);
+  
+  try {
+    const quotes = await Quote.find({ userid: req.user._id, order: false })
+      .select("-__v")
+      .sort("-updatedAt");
+    
+    console.log("Quotes found:", quotes.length);
+    res.send(quotes);
+  } catch (error) {
+    console.error("Error fetching quotes:", error);
+    res.status(500).send("Error fetching quotes: " + error.message);
+  }
 });
 
 router.get("/all", async (req, res) => {
