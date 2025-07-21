@@ -64,7 +64,7 @@ engType: "Diesel",
     { cabinoption: "Full Steel Cabin", price: 2812 }
   ],
 
-  heater:[ {heatertype:"Heater/Demister", price:105}],
+  heater:[ {heatertype:"", price:105}],
 
   aircon: [{ aircontype: "", price:986 }],
  
