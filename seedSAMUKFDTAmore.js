@@ -49,7 +49,7 @@ engType: "Diesel",
   ],
 
   tyres: [
-      { tyretype: "S/E Tyres", pprice: 1150 },
+      { tyretype: "S/E Tyres - POA", pprice: 1150 },
   ],
   
   seatrequired: 'true',
@@ -66,6 +66,7 @@ engType: "Diesel",
 
   heater:[ {heatertype:"Heater/Demister", price:105}],
 
+  aircon: [{ aircontype: "", price:986 }],
  
   safetybluespot: [{ safetybluespottype: "", price: 210 }],
 
