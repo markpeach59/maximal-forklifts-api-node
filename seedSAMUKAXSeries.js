@@ -26,8 +26,8 @@ const data = [
       },
       {
         label:"Standard (4.5 - 5 hrs runtime)", 
-        price: 19500, 
-        price: 20345,
+        price: 19765, 
+       
         defaultbattery: "115V 230A/H Lithium"
       },
       {
@@ -134,7 +134,7 @@ const data = [
       },
       {
         label:"Standard (4.5 - 5 hrs runtime)", 
-        price: 20000,
+        price: 19882,
         defaultbattery: "115V 230A/H Lithium"
       },
       {
@@ -243,7 +243,7 @@ const data = [
       },
       {
         label:"Standard (4.5 - 5 hrs runtime)", 
-        price: 21000,
+        price: 20588,
         defaultbattery: "115V 230A/H Lithium"
       },
       {

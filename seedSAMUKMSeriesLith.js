@@ -8,7 +8,7 @@ const data = [
         model: "FB16S-LR",
         capacity: 1600,
         engType: "Electric",
-        basePrice: 15400,
+        basePrice: 13900,
         
         imgName: "M-SERIES-LITHIUM-Rear-drive-3-wheel-1.6T.jpg",
         modeldescription:[{description:"M Series"}, {description:"3 Wheel, Rear Wheel Drive"},{description:"Lithium Powered"}],
@@ -111,7 +111,7 @@ const data = [
     model: "FB16S-LF",
     capacity: 1600,
     engType: "Electric",
-    basePrice: 16445,
+    basePrice: 14980,
     
     imgName: "M-SERIES-LITHIUM-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"},{description:"Lithium Powered"}],
@@ -196,7 +196,7 @@ const data = [
     model: "FB18S-LF",
     capacity: 1750,
     engType: "Electric",
-    basePrice: 16970,
+    basePrice: 15400,
     
     imgName: "M-SERIES-LITHIUM-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}],
@@ -284,7 +284,7 @@ const data = [
     model: "FB20S-LF",
     capacity: 2000,
     engType: "Electric",
-    basePrice: 17350,
+    basePrice: 16100,
     
     imgName: "M-SERIES-LITHIUM-3-wheel-1.6-2.0T.png",
     modeldescription:[{description:"M Series"}, {description:"3 Wheel, Front Wheel Drive"}, {description:"Lithium Powered"}],
