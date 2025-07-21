@@ -212,6 +212,16 @@ const data = [
             model: "FDTA70",
             capacity: 7000,
             engType: "Diesel"
+          },
+          {
+            model: "FDTA80",
+            capacity: 8000,
+            engType: "Diesel"
+          },
+          {
+            model: "FDTA100",
+            capacity: 10000,
+            engType: "Diesel"
           }
           ]
       }, 
