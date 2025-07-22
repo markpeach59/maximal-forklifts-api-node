@@ -107,7 +107,7 @@ const data = [
   model: "FDTA30",
   capacity: 3000,
   engType: "Diesel",
-  basePrice: 10503,
+  basePrice: 10593,
   imgName: "FDTA25-A.jpg",
   powertrain: "Xinchai 3E22Y Euro5",
   modeldescription:[{description:""}],
