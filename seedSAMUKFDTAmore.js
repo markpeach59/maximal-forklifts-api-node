@@ -41,7 +41,7 @@ engType: "Diesel",
   ],
 
   valves: [
-    { valvetype: "3rd", price: 0 },
+   
     { valvetype: "3rd + 4th", price: 400 }
   ],
  
