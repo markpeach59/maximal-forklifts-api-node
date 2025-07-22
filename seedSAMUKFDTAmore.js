@@ -12,8 +12,9 @@ engType: "Diesel",
 
   basePrice: 52500,
   
-  powertrain: "Kubota V3800 euro5 type W 13",
-  modeldescription:[{description:"A Series"}],
+  powertrain: "Cummins F3.8 C121 EUV ",
+  modeldescription:[{description:"A Series"},{description:"ZF Transmission"},{description:"Wet Disc Brake"},{description:"Electric Powershift"}],
+  
     loadcenter:500,
     defaulttyre:"Pneumatic",
     
@@ -79,8 +80,8 @@ capacity: 10000,
 engType: "Diesel",
 basePrice: 54000,
   
-  powertrain: "Kubota V3800 euro5 type W 13",
-  modeldescription:[{description:"A Series"}],
+  powertrain: "Cummins F3.8 C121 EUV ",
+  modeldescription:[{description:"A Series"},{description:"ZF Transmission"},{description:"Wet Disc Brake"},{description:"Electric Powershift"}],
     loadcenter:500,
     defaulttyre:"Pneumatic",
     
@@ -107,7 +108,6 @@ basePrice: 54000,
   ],
 
   valves: [
-    { valvetype: "3rd", price: 0 },
     { valvetype: "3rd + 4th", price: 400 }
   ],
  
