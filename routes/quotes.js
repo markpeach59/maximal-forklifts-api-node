@@ -59,16 +59,23 @@ router.patch("/reassign/:id", async (req, res) => {
 router.patch("/:id", async (req, res) => {
   //const orderstatus = _.pick(req.body, ["order"]);
 
+  const updateData = { order: true };
+  
+  // If ponumber is provided, include it in the update
+  if (req.body.ponumber) {
+    updateData.ponumber = req.body.ponumber;
+  }
+
   const quote = await Quote.findByIdAndUpdate(
     req.params.id,
-    { $set: { order: true } },
+    { $set: updateData },
     { useFindAndModify: false, new: true }
   ).select("-__v");
 
   if (!quote)
     return res.status(404).send("The quote with the given ID was not found.");
 
-  res.send(_.pick(quote, ["_id", "order"]));
+  res.send(_.pick(quote, ["_id", "order", "ponumber"]));
 });
 
 router.patch("/savemarkup/:id", async (req, res) => {
