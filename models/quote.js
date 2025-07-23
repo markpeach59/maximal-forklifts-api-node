@@ -12,17 +12,17 @@ const Quote = mongoose.model(
       engtype: String,
       baseprice: Number,
       imgname: String,
-      
+
       markup: Number,
       price: Number,
 
       offer:Boolean,
       offerprice: Number,
 
-      hasDiscount: boolean,
-      discountedPrice: number,
-      discountPercentage: number,
-      discountAmount: number,
+      hasDiscount: Boolean,
+      discountedPrice: Number,
+      discountPercentage: Number,
+      discountAmount: Number,
 
       saving: Number,
       confirmedorder:{ type: Boolean, default: false },
