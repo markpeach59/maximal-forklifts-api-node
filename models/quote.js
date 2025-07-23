@@ -19,7 +19,7 @@ const Quote = mongoose.model(
       offer:Boolean,
       offerprice: Number,
 
-      hasDiscount: Boolean,
+      hasDiscount: { type: Boolean, default: false },
       discountedPrice: Number,
       discountPercentage: Number,
       discountAmount: Number,
