@@ -16,15 +16,10 @@ const Quote = mongoose.model(
       markup: Number,
       price: Number,
 
-      offer:Boolean,
-      offerprice: Number,
-
       hasDiscount: { type: Boolean, default: false },
       discountedPrice: Number,
       discountPercentage: Number,
       discountAmount: Number,
-
-      saving: Number,
       confirmedorder:{ type: Boolean, default: false },
       stocknumber: String,
       ponumber: String,
