@@ -103,7 +103,19 @@ router.post("/", async (req, res) => {
       
       "offer",
       "offerprice",
-      "saving",
+"saving",
+
+      "stocknumber",
+      "ponumber",
+      "hasDiscount",
+      "discountedPrice",
+      "discountPercentage",
+      "discountAmount",
+
+
+
+
+      
       "confirmedorder",
       "imgname",
       "masttype",
@@ -171,6 +183,17 @@ router.post("/", async (req, res) => {
       "offer",
       "offerprice",
       "saving",
+
+"stocknumber",
+      "ponumber",
+      "hasDiscount",
+      "discountedPrice",
+      "discountPercentage",
+      "discountAmount",
+
+
+
+
       "confirmedorder",
       "masttype",
       "mastsize",
