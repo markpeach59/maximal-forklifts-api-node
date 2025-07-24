@@ -3,6 +3,7 @@ const config = require("config");
 
 const { Forkliftdetail } = require("./models/forkliftdetail");
 const { Forklift } = require("./models/forklift");
+const { forkliftRangeData } = require("./data/forkliftRanges");
 
 // Detailed forklift specifications data
 const forkliftDetailData = [
@@ -797,69 +798,6 @@ const forkliftDetailData = [
 
 ];
 
-// Range data for the Forklift model
-const forkliftRangeData = [
-  {
-    range: "Diesel Rough Terrain",
-    models: [
-      {
-        model: "FD18T-C2W",
-        capacity: 1800,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD25T-C2W",
-        capacity: 2500,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD35T-C2W",
-        capacity: 3500,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD50T-C2W",
-        capacity: 5000,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD18T-C4W",
-        capacity: 1800,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD25T-C4W",
-        capacity: 2500,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FD35T-C4W",
-        capacity: 3500,
-        engType: "Rough Terrain"
-      }
-    ]
-  },
-  {
-    range: "Lithium Rough Terrain",
-    models: [
-      {
-        model: "FBCX18T-YT2",
-        capacity: 1800,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FBCX25T-YT2",
-        capacity: 2500,
-        engType: "Rough Terrain"
-      },
-      {
-        model: "FBCX35T-YT2",
-        capacity: 3500,
-        engType: "Rough Terrain"
-      }
-    ]
-  }
-];
 
 async function seed() {
   await mongoose.connect(config.get("db"));
@@ -871,12 +809,10 @@ async function seed() {
   const deletedDetails = await Forkliftdetail.deleteMany({ engType: "Rough Terrain" });
   console.log(`Deleted ${deletedDetails.deletedCount} forklift detail entries`);
 
-  // Clear existing rough terrain ranges from Forklifts collection
-  console.log("Clearing existing rough terrain ranges from Forklifts...");
-  const deletedRanges = await Forklift.deleteMany({ 
-    range: { $in: ["Diesel Rough Terrain", "Lithium Rough Terrain"] } 
-  });
-  console.log(`Deleted ${deletedRanges.deletedCount} forklift range entries`);
+  // Clear ALL existing ranges to ensure proper ordering (Electric first, then Diesel, LPG, Rough, Reach)
+  console.log("🗑️  Clearing ALL existing ranges to maintain proper order...");
+  const deletedRanges = await Forklift.deleteMany({});
+  console.log(`✅ Deleted ${deletedRanges.deletedCount} ranges`);
 
   // Seed forklift detail data
   console.log("Seeding forklift detail data...");

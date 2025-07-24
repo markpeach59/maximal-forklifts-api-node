@@ -3,6 +3,7 @@ const config = require("config");
 
 const { Forkliftdetail } = require("./models/forkliftdetail");
 const { Forklift } = require("./models/forklift");
+const { forkliftRangeData } = require("./data/forkliftRanges");
 
 // M Series Electric Data (8 models) + A Series Electric Data (6 models) + AA Series Electric Data (6 models) + AX Series Electric Data (8 models) = 28 models total
 const allElectricData = [
@@ -2490,179 +2491,6 @@ const allElectricData = [
   }
 ];
 
-// Range data for Forklift collection
-const rangeData = [
-  {
-    range: "M Series (3 Wheel) Lead Acid Electric Rear Wheel Drive",
-    models: [
-      {
-        model: "FB16S-MHJZ",
-        capacity: 1600,
-        engType: "Electric"
-      }
-    ]
-  },
-  {
-    range: "M Series (3 Wheel) Lithium Electric Rear Wheel Drive",
-    models: [
-      {
-        model: "FB16S-LR",
-        capacity: 1600,
-        engType: "Electric"
-      }
-    ]
-  },
-  {
-    range: "M Series (3 Wheel) Lead Acid Electric Front Wheel Drive",
-    models: [
-      {
-        model: "FB16S-MJZ",
-        capacity: 1600,
-        engType: "Electric"
-      },
-      {
-        model: "FB18S-MJZ",
-        capacity: 1800,
-        engType: "Electric"
-      },
-      {
-        model: "FB20S-MJZ",
-        capacity: 2000,
-        engType: "Electric"
-      }
-    ]
-  },
-  {
-    range: "M Series (3 Wheel) Lithium Electric Front Wheel Drive",
-    models: [
-      {
-        model: "FB16S-LF",
-        capacity: 1600,
-        engType: "Electric"
-      },
-      {
-        model: "FB18S-LF",
-        capacity: 1800,
-        engType: "Electric"
-      },
-      {
-        model: "FB20S-LF",
-        capacity: 2000,
-        engType: "Electric"
-      }
-    ]
-  },
-  {
-    range: "A Series (4 Wheel) Lead Acid Electric",
-    models: [
-      {
-        model: "FBA15-JZ",
-        capacity: 1500,
-        engType: "Electric"
-      },
-      {
-        model: "FBA18-JZ",
-        capacity: 1750,
-        engType: "Electric"
-      },
-      {
-        model: "FBA20-JZ",
-        capacity: 2000,
-        engType: "Electric"
-      },
-      {
-        model: "FBA25-JZ",
-        capacity: 2500,
-        engType: "Electric"
-      },
-      {
-        model: "FBA30-JZ",
-        capacity: 3000,
-        engType: "Electric"
-      },
-      {
-        model: "FBA35-JZ",
-        capacity: 3500,
-        engType: "Electric"
-      }
-    ]
-  },
-  {
-    range: "AA Series (4 Wheel) Lithium Electric",
-    models: [
-      {
-        model: "FB15-A",
-        capacity: 1500,
-        engType: "Electric"
-      },
-      {
-        model: "FB18-A",
-        capacity: 1750,
-        engType: "Electric"
-      },
-      {
-        model: "FB20-A",
-        capacity: 2000,
-        engType: "Electric"
-      },
-      {
-        model: "FB25-A",
-        capacity: 2500,
-        engType: "Electric"
-      },
-      {
-        model: "FB30-A",
-        capacity: 3000,
-        engType: "Electric"
-      },
-      {
-        model: "FB35-A",
-        capacity: 3500,
-        engType: "Electric"
-      }
-    ]
-  },
-  {
-    range: "AX Series (4 Wheel) Lithium Electric",
-    models: [
-      {
-        model: "FB25-AX",
-        capacity: 2500,
-        engType: "Electric"
-      },
-      {
-        model: "FB30-AX",
-        capacity: 3000,
-        engType: "Electric"
-      },
-      {
-        model: "FB35-AX",
-        capacity: 3500,
-        engType: "Electric"
-      },
-      {
-        model: "FB45-AX",
-        capacity: 4500,
-        engType: "Electric"
-      },
-      {
-        model: "FB50-AX COMPACT",
-        capacity: 5000,
-        engType: "Electric"
-      },
-      {
-        model: "FB50-AX BIG",
-        capacity: 5000,
-        engType: "Electric"
-      },
-      {
-        model: "FB70-AX",
-        capacity: 7000,
-        engType: "Electric"
-      }
-    ]
-  }
-];
 
 async function seed() {
   await mongoose.connect(config.get("db"));
@@ -2680,21 +2508,9 @@ async function seed() {
   });
   console.log(`✅ Deleted ${deletedDetails.deletedCount} forklift details`);
 
-  // Clear existing electric ranges
-  console.log("🗑️  Clearing existing electric ranges...");
-  const deletedRanges = await Forklift.deleteMany({
-    range: {
-      $in: [
-        "M Series (3 Wheel) Lead Acid Electric Rear Wheel Drive",
-        "M Series (3 Wheel) Lithium Electric Rear Wheel Drive",
-        "M Series (3 Wheel) Lead Acid Electric Front Wheel Drive",
-        "M Series (3 Wheel) Lithium Electric Front Wheel Drive",
-        "A Series (4 Wheel) Lead Acid Electric",
-        "AA Series (4 Wheel) Lithium Electric",
-        "AX Series (4 Wheel) Lithium Electric"
-      ]
-    }
-  });
+  // Clear ALL existing ranges to ensure proper ordering (Electric first, then Diesel, LPG, Rough, Reach)
+  console.log("🗑️  Clearing ALL existing ranges to maintain proper order...");
+  const deletedRanges = await Forklift.deleteMany({});
   console.log(`✅ Deleted ${deletedRanges.deletedCount} ranges`);
 
   // Seed forklift details
@@ -2709,7 +2525,7 @@ async function seed() {
 
   // Seed ranges
   console.log("📦 Seeding ranges...");
-  for (let rangeItem of rangeData) {
+  for (let rangeItem of forkliftRangeData) {
     const forky = new Forklift(rangeItem);
     const doc = await forky.save();
     console.log(`✅ Seeded range: ${doc.range}`);

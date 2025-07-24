@@ -3,6 +3,7 @@ const config = require("config");
 
 const { Forkliftdetail } = require("./models/forkliftdetail");
 const { Forklift } = require("./models/forklift");
+const { forkliftRangeData } = require("./data/forkliftRanges");
 
 // Detailed forklift specifications data
 const forkliftDetailData = [
@@ -667,49 +668,6 @@ const forkliftDetailData = [
 
 ];
 
-// Range data for the Forklift model
-const forkliftRangeData = [
-  {
-    range: "LPG",
-    models: [
-      {
-        model: "FLTA25",
-        capacity: 2500,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA30",
-        capacity: 3000,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA35",
-        capacity: 3500,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA45",
-        capacity: 4500,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA50S",
-        capacity: 5000,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA50",
-        capacity: 5000,
-        engType: "LPG"
-      },
-      {
-        model: "FLTA70",
-        capacity: 7000,
-        engType: "LPG"
-      }
-    ]
-  }
-];
 
 async function seed() {
   await mongoose.connect(config.get("db"));
@@ -721,10 +679,10 @@ async function seed() {
   const deletedDetails = await Forkliftdetail.deleteMany({ engType: "LPG" });
   console.log(`Deleted ${deletedDetails.deletedCount} forklift detail entries`);
 
-  // Clear existing LPG range from Forklifts collection
-  console.log("Clearing existing LPG range from Forklifts...");
-  const deletedRanges = await Forklift.deleteMany({ range: "LPG" });
-  console.log(`Deleted ${deletedRanges.deletedCount} forklift range entries`);
+  // Clear ALL existing ranges to ensure proper ordering (Electric first, then Diesel, LPG, Rough, Reach)
+  console.log("🗑️  Clearing ALL existing ranges to maintain proper order...");
+  const deletedRanges = await Forklift.deleteMany({});
+  console.log(`✅ Deleted ${deletedRanges.deletedCount} ranges`);
 
   // Seed forklift detail data
   console.log("Seeding forklift detail data...");

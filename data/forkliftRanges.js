@@ -1,0 +1,129 @@
+// Shared forklift ranges data - single source of truth
+// All ranges in proper order: Electric → Diesel → LPG → Rough → Reach
+
+const forkliftRangeData = [
+  // Electric ranges
+  {
+    range: "M Series (3 Wheel) Lead Acid Electric Rear Wheel Drive",
+    models: [
+      { model: "FB16S-MHJZ", capacity: 1600, engType: "Electric" }
+    ]
+  },
+  {
+    range: "M Series (3 Wheel) Lithium Electric Rear Wheel Drive",
+    models: [
+      { model: "FB16S-LR", capacity: 1600, engType: "Electric" }
+    ]
+  },
+  {
+    range: "M Series (3 Wheel) Lead Acid Electric Front Wheel Drive",
+    models: [
+      { model: "FB16S-MJZ", capacity: 1600, engType: "Electric" },
+      { model: "FB18S-MJZ", capacity: 1800, engType: "Electric" },
+      { model: "FB20S-MJZ", capacity: 2000, engType: "Electric" }
+    ]
+  },
+  {
+    range: "M Series (3 Wheel) Lithium Electric Front Wheel Drive",
+    models: [
+      { model: "FB16S-LF", capacity: 1600, engType: "Electric" },
+      { model: "FB18S-LF", capacity: 1800, engType: "Electric" },
+      { model: "FB20S-LF", capacity: 2000, engType: "Electric" }
+    ]
+  },
+  {
+    range: "A Series (4 Wheel) Lead Acid Electric",
+    models: [
+      { model: "FBA15-JZ", capacity: 1500, engType: "Electric" },
+      { model: "FBA18-JZ", capacity: 1750, engType: "Electric" },
+      { model: "FBA20-JZ", capacity: 2000, engType: "Electric" },
+      { model: "FBA25-JZ", capacity: 2500, engType: "Electric" },
+      { model: "FBA30-JZ", capacity: 3000, engType: "Electric" },
+      { model: "FBA35-JZ", capacity: 3500, engType: "Electric" }
+    ]
+  },
+  {
+    range: "AA Series (4 Wheel) Lithium Electric",
+    models: [
+      { model: "FB15-A", capacity: 1500, engType: "Electric" },
+      { model: "FB18-A", capacity: 1750, engType: "Electric" },
+      { model: "FB20-A", capacity: 2000, engType: "Electric" },
+      { model: "FB25-A", capacity: 2500, engType: "Electric" },
+      { model: "FB30-A", capacity: 3000, engType: "Electric" },
+      { model: "FB35-A", capacity: 3500, engType: "Electric" }
+    ]
+  },
+  {
+    range: "AX Series (4 Wheel) Lithium Electric",
+    models: [
+      { model: "FB25-AX", capacity: 2500, engType: "Electric" },
+      { model: "FB30-AX", capacity: 3000, engType: "Electric" },
+      { model: "FB35-AX", capacity: 3500, engType: "Electric" },
+      { model: "FB45-AX", capacity: 4500, engType: "Electric" },
+      { model: "FB50-AX COMPACT", capacity: 5000, engType: "Electric" },
+      { model: "FB50-AX BIG", capacity: 5000, engType: "Electric" },
+      { model: "FB70-AX", capacity: 7000, engType: "Electric" }
+    ]
+  },
+  // Diesel ranges
+  {
+    range: "Diesel",
+    models: [
+      { model: "FDTA25", capacity: 2500, engType: "Diesel" },
+      { model: "FDTA30", capacity: 3000, engType: "Diesel" },
+      { model: "FDTA35", capacity: 3500, engType: "Diesel" },
+      { model: "FDTA45", capacity: 4500, engType: "Diesel" },
+      { model: "FDTA50S", capacity: 5000, engType: "Diesel" },
+      { model: "FDTA50", capacity: 5000, engType: "Diesel" },
+      { model: "FDTA70", capacity: 7000, engType: "Diesel" },
+      { model: "FDTA80", capacity: 8000, engType: "Diesel" },
+      { model: "FDTA100", capacity: 10000, engType: "Diesel" }
+    ]
+  },
+  // LPG ranges
+  {
+    range: "LPG",
+    models: [
+      { model: "FLTA25", capacity: 2500, engType: "LPG" },
+      { model: "FLTA30", capacity: 3000, engType: "LPG" },
+      { model: "FLTA35", capacity: 3500, engType: "LPG" },
+      { model: "FLTA45", capacity: 4500, engType: "LPG" },
+      { model: "FLTA50S", capacity: 5000, engType: "LPG" },
+      { model: "FLTA50", capacity: 5000, engType: "LPG" },
+      { model: "FLTA70", capacity: 7000, engType: "LPG" }
+    ]
+  },
+  // Rough Terrain ranges
+  {
+    range: "Diesel Rough Terrain",
+    models: [
+      { model: "FD18T-C2W", capacity: 1800, engType: "Rough Terrain" },
+      { model: "FD25T-C2W", capacity: 2500, engType: "Rough Terrain" },
+      { model: "FD35T-C2W", capacity: 3500, engType: "Rough Terrain" },
+      { model: "FD50T-C2W", capacity: 5000, engType: "Rough Terrain" },
+      { model: "FD18T-C4W", capacity: 1800, engType: "Rough Terrain" },
+      { model: "FD25T-C4W", capacity: 2500, engType: "Rough Terrain" },
+      { model: "FD35T-C4W", capacity: 3500, engType: "Rough Terrain" }
+    ]
+  },
+  {
+    range: "Lithium Rough Terrain",
+    models: [
+      { model: "FBCX18T-YT2", capacity: 1800, engType: "Rough Terrain" },
+      { model: "FBCX25T-YT2", capacity: 2500, engType: "Rough Terrain" },
+      { model: "FBCX35T-YT2", capacity: 3500, engType: "Rough Terrain" }
+    ]
+  },
+  // Reach ranges
+  {
+    range: "Reach",
+    models: [
+      { model: "FBRA15", capacity: 1500, engType: "Reach" },
+      { model: "FBREA16", capacity: 1600, engType: "Reach" },
+      { model: "FBREA20", capacity: 2000, engType: "Reach" },
+      { model: "FBREA25", capacity: 2500, engType: "Reach" }
+    ]
+  }
+];
+
+module.exports = { forkliftRangeData };

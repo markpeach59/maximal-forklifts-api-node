@@ -3,6 +3,7 @@ const config = require("config");
 
 const { Forkliftdetail } = require("./models/forkliftdetail");
 const { Forklift } = require("./models/forklift");
+const { forkliftRangeData } = require("./data/forkliftRanges");
 
 // Detailed forklift specifications data
 const forkliftDetailData = [
@@ -825,59 +826,6 @@ basePrice: 54000,
 
 ];
 
-// Range data for the Forklift model
-const forkliftRangeData = [
-  {
-    range: "Diesel",
-    models: [
-      {
-        model: "FDTA25",
-        capacity: 2500,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA30",
-        capacity: 3000,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA35",
-        capacity: 3500,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA45",
-        capacity: 4500,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA50S",
-        capacity: 5000,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA50",
-        capacity: 5000,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA70",
-        capacity: 7000,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA80",
-        capacity: 8000,
-        engType: "Diesel"
-      },
-      {
-        model: "FDTA100",
-        capacity: 10000,
-        engType: "Diesel"
-      }
-    ]
-  }
-];
 
 async function seed() {
   await mongoose.connect(config.get("db"));
@@ -889,10 +837,10 @@ async function seed() {
   const deletedDetails = await Forkliftdetail.deleteMany({ engType: "Diesel" });
   console.log(`Deleted ${deletedDetails.deletedCount} forklift detail entries`);
 
-  // Clear existing diesel range from Forklifts collection
-  console.log("Clearing existing diesel range from Forklifts...");
-  const deletedRanges = await Forklift.deleteMany({ range: "Diesel" });
-  console.log(`Deleted ${deletedRanges.deletedCount} forklift range entries`);
+  // Clear ALL existing ranges to ensure proper ordering (Electric first, then Diesel, LPG, Rough, Reach)
+  console.log("🗑️  Clearing ALL existing ranges to maintain proper order...");
+  const deletedRanges = await Forklift.deleteMany({});
+  console.log(`✅ Deleted ${deletedRanges.deletedCount} ranges`);
 
   // Seed forklift detail data
   console.log("Seeding forklift detail data...");
