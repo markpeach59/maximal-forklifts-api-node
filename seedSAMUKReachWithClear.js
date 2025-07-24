@@ -33,6 +33,7 @@ const forkliftDetailData = [
       ],
         loadcenter:500,
         
+    chassisrequired : true,
     
         chassis :[
           {label:"Lead Acid Version", price: 15300, 
@@ -125,6 +126,8 @@ const forkliftDetailData = [
   ],
     loadcenter:500,
     defaulttyre:"Rubber",
+
+    chassisrequired : true,
 
     chassis :[
       {label:"Lead Acid Version", price: 16900, batteries:[
@@ -227,6 +230,8 @@ const forkliftDetailData = [
   ],
     loadcenter:500,
     defaulttyre:"Rubber",
+
+    chassisrequired : true,
 
     chassis :[
       {label:"Lead Acid Version", price: 18800, batteries:[
@@ -345,6 +350,7 @@ const forkliftDetailData = [
     loadcenter:500,
     defaulttyre:"Rubber",
 
+    chassisrequired : true,
     chassis :[
       {label:"Lead Acid Version", price: 19810, batteries:[
         {batterytype:"48V 600A/H", price:3700, 
