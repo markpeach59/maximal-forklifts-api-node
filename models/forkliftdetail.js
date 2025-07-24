@@ -103,6 +103,7 @@ const Forkliftdetail = mongoose.model(
     ],
 
 
+    chassisrequired : {type:Boolean, default:'false'},
     chassis: [{
       label: String,
       price: Number,
