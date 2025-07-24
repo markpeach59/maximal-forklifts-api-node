@@ -62,6 +62,8 @@ const data = [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
     
+        seatrequired: 'true',
+
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
@@ -136,6 +138,8 @@ const data = [
     tyres: [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
+
+        seatrequired: 'true',
     
     seat: [
       { seattype: "Standard", price: 192 },
@@ -213,6 +217,8 @@ const data = [
     tyres: [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
+
+        seatrequired: 'true',
     
     seat: [
       { seattype: "Standard", price: 192 },
@@ -288,6 +294,9 @@ const data = [
       { forkpositionertype: "", price: 2460 },
     ],
   
+      seatrequired: 'true',
+
+
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
@@ -363,6 +372,8 @@ const data = [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
     
+        seatrequired: 'true',
+
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
@@ -438,6 +449,8 @@ const data = [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
     
+        seatrequired: 'true',
+
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
@@ -515,6 +528,8 @@ const data = [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
     
+        seatrequired: 'true',
+
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
@@ -591,6 +606,8 @@ const data = [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
     
+        seatrequired: 'true',
+
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
@@ -668,6 +685,9 @@ const data = [
     tyres: [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
+
+        seatrequired: 'true',
+
     
     seat: [
       { seattype: "Standard", price: 192 },
@@ -749,6 +769,8 @@ const data = [
         { tyretype: "S/E Tyres", price: 1100 }
       ],
     
+        seatrequired: 'true',
+        
     seat: [
       { seattype: "Standard", price: 192 },
       { seattype: "Full Comfort Suspension", price: 298 },
