@@ -1,0 +1,5 @@
+{
+  "db": "mongodb+srv://<username>:<password>@<cluster-url>/samuk?retryWrites=true&w=majority",
+  "port": "3900",
+  "jwtPrivateKey": ""
+}
