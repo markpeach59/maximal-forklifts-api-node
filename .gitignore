@@ -24,3 +24,5 @@ yarn-error.log*
 
 /config/default.json
 /logfile.log
+
+package-lock.json
