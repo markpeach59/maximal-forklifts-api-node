@@ -64,11 +64,11 @@ async function migrateQuoteDiscounts() {
     const cutoffDate = new Date('2025-08-11T00:00:00.000Z');
     colorLog('blue', `\nLooking for quotes created before: ${cutoffDate.toISOString()}`);
 
-    // Find quotes that meet our criteria
+    // Find quotes that meet our criteria - Int32 is stored as "int" type in MongoDB
     const query = {
       createdAt: { $lt: cutoffDate },
-      offerprice: { $exists: true, $type: "number" },
-      saving: { $exists: true, $type: "number" }
+      offerprice: { $exists: true, $ne: null },
+      saving: { $exists: true, $ne: null }
     };
 
     const quotesToUpdate = await Quote.find(query);
@@ -87,7 +87,8 @@ async function migrateQuoteDiscounts() {
 
     for (const quote of quotesToUpdate) {
       // Only process quotes that have offerprice (indicating a discount was applied)
-      if (!quote.offerprice || typeof quote.offerprice !== 'number') {
+      // Handle both regular numbers and Int32 values from MongoDB
+      if (quote.offerprice == null || quote.offerprice === undefined) {
         colorLog('yellow', `Skipping quote ${quote._id} - no valid offerprice found`);
         continue;
       }
@@ -97,9 +98,9 @@ async function migrateQuoteDiscounts() {
 
       const updateData = {
         hasDiscount: true,
-        discountedPrice: quote.offerprice,
-        discountAmount: quote.saving || 0,
-        discountPercentage: Math.round(discountPercentage * 100) / 100 // Round to 2 decimal places
+        discountedPrice: parseInt(quote.offerprice), // Ensure Int32 type
+        discountAmount: parseInt(quote.saving || 0), // Ensure Int32 type
+        discountPercentage: parseFloat(discountPercentage.toFixed(2)) // Ensure Double type
       };
 
       updates.push({
