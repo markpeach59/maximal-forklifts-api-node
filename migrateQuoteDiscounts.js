@@ -86,13 +86,19 @@ async function migrateQuoteDiscounts() {
     const updates = [];
 
     for (const quote of quotesToUpdate) {
+      // Only process quotes that have offerprice (indicating a discount was applied)
+      if (!quote.offerprice || typeof quote.offerprice !== 'number') {
+        colorLog('yellow', `Skipping quote ${quote._id} - no valid offerprice found`);
+        continue;
+      }
+
       const basePriceWithMarkup = (quote.baseprice || 0) + (quote.markup || 0);
       const discountPercentage = basePriceWithMarkup > 0 ? (quote.saving / basePriceWithMarkup) * 100 : 0;
 
       const updateData = {
         hasDiscount: true,
         discountedPrice: quote.offerprice,
-        discountAmount: quote.saving,
+        discountAmount: quote.saving || 0,
         discountPercentage: Math.round(discountPercentage * 100) / 100 // Round to 2 decimal places
       };
 
