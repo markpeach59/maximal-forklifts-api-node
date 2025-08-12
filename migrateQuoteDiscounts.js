@@ -30,7 +30,7 @@ function formatCurrency(amount) {
 }
 
 function formatPercentage(percentage) {
-  return `${Number(percentage).toFixed(2)}%`;
+  return `${parseFloat(Number(percentage).toFixed(2))}%`;
 }
 
 async function confirmAction(message) {
@@ -83,24 +83,43 @@ async function migrateQuoteDiscounts() {
 
     // Process each quote
     let processedCount = 0;
+    let quotesWithMarkup = 0;
     const updates = [];
 
     for (const quote of quotesToUpdate) {
+      // Get the raw object to access fields not in the schema
+      const quoteObj = quote.toObject ? quote.toObject() : quote;
+      
+      // Access offerprice and saving from the raw object
+      const offerPrice = quoteObj.offerprice;
+      const savingAmount = quoteObj.saving;
+      
+      console.log(`\nProcessing Quote ${quote._id}:`);
+      console.log(`  offerprice: ${offerPrice} (type: ${typeof offerPrice})`);
+      console.log(`  saving: ${savingAmount} (type: ${typeof savingAmount})`);
+      
       // Only process quotes that have offerprice (indicating a discount was applied)
-      // Handle both regular numbers and Int32 values from MongoDB
-      if (quote.offerprice == null || quote.offerprice === undefined) {
-        colorLog('yellow', `Skipping quote ${quote._id} - no valid offerprice found`);
+      if (offerPrice == null || offerPrice === undefined) {
+        colorLog('yellow', `Skipping quote ${quote._id} - no valid offerprice found (value: ${offerPrice})`);
         continue;
       }
 
-      const basePriceWithMarkup = (quote.baseprice || 0) + (quote.markup || 0);
-      const discountPercentage = basePriceWithMarkup > 0 ? (quote.saving / basePriceWithMarkup) * 100 : 0;
+      // Markup might not be present, and when it is, it's Int32
+      const markup = quote.markup || 0;
+      if (markup > 0) {
+        quotesWithMarkup++;
+        colorLog('cyan', `  *** Quote has markup: ${formatCurrency(markup)} ***`);
+      }
+      
+      const totalPrice = quote.price || 0;
+      const priceWithoutMarkup = totalPrice - markup; // Remove markup from price for percentage calculation
+      const discountPercentage = priceWithoutMarkup > 0 ? (savingAmount / priceWithoutMarkup) : 0; // Store as decimal (0.15 not 15)
 
       const updateData = {
         hasDiscount: true,
-        discountedPrice: parseInt(quote.offerprice), // Ensure Int32 type
-        discountAmount: parseInt(quote.saving || 0), // Ensure Int32 type
-        discountPercentage: parseFloat(discountPercentage.toFixed(2)) // Ensure Double type
+        discountedPrice: parseInt(offerPrice), // Ensure Int32 type
+        discountAmount: parseInt(savingAmount || 0), // Ensure Int32 type
+        discountPercentage: parseFloat(discountPercentage.toFixed(4)) // Store as decimal, ensure Double type
       };
 
       updates.push({
@@ -114,10 +133,15 @@ async function migrateQuoteDiscounts() {
       console.log(`  Model: ${quote.model || 'N/A'}`);
       console.log(`  Current values:`);
       console.log(`    Base Price: ${formatCurrency(quote.baseprice || 0)}`);
-      console.log(`    Markup: ${formatCurrency(quote.markup || 0)}`);
-      console.log(`    Price (base + markup): ${formatCurrency(basePriceWithMarkup)}`);
-      console.log(`    Offer Price: ${formatCurrency(quote.offerprice)}`);
-      console.log(`    Saving: ${formatCurrency(quote.saving)}`);
+      console.log(`    Price (base + options): ${formatCurrency(quote.price || 0)}`);
+      console.log(`    Markup: ${markup > 0 ? formatCurrency(markup) : 'None'}`);
+      console.log(`    Total Price (stored price): ${formatCurrency(totalPrice)}`);
+      if (markup > 0) {
+        console.log(`    Price without markup: ${formatCurrency(priceWithoutMarkup)}`);
+        console.log(`    (Discount % calculated against price without markup)`);
+      }
+      console.log(`    Offer Price: ${formatCurrency(offerPrice)}`);
+      console.log(`    Saving: ${formatCurrency(savingAmount)}`);
       
       if (isTestMode) {
         colorLog('yellow', '  Would set:');
@@ -135,6 +159,7 @@ async function migrateQuoteDiscounts() {
     // Summary
     console.log(`\n${colors.bright}=== SUMMARY ===${colors.reset}`);
     colorLog('cyan', `Total quotes processed: ${processedCount}`);
+    colorLog('magenta', `Quotes with markup: ${quotesWithMarkup}`);
 
     if (isTestMode) {
       colorLog('yellow', '\n🔍 TEST MODE COMPLETE - No changes were made to the database');
@@ -149,13 +174,17 @@ async function migrateQuoteDiscounts() {
         return;
       }
 
-      // Perform the actual updates
+      // Perform the actual updates using direct MongoDB operations to preserve updatedAt timestamps
       colorLog('green', '\n🚀 Starting database updates...');
       let updatedCount = 0;
 
       for (const update of updates) {
         try {
-          await Quote.findByIdAndUpdate(update.quoteId, update.updateData);
+          // Use direct MongoDB update to avoid changing updatedAt timestamp
+          await Quote.collection.updateOne(
+            { _id: update.quoteId },
+            { $set: update.updateData }
+          );
           updatedCount++;
           process.stdout.write(`\rUpdated: ${updatedCount}/${processedCount} quotes`);
         } catch (error) {
